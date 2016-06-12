@@ -251,7 +251,7 @@ section{
 }
 ul.navbar-nav a {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     padding: 15px 0 15px 30px;
     line-height: 40px;
     display: inline-block;
@@ -282,7 +282,7 @@ ul.navbar-nav > .active > a{
 }
 
 .navbar-nav .dropdown-menu{
-    background: rgba(255, 255, 255, 0.75);
+    background-color: rgba(95, 95, 95, 0.75);
     border: 0;
     box-shadow: none;
     min-width: 240px;

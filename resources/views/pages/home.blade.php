@@ -191,9 +191,9 @@
     						<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
     					</h3>
     						<div class="col-md-12">
-    							<h5>1914 translation by H. Rackham</h5>
+    							<h5>ความร่วมมือระหว่างประเทศ</h5>
     							<p>
-    								On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish.
+    								2 มิถุนายน 2559 ผู้ช่วยศาสตราจารย์ ดร.ธีรนุช ห้านิรัติศัย รองคณบดีฝ่ายบริหารและวิชาการ รักษาการแทนคณบดีคณะพยาบาลศาสตร์ มธ. ให้การต้อนรับคณาจารย์และนักศึกษา จำนวน 15 คน จาก College of Nursing, University of Santo Tomas ในโอกาสที่เดินทางมาแลกเปลี่ยนเรียนรู้ระหว่างมหาวิทยาลัย ในระหว่างวันที่ 2-4 มิถุนายน 2559
     							</p>
     						</div>
     				</div>
@@ -252,22 +252,22 @@
 	    					<div class="col-md-6">
 	    						<div class="col-md-12 date">
 									<div class="col-md-2 text-center">
-										<div class="month">Jun</div>
-										<div class="day">13</div>
+										<div class="month">MAY</div>
+										<div class="day">31</div>
 									</div> 
 		    						<div class="col-md-10">
-		    							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+		    							วันที่ 31 พฤษภาคม 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. พร้อมทีมบริหาร ร่วมประชุมและนำเสนอความก้าวหน้าแผนพัฒนาคุณภาพสู่ความเป็นเลิศตามเกณฑ์ EdPEx ต่อ สกอ. ในโครงการบ่มเพาะคุณภาพการศึกษาสู่ความเป็นเลิศ ระยะที่ 2 (Midterm Review) ที่สำนักงานคณะกรรมการการอุดมศึกษาฯ
 									</div>
 								</div>
 	    					</div>
 	    					<div class="col-md-6">
 	    						<div class="col-md-12 date">
 									<div class="col-md-2 text-center">
-										<div class="month">Jun</div>
-										<div class="day">13</div>
+										<div class="month">JUN</div>
+										<div class="day">1</div>
 									</div> 
 		    						<div class="col-md-10">
-		    							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+		    							1-2 มิถุนายน 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. บรรยายพิเศษใน Joint symposium entitled 'Asian Medicine: From macro analysis to micro analysis' จัดขึ้นระหว่าง Thammasat University, National Defense Medical Center (NDMC), Taiwan, และ Catholic University, South Korea 
 									</div>
 								</div>
 	    					</div>
