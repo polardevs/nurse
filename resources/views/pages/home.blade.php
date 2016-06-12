@@ -5,12 +5,23 @@
 @endsection
 
 @section('main-content')
+	<div class="sidebar">
+		<div class="sidebar-item">
+			<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="center-block">
+		</div>
+		<div class="sidebar-item">
+			<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="center-block">
+		</div>
+		<div>
+			<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="center-block">
+		</div>
+	</div>
     <section class="Home-Course">
         <div class="slider-wrap">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
-                        <div class="slider-content ">
+                        <div class="content-mission">
                             <h1>พัฒนาคณะให้เป็นสถาบันการศึกษาพยาบาลชั้นนำ</h1>
                             <h2>เป็นที่ยอมรับทั้งในระดับชาติและนานาชาติ</h2>
                             <span class="btn btn-warning">หลักสูตรทั้งหมด</span>
@@ -164,9 +175,11 @@
 		</div>	<!-- container end -->
 	</section>
 
-    <section class="Home-Vision">
+    <section class="Home-Services">
     	<div class="container">
     		<div class="row">
+    			<div class="heading-inner col-md-12">
+    				<h2 class="sec-title">การบริการวิชาการและสังคม</h2>
     			<div class="heading-inner col-md-4">
     				<img src="{{ asset('/images/pages/home/profile.png') }}" class="img-responsive">
     			</div>
@@ -290,21 +303,22 @@
 
 			<div class="row">
 				<div class="col-md-4">
-					<h5>The standard Lorem Ipsum passage, used since the 1500s</h5>
+					<h5>วันสถาปนาคณะพยาบาลศาสตร์</h5>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						ขอเชิญ คณาจารย์ เจ้าหน้าที่ นักศึกษา ศิษย์เก่า แขกผู้มีเกียรติ ร่วมงาน วันสถาปนาคณะพยาบาลศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ครบรอบ ๒๐ ปี ในวันอังคารที่ ๒๘ มิถุนายน ๒๕๕๙
 					</p>
 				</div>
 				<div class="col-md-4">
-					<h5>The standard Lorem Ipsum passage, used since the 1500s</h5>
+					<h5>กฎหมายและจริยธรรมสำหรับผู้ประกอบวิชาชีพการพยาบาล</h5>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						วันที่ 23 พฤษภาคม 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. และรองศาสตราจารย์ ณรงค์ ใจหาญ คณบดีคณะนิติศาสตร์ มธ. เป็นประธานเปิดโครงการอบรม“กฎหมายและจริยธรรมสำหรับผู้ประกอบวิชาชีพการพยาบาล” รุ่น 3 ซึ่งจัดโดย คณะพยาบาลศาสตร์ มธ. และศูนย์กฎหมายสุขภาพและจริยศาสตร์ คณะนิติศาสตร์ มธ. ระหว่างวันจันทร์ที่ 23 ถึงวันศุกร์ที่ 27 พฤษภาคม 2559 ณ ห้องราชเทวี 2 ชั้น 3 โรงแรมเอเชีย ราชเทวี กรุงเทพมหานคร
 					</p>
 				</div>
 				<div class="col-md-4">
-					<h5>The standard Lorem Ipsum passage, used since the 1500s</h5>
+					<h5>โครงการศิลปะและวัฒนธรรมทางการพยาบาลในการมอบขีดหมวกและเข็มธรรมศาสตร์ </h5>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						วันที่ 16 พฤษภาคม 2559 รองศาสตราจารย์ ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. เป็นประธานโครงการศิลปะและวัฒนธรรมทางการพยาบาลในการมอบขีดหมวกและเข็มธรรมศาสตร์ แก่ผู้สำเร็จการศึกษา หลักสูตรพยาบาลศาสตรบัณฑิต รุ่นที่ 17 ประจำปีการศึกษา 2558 ณ ห้อง 248 อาคารเรียนรวมศูนย์สุขศาสตร์ มธ. ศูนย์รังสิต
+
 					</p>
 				</div>
 			</div> 
