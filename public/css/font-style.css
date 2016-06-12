@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'THSarabunNew-Bold';
+	src: url('../fonts/THSarabunNew-Bold/THSarabunNew-Bold.eot');
+	src: url('../fonts/THSarabunNew-Bold/THSarabunNew-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/THSarabunNew-Bold/THSarabunNew-Bold.woff') format('woff'),
+		url('../fonts/THSarabunNew-Bold/THSarabunNew-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'THSarabunNew';
+	src: url('../fonts/THSarabunNew/THSarabunNew.eot');
+	src: url('../fonts/THSarabunNew/THSarabunNew.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/THSarabunNew/THSarabunNew.woff') format('woff'),
+		url('../fonts/THSarabunNew/THSarabunNew.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
