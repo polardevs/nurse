@@ -66,7 +66,7 @@
                     <div class="col-md-12 text-center">
                         <span class="btn btn-warning" style="margin-top:30px;">ข่าวทั้งหมด</span>
                     </div>
-	            </div> 
+	            </div>
 	        </div>
         </div>
     </section>
@@ -144,7 +144,7 @@
     					<div class="row">
     						<div class="col-md-4 col-md-offset-4 personal">
 								<img src="{{ asset('/images/pages/home/persons/person1.png') }}" class="img-circle img-responsive">
-								
+
     						</div>
     					</div>
     					<div class="row">
@@ -189,7 +189,7 @@
     							<small>ฝ่ายวิจัยแล้ว วิเทศสัมพันธ์และสื่อสารองค์กร</small>
     						</div>
     					</div>
-    					
+
     				</div>
     			</div>
     		</div> <!-- heading row end -->
@@ -211,7 +211,7 @@
     			</div>
     			<div class="heading-inner col-md-4">
 					<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html">
-	    				<img src="{{ asset('/images/pages/home/services/healthy.jpg') }}" class="img-responsive">
+	    				<img src="{{ asset('/images/pages/home/services/Healthy.jpg') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>ศูนย์ส่งเสริมสุขภาพ </h4>
 	    				</div>
@@ -225,7 +225,7 @@
 	    				</div>
 	    			</a>
     			</div>
-    		</div> 
+    		</div>
     	</div>
     </section>
 
@@ -274,7 +274,7 @@
 								<div class="item">
 									<img src="{{ asset('/images/pages/home/activitys/a2.jpg') }}" alt="Chania" width="460" height="345" class="center-block">
 								</div>
-						    
+
 								<div class="item">
 									<img src="{{ asset('/images/pages/home/activitys/a3.jpg') }}" alt="Flower" width="460" height="345" class="center-block">
 								</div>
@@ -299,7 +299,7 @@
     			<div class="row">
     				<div class="col-md-12">
     					<h3>
-    						ปฏิทินกิจกรรม 
+    						ปฏิทินกิจกรรม
     						<a href="#">
     							<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
     						</a>
@@ -311,7 +311,7 @@
 										<div class="col-md-2 text-center">
 											<div class="month">MAY</div>
 											<div class="day">31</div>
-										</div> 
+										</div>
 			    						<div class="col-md-10">
 			    							วันที่ 31 พฤษภาคม 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. พร้อมทีมบริหาร ร่วมประชุมและนำเสนอความก้าวหน้าแผนพัฒนาคุณภาพสู่ความเป็นเลิศตามเกณฑ์ EdPEx ต่อ สกอ. ในโครงการบ่มเพาะคุณภาพการศึกษาสู่ความเป็นเลิศ ระยะที่ 2 (Midterm Review) ที่สำนักงานคณะกรรมการการอุดมศึกษาฯ
 										</div>
@@ -324,9 +324,9 @@
 										<div class="col-md-2 text-center">
 											<div class="month">JUN</div>
 											<div class="day">1</div>
-										</div> 
+										</div>
 			    						<div class="col-md-10">
-			    							1-2 มิถุนายน 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. บรรยายพิเศษใน Joint symposium entitled 'Asian Medicine: From macro analysis to micro analysis' จัดขึ้นระหว่าง Thammasat University, National Defense Medical Center (NDMC), Taiwan, และ Catholic University, South Korea 
+			    							1-2 มิถุนายน 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. บรรยายพิเศษใน Joint symposium entitled 'Asian Medicine: From macro analysis to micro analysis' จัดขึ้นระหว่าง Thammasat University, National Defense Medical Center (NDMC), Taiwan, และ Catholic University, South Korea
 										</div>
 									</div>
 		    					</div>
@@ -347,9 +347,9 @@
     					<a href="#">
     						<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
     					</a>
-    				</h3>                     
+    				</h3>
     			</div>
-    		</div> 
+    		</div>
 
 			<div class="row">
 				<a href="#">
@@ -375,9 +375,9 @@
 						</p>
 					</div>
 				</a>
-			</div> 
-		</div>  
-	</section> 
+			</div>
+		</div>
+	</section>
 
 	<section class="Home-Healthy">
 		<div class="container">
@@ -429,13 +429,13 @@
 								</div>
 							</div>
     					</div>
-    					
+
     				</div>
     			</div>
     		</div> <!-- heading row end -->
 		</div>	<!-- container end -->
 	</section>
-	
+
 @endsection
 
 @section('scripts')
