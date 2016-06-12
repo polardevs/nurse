@@ -7,13 +7,19 @@
 @section('main-content')
 	<div class="sidebar">
 		<div class="sidebar-item">
-			<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="center-block">
+			<a href="http://childhood.nurse.tu.ac.th/" data-toggle="tooltip" title="ศูนย์พัฒนาเด็กปฐมวัย" data-placement="right" >
+				<img src="{{ asset('/images/pages/home/services/Childhood.png') }}" class="center-block">
+			</a>
 		</div>
 		<div class="sidebar-item">
-			<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="center-block">
+			<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html" data-toggle="tooltip" title="ศูนย์ส่งเสริมสุขภาพ " data-placement="right" >
+				<img src="{{ asset('/images/pages/home/services/health.png') }}" class="center-block">
+			</a>
 		</div>
 		<div>
-			<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="center-block">
+			<a href="http://researchcenter.nurse.tu.ac.th/" data-toggle="tooltip" title="ศูนย์วิจัยทางการพยาบาลและพฤติกรรมศาสตร์" data-placement="right" >
+				<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="center-block">
+			</a>
 		</div>
 	</div>
     <section class="Home-Course">
@@ -31,15 +37,30 @@
 	            <div class="row">
                     <div class="col-md-12">
                         <div class="row article-news">
-            				<div class="col-md-4">
-								<img src="{{ asset('/images/pages/home/4-3.jpg') }}" class="img-responsive">
-            				</div>
-            				<div class="col-md-4">
-								<img src="{{ asset('/images/pages/home/4-3.jpg') }}" class="img-responsive">
-            				</div>
-            				<div class="col-md-4">
-								<img src="{{ asset('/images/pages/home/4-3.jpg') }}" class="img-responsive">
-            				</div>
+            				<a href="#">
+	            				<div class="col-md-4">
+									<img src="{{ asset('/images/pages/home/news/1.jpg') }}" class="img-responsive">
+									<div class="caption">
+						            	<h4>จัดทำโครงร่างองค์การระดับมหาวิทยาลัย</h4>
+									</div>
+	            				</div>
+	            			</a>
+            				<a href="#">
+	            				<div class="col-md-4">
+									<img src="{{ asset('/images/pages/home/news/2.jpg') }}" class="img-responsive">
+									<div class="caption">
+						            	<h4>การสือค้นสิทธิบัตร อนุสิทธิบัตร เพื่องานวิจัย</h4>
+				    				</div>
+	            				</div>
+	            			</a>
+            				<a href="#">
+	            				<div class="col-md-4">
+									<img src="{{ asset('/images/pages/home/news/3.jpg') }}" class="img-responsive">
+									<div class="caption">
+						            	<h4>๒๐ ปี คณะพยาบาลศาสตร์ </h4>
+				    				</div>
+	            				</div>
+	            			</a>
                         </div>
                     </div>
                     <div class="col-md-12 text-center">
@@ -95,10 +116,10 @@
 									</h4>
 								</div>
 								<div id="collapseOne" class="panel-collapse collapse in">
-									<div class="panel-body">แผนที่โรงแรมการจัดฝึกอบรม โครงการวัคซีน</div>
-									<div class="panel-body">แผนที่โรงแรมการจัดฝึกอบรม โครงการวัคซีน</div>
-									<div class="panel-body">รายละเอียดการจัดอบรม โครงการวัคซีน</div>
-									<div class="panel-body">อ่านทั้งหมด</div>
+									<a href="#"><div class="panel-body">แผนที่โรงแรมการจัดฝึกอบรม โครงการวัคซีน</div></a>
+									<a href="#"><div class="panel-body">แผนที่โรงแรมการจัดฝึกอบรม โครงการวัคซีน</div></a>
+									<a href="#"><div class="panel-body">รายละเอียดการจัดอบรม โครงการวัคซีน</div></a>
+									<a href="#"><div class="panel-body">อ่านทั้งหมด</div></a>
 								</div>
 							</div>
 								<div class="panel panel-default">
@@ -110,10 +131,10 @@
 									</h4>
 								</div>
 								<div id="collapseTwo" class="panel-collapse collapse" >
-									<div class="panel-body">แผนที่โรงแรมการจัดฝึกอบรม โครงการวัคซีน</div>
-									<div class="panel-body">แผนที่โรงแรมการจัดฝึกอบรม โครงการวัคซีน</div>
-									<div class="panel-body">รายละเอียดการจัดอบรม โครงการวัคซีน</div>
-									<div class="panel-body">อ่านทั้งหมด</div>
+									<a href="#"><div class="panel-body">แผนที่โรงแรมการจัดฝึกอบรม โครงการวัคซีน</div></a>
+									<a href="#"><div class="panel-body">แผนที่โรงแรมการจัดฝึกอบรม โครงการวัคซีน</div></a>
+									<a href="#"><div class="panel-body">รายละเอียดการจัดอบรม โครงการวัคซีน</div></a>
+									<a href="#"><div class="panel-body">อ่านทั้งหมด</div></a>
 								</div>
 							</div>
 						</div>
@@ -122,7 +143,7 @@
     					<h3>ผู้บริหาร</h3>
     					<div class="row">
     						<div class="col-md-4 col-md-offset-4 personal">
-								<img src="{{ asset('/images/pages/home/profile.png') }}" class="img-circle img-responsive">
+								<img src="{{ asset('/images/pages/home/persons/person1.png') }}" class="img-circle img-responsive">
 								
     						</div>
     					</div>
@@ -134,10 +155,10 @@
     					</div>
     					<div class="row">
     						<div class="col-md-4 col-md-offset-1 personal">
-								<img src="{{ asset('/images/pages/home/profile.png') }}" class="img-circle img-responsive">
+								<img src="{{ asset('/images/pages/home/persons/person2.png') }}" class="img-circle img-responsive">
     						</div>
     						<div class="col-md-4 col-md-offset-2 personal">
-								<img src="{{ asset('/images/pages/home/profile.png') }}" class="img-circle img-responsive">
+								<img src="{{ asset('/images/pages/home/persons/person3.png') }}" class="img-circle img-responsive">
     						</div>
     					</div>
     					<div class="row">
@@ -152,10 +173,10 @@
     					</div>
     					<div class="row">
     						<div class="col-md-4 col-md-offset-1 personal">
-								<img src="{{ asset('/images/pages/home/profile.png') }}" class="img-circle img-responsive">
+								<img src="{{ asset('/images/pages/home/persons/person4.png') }}" class="img-circle img-responsive">
     						</div>
     						<div class="col-md-4 col-md-offset-2 personal">
-								<img src="{{ asset('/images/pages/home/profile.png') }}" class="img-circle img-responsive">
+								<img src="{{ asset('/images/pages/home/persons/person5.png') }}" class="img-circle img-responsive">
     						</div>
     					</div>
     					<div class="row">
@@ -181,17 +202,31 @@
     			<div class="heading-inner col-md-12">
     				<h2 class="sec-title">การบริการวิชาการและสังคม</h2>
     			<div class="heading-inner col-md-4">
-    				<img src="{{ asset('/images/pages/home/profile.png') }}" class="img-responsive">
+					<a href="http://childhood.nurse.tu.ac.th/">
+	    				<img src="{{ asset('/images/pages/home/services/Child.jpg') }}" class="img-responsive">
+	    				<div class="caption">
+			            	<h4>ศูนย์พัฒนาเด็กปฐมวัย </h4>
+	    				</div>
+	    			</a>
     			</div>
     			<div class="heading-inner col-md-4">
-    				<img src="{{ asset('/images/pages/home/profile.png') }}" class="img-responsive">
+					<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html">
+	    				<img src="{{ asset('/images/pages/home/services/healthy.jpg') }}" class="img-responsive">
+	    				<div class="caption">
+			            	<h4>ศูนย์ส่งเสริมสุขภาพ </h4>
+	    				</div>
+	    			</a>
     			</div>
     			<div class="heading-inner col-md-4">
-    				<img src="{{ asset('/images/pages/home/profile.png') }}" class="img-responsive">
+					<a href="http://researchcenter.nurse.tu.ac.th/">
+	    				<img src="{{ asset('/images/pages/home/services/run.jpg') }}" class="img-responsive">
+	    				<div class="caption">
+			            	<h4>ศูนย์วิจัยทางการพยาบาลและพฤติกรรมศาสตร์ </h4>
+	    				</div>
+	    			</a>
     			</div>
-    			
-    		</div> <!-- heading row end -->
-    	</div><!-- container end -->
+    		</div> 
+    	</div>
     </section>
 
     <section class="Home-Activity">
@@ -201,19 +236,25 @@
     				<div class="col-md-6">
     					<h3>
     						กิจกรรมรายเดือน
-    						<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
+    						<a href="#">
+    							<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
+    						</a>
     					</h3>
+    					<a href="#">
     						<div class="col-md-12">
     							<h5>ความร่วมมือระหว่างประเทศ</h5>
     							<p>
     								2 มิถุนายน 2559 ผู้ช่วยศาสตราจารย์ ดร.ธีรนุช ห้านิรัติศัย รองคณบดีฝ่ายบริหารและวิชาการ รักษาการแทนคณบดีคณะพยาบาลศาสตร์ มธ. ให้การต้อนรับคณาจารย์และนักศึกษา จำนวน 15 คน จาก College of Nursing, University of Santo Tomas ในโอกาสที่เดินทางมาแลกเปลี่ยนเรียนรู้ระหว่างมหาวิทยาลัย ในระหว่างวันที่ 2-4 มิถุนายน 2559
     							</p>
     						</div>
+    					</a>
     				</div>
     				<div class="col-md-6">
     					<h3>
     						ภาพกิจกรรม
-    						<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
+    						<a href="#">
+    							<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
+    						</a>
     					</h3>
     					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						    <!-- Indicators -->
@@ -227,19 +268,19 @@
 						    <!-- Wrapper for slides -->
 						    <div class="carousel-inner" role="listbox">
 								<div class="item active">
-									<img src="http://www.w3schools.com/bootstrap/img_chania.jpg" alt="Chania" width="460" height="345" class="center-block">
+									<img src="{{ asset('/images/pages/home/activitys/a1.jpg') }}" alt="Chania" width="460" height="345" class="center-block">
 								</div>
 
 								<div class="item">
-									<img src="http://www.w3schools.com/bootstrap/img_chania2.jpg" alt="Chania" width="460" height="345" class="center-block">
+									<img src="{{ asset('/images/pages/home/activitys/a2.jpg') }}" alt="Chania" width="460" height="345" class="center-block">
 								</div>
 						    
 								<div class="item">
-									<img src="http://www.w3schools.com/bootstrap/img_flower.jpg" alt="Flower" width="460" height="345" class="center-block">
+									<img src="{{ asset('/images/pages/home/activitys/a3.jpg') }}" alt="Flower" width="460" height="345" class="center-block">
 								</div>
 
 								<div class="item">
-									<img src="http://www.w3schools.com/bootstrap/img_flower2.jpg" alt="Flower" width="460" height="345" class="center-block">
+									<img src="{{ asset('/images/pages/home/activitys/a4.jpg') }}" alt="Flower" width="460" height="345" class="center-block">
 								</div>
 						    </div>
 
@@ -259,31 +300,37 @@
     				<div class="col-md-12">
     					<h3>
     						ปฏิทินกิจกรรม 
-    						<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
+    						<a href="#">
+    							<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
+    						</a>
     					</h3>
 	    				<div class="row">
-	    					<div class="col-md-6">
-	    						<div class="col-md-12 date">
-									<div class="col-md-2 text-center">
-										<div class="month">MAY</div>
-										<div class="day">31</div>
-									</div> 
-		    						<div class="col-md-10">
-		    							วันที่ 31 พฤษภาคม 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. พร้อมทีมบริหาร ร่วมประชุมและนำเสนอความก้าวหน้าแผนพัฒนาคุณภาพสู่ความเป็นเลิศตามเกณฑ์ EdPEx ต่อ สกอ. ในโครงการบ่มเพาะคุณภาพการศึกษาสู่ความเป็นเลิศ ระยะที่ 2 (Midterm Review) ที่สำนักงานคณะกรรมการการอุดมศึกษาฯ
+    						<a href="#">
+		    					<div class="col-md-6">
+		    						<div class="col-md-12 date">
+										<div class="col-md-2 text-center">
+											<div class="month">MAY</div>
+											<div class="day">31</div>
+										</div> 
+			    						<div class="col-md-10">
+			    							วันที่ 31 พฤษภาคม 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. พร้อมทีมบริหาร ร่วมประชุมและนำเสนอความก้าวหน้าแผนพัฒนาคุณภาพสู่ความเป็นเลิศตามเกณฑ์ EdPEx ต่อ สกอ. ในโครงการบ่มเพาะคุณภาพการศึกษาสู่ความเป็นเลิศ ระยะที่ 2 (Midterm Review) ที่สำนักงานคณะกรรมการการอุดมศึกษาฯ
+										</div>
 									</div>
-								</div>
-	    					</div>
-	    					<div class="col-md-6">
-	    						<div class="col-md-12 date">
-									<div class="col-md-2 text-center">
-										<div class="month">JUN</div>
-										<div class="day">1</div>
-									</div> 
-		    						<div class="col-md-10">
-		    							1-2 มิถุนายน 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. บรรยายพิเศษใน Joint symposium entitled 'Asian Medicine: From macro analysis to micro analysis' จัดขึ้นระหว่าง Thammasat University, National Defense Medical Center (NDMC), Taiwan, และ Catholic University, South Korea 
+		    					</div>
+		    				</a>
+    						<a href="#">
+		    					<div class="col-md-6">
+		    						<div class="col-md-12 date">
+										<div class="col-md-2 text-center">
+											<div class="month">JUN</div>
+											<div class="day">1</div>
+										</div> 
+			    						<div class="col-md-10">
+			    							1-2 มิถุนายน 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. บรรยายพิเศษใน Joint symposium entitled 'Asian Medicine: From macro analysis to micro analysis' จัดขึ้นระหว่าง Thammasat University, National Defense Medical Center (NDMC), Taiwan, และ Catholic University, South Korea 
+										</div>
 									</div>
-								</div>
-	    					</div>
+		    					</div>
+		    				</a>
 	    				</div>
     				</div>
     			</div>
@@ -295,32 +342,39 @@
 		<div class="container">
 			<div class="row">
     			<div class="heading-inner col-md-12">
-    				<h2>
+    				<h3>
     					กิจกรรมนักศึกษา/ศิษย์เก่า
-    				</h2>                     
+    					<a href="#">
+    						<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
+    					</a>
+    				</h3>                     
     			</div>
     		</div> 
 
 			<div class="row">
-				<div class="col-md-4">
-					<h5>วันสถาปนาคณะพยาบาลศาสตร์</h5>
-					<p>
-						ขอเชิญ คณาจารย์ เจ้าหน้าที่ นักศึกษา ศิษย์เก่า แขกผู้มีเกียรติ ร่วมงาน วันสถาปนาคณะพยาบาลศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ครบรอบ ๒๐ ปี ในวันอังคารที่ ๒๘ มิถุนายน ๒๕๕๙
-					</p>
-				</div>
-				<div class="col-md-4">
-					<h5>กฎหมายและจริยธรรมสำหรับผู้ประกอบวิชาชีพการพยาบาล</h5>
-					<p>
-						วันที่ 23 พฤษภาคม 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. และรองศาสตราจารย์ ณรงค์ ใจหาญ คณบดีคณะนิติศาสตร์ มธ. เป็นประธานเปิดโครงการอบรม“กฎหมายและจริยธรรมสำหรับผู้ประกอบวิชาชีพการพยาบาล” รุ่น 3 ซึ่งจัดโดย คณะพยาบาลศาสตร์ มธ. และศูนย์กฎหมายสุขภาพและจริยศาสตร์ คณะนิติศาสตร์ มธ. ระหว่างวันจันทร์ที่ 23 ถึงวันศุกร์ที่ 27 พฤษภาคม 2559 ณ ห้องราชเทวี 2 ชั้น 3 โรงแรมเอเชีย ราชเทวี กรุงเทพมหานคร
-					</p>
-				</div>
-				<div class="col-md-4">
-					<h5>โครงการศิลปะและวัฒนธรรมทางการพยาบาลในการมอบขีดหมวกและเข็มธรรมศาสตร์ </h5>
-					<p>
-						วันที่ 16 พฤษภาคม 2559 รองศาสตราจารย์ ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. เป็นประธานโครงการศิลปะและวัฒนธรรมทางการพยาบาลในการมอบขีดหมวกและเข็มธรรมศาสตร์ แก่ผู้สำเร็จการศึกษา หลักสูตรพยาบาลศาสตรบัณฑิต รุ่นที่ 17 ประจำปีการศึกษา 2558 ณ ห้อง 248 อาคารเรียนรวมศูนย์สุขศาสตร์ มธ. ศูนย์รังสิต
-
-					</p>
-				</div>
+				<a href="#">
+					<div class="col-md-4">
+						<h5>วันสถาปนาคณะพยาบาลศาสตร์</h5>
+						<p>
+							ขอเชิญ คณาจารย์ เจ้าหน้าที่ นักศึกษา ศิษย์เก่า แขกผู้มีเกียรติ ร่วมงาน วันสถาปนาคณะพยาบาลศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ครบรอบ ๒๐ ปี ในวันอังคารที่ ๒๘ มิถุนายน ๒๕๕๙
+						</p>
+					</div>
+				<a href="#">
+					<div class="col-md-4">
+						<h5>กฎหมายและจริยธรรมสำหรับผู้ประกอบวิชาชีพการพยาบาล</h5>
+						<p>
+							วันที่ 23 พฤษภาคม 2559 รองศาสตราจารย์ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. และรองศาสตราจารย์ ณรงค์ ใจหาญ คณบดีคณะนิติศาสตร์ มธ. เป็นประธานเปิดโครงการอบรม“กฎหมายและจริยธรรมสำหรับผู้ประกอบวิชาชีพการพยาบาล” รุ่น 3 ซึ่งจัดโดย คณะพยาบาลศาสตร์ มธ. และศูนย์กฎหมายสุขภาพและจริยศาสตร์ คณะนิติศาสตร์ มธ. ระหว่างวันจันทร์ที่ 23 ถึงวันศุกร์ที่ 27 พฤษภาคม 2559 ณ ห้องราชเทวี 2 ชั้น 3 โรงแรมเอเชีย ราชเทวี กรุงเทพมหานคร
+						</p>
+					</div>
+				</a>
+				<a href="#">
+					<div class="col-md-4">
+						<h5>โครงการศิลปะและวัฒนธรรมทางการพยาบาลในการมอบขีดหมวกและเข็มธรรมศาสตร์ </h5>
+						<p>
+							วันที่ 16 พฤษภาคม 2559 รองศาสตราจารย์ ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มธ. เป็นประธานโครงการศิลปะและวัฒนธรรมทางการพยาบาลในการมอบขีดหมวกและเข็มธรรมศาสตร์ แก่ผู้สำเร็จการศึกษา หลักสูตรพยาบาลศาสตรบัณฑิต รุ่นที่ 17 ประจำปีการศึกษา 2558 ณ ห้อง 248 อาคารเรียนรวมศูนย์สุขศาสตร์ มธ. ศูนย์รังสิต
+						</p>
+					</div>
+				</a>
 			</div> 
 		</div>  
 	</section> 
@@ -384,4 +438,10 @@
 	
 @endsection
 
+@section('scripts')
+	@parent
+	<script>
+		$('[data-toggle="tooltip"]').tooltip();
+	</script>
+@endsection
 
