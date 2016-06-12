@@ -49,7 +49,7 @@ a:hover ,a:focus{
 
 .Home-Course{
     position: relative;
-    background-image: url("../images/bg/bg1.jpg");
+    background-image: url("../images/bg/course.jpg");
     background-attachment: fixed !important;
     background-size: cover;
     background-repeat: repeat;
