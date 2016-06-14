@@ -17,6 +17,16 @@ a:hover ,a:focus{
 .main-header{
     background-color: #fdb882;
     color: #7b3d39;
+    background: rgba(249,205,158,1);
+    background: -moz-linear-gradient(45deg, rgba(249,205,158,1) 0%, rgba(248,138,101,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(249,205,158,1)), color-stop(100%, rgba(248,138,101,1)));
+    background: -webkit-linear-gradient(45deg, rgba(249,205,158,1) 0%, rgba(248,138,101,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(249,205,158,1) 0%, rgba(248,138,101,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(249,205,158,1) 0%, rgba(248,138,101,1) 100%);
+    background: linear-gradient(45deg, rgba(249,205,158,1) 0%, rgba(248,138,101,1) 100%);
+}
+.sub-header{
+    background-image: url('http://www2.rosasensat.org/img/bg-lines.png');
 }
 .nav-link a{
     color: #7b3d39;
@@ -199,9 +209,70 @@ h3 small{
     color: #fff;
     padding: 10px 15px;
 }
-
-
-
+.menu-title{
+    background-color: #7b3d39;
+    color: #fff;
+}
+.menu-title h3{
+    margin: 10px 0;
+}
+.side-menu .panel-heading {
+    background-color: #fdb882;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 5px 15px;
+}
+.panel-group .panel + .panel{
+    margin-top: 2px;
+}
+.panel-group{
+    margin-bottom: 3px;
+}
+.side-menu .panel-default{
+    background-color: #fdb882;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.side-menu .panel-collapse {
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+}
+.breadcrumb{
+    background-color: transparent;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.sub-menu hr{
+    margin-top: 0px;
+}
+.Sidebar-Server .panel-head{
+    padding: 5px 15px;
+    background-color: #7b3d39;
+    color: #fff;
+}
+.Sidebar-Server .panel-body{
+    background-color: #fdb882;   
+}
+.template-1{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+.dropdown-menu .divider{
+    margin: 0;
+    border-bottom: 1px solid;
+}
+.bg-black{
+    background-color: #333;
+}
+nav.bg-black.on.navbar-fixed-top{
+    background-color: rgba(51,51,51,0.75);
+}
+.bg-black .navbar-nav > li > a:hover, .bg-black .navbar-nav > li > a:focus{
+    color: #aaa !important;
+}
 
 
 

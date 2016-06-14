@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('pages.home');
 });
+
+Route::get('/history', function () {
+    return view('pages.about.history');
+});
