@@ -39,6 +39,7 @@ a:hover ,a:focus{
     border: 0px;
     border-radius: 0px;
     color: #fff;
+    min-height: 40px;
 }
 .navbar-fixed-top{
     background-color: rgba(95, 95, 95, 0.75);
@@ -273,9 +274,45 @@ nav.bg-black.on.navbar-fixed-top{
 .bg-black .navbar-nav > li > a:hover, .bg-black .navbar-nav > li > a:focus{
     color: #aaa !important;
 }
+.navbar-toggle{
+    padding: 5px 5px;
+}
+.navbar-toggle .icon-bar{
+    width: 15px;
+    height: 1px;
+}
 
 
+@media screen and (max-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 0px;  
+    }
+    .navbar-brand{
+        height: auto; 
+        padding: 10px 15px;
+    }
+    .content-wrapper {
+        margin-top: -40px;
+    }
+    .navbar{
+        background-color: #444;
+    }
+    .navbar-fixed-top{
+        background-color: rgba(95, 95, 95, 0.75);
+    }
+    .month , .day{
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .date{
+        margin-bottom: 15px; 
+    }
+    .article-news{
+        padding-bottom: 0px;
 
+    }
+}
 
 
 

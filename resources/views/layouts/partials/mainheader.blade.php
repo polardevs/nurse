@@ -41,7 +41,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<!-- <a class="navbar-brand" href="#">คณะเรา</a> -->
+			<a class="navbar-brand visible-xs" href="{{ url('/') }}">หน้าหลัก</a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
@@ -62,18 +62,48 @@
 						<li ><a href="#">สำนักงานเลขานุการคณะ</a></li>
 					</ul>
 				</li>
-				<li><a href="#">ศิลปวัฒนธรรม</a></li>
+				<li class="dropdown">
+					<a href="" class="dropdown-toggle" data-toggle="dropdown">
+						ศิลปวัฒนธรรม <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">คณะกรรมการ</a></li>
+						<li><a href="#">พันธกิจ</a></li>
+						<li ><a href="#">รางวัล</a></li>
+						<li ><a href="#">กิจกรรม</a></li>
+						<li role="separator" class="divider"></li>
+						<li ><a href="#">ปฏิทินกิจกรรม</a></li>
+						<li ><a href="#">กิจกรรม น.ศ.รายเดือน</a></li>
+						<li ><a href="#">ภาพกิจกรรม</a></li>
+					</ul>
+				</li>
 				<li class="dropdown">
 					<a href="" class="dropdown-toggle" data-toggle="dropdown">
 						ประกันคุณภาพการศึกษา <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="#">บทความ</a></li>
-						<li><a href="#">รายงานวิเคราะห์</a></li>
-						<li><a href="#">ดาวน์โหลด</a></li>
+						<li><a href="#">คณะกรรมการ</a></li>
+						<li><a href="#">การประกันคุณภาพการศึกษา</a></li>
+						<li ><a href="#">รายงานการประเมินตนเอง</a></li>
+						<li ><a href="#">รายงานผลการตรวจสอบ</a></li>
 					</ul>
 				</li>
-				<li><a href="#">International Affairs</a></li>
+				<li class="dropdown">
+					<a href="" class="dropdown-toggle" data-toggle="dropdown">
+						International Affairs <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Visiting Scholar</a></li>
+						<li><a href="#">Global collaboration</a></li>
+						<li role="separator" class="divider"></li>
+						<li ><a href="#">The George Washington University</a></li>
+						<li ><a href="#">The University of Texas Health Science Center</a></li>
+						<li ><a href="#">The University of Alabama</a></li>
+						<li ><a href="#">MIE University</a></li>
+						<li ><a href="#">World Health Organization</a></li>
+						<li ><a href="#">Pan American Health Organization</a></li>
+					</ul>
+				</li>
 				<li><a href="#">มุมดาวน์โหลด</a></li>
 				<li><a href="#">ติดต่อ</a></li>
 

@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/history', function () {
     return view('pages.about.history');
 });
+Route::get('/familyMidwife', function () {
+    return view('pages.about.familyMidwife');
+});
+
