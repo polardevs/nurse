@@ -3,12 +3,14 @@
 		<div class="container">
 			<div class="row" style="margin-bottom: 15px; margin-top: 10px;	">
 				<div class="col-sm-6" >
-					<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-logo">
-					<div class="inline" style="position: absolute; padding-top: 20px">
-						<span class="h2">คณะพยาบาลศาสตร์</span>
-						<br>
-						<span class="h4">มหาวิทยาลัยธรรมศาสตร์</span>
-					</div>
+					<a href="{{ url('') }}">
+						<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-logo">
+						<div class="inline" style="position: absolute; padding-top: 20px">
+							<span class="h2">คณะพยาบาลศาสตร์</span>
+							<br>
+							<span class="h4">มหาวิทยาลัยธรรมศาสตร์</span>
+						</div>
+					</a>
 				</div>
 
 				<div class="col-sm-6 line-right hidden-xs">
@@ -24,10 +26,10 @@
 						</nav>
 					</div>
 					<div class="row pull-right">
-						
+
 					</div>
 				</div>
-			</div>		
+			</div>
 		</div>
 	</div>
 </div>
