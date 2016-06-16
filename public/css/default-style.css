@@ -281,10 +281,10 @@ nav.bg-black.on.navbar-fixed-top{
     width: 15px;
     height: 1px;
 }
-
+.link-logo,
 .link-logo:hover,
 .link-logo:active{
-    color: #6a6a6a;
+    color: #333;
 }
 .side-menu .panel-body {
     border-bottom: 1px solid;
