@@ -29,7 +29,7 @@
 					</div>
 					<div class="content">
 						<h4>ความเป็นมาของคณะ</h4>
-						<img src="images/pages/about/history/history.jpg" class="img-responsive">
+						<img src="images/pages/about/history/history.jpg" class="img-responsive center-block">
 						ชื่อสถาบัน : คณะพยาบาลศาสตร์<br>
 						มหาวิทยาลัยธรรมศาสตร์ <br>
 						ที่ตั้ง : อาคารปิยชาติ 99 หมู่ 18 ถนนพหลโยธิน <br>

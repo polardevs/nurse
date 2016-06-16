@@ -282,7 +282,14 @@ nav.bg-black.on.navbar-fixed-top{
     height: 1px;
 }
 
-
+.link-logo:hover,
+.link-logo:active{
+    color: #6a6a6a;
+}
+.side-menu .panel-body {
+    border-bottom: 1px solid;
+    padding: 0px;
+}
 @media screen and (max-width: 768px) {
     .navbar-nav > li > a {
         padding-top: 0px;  

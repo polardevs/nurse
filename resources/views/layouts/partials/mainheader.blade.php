@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row" style="margin-bottom: 15px; margin-top: 10px;	">
 				<div class="col-sm-6" >
-					<a href="{{ url('') }}">
+					<a href="{{ url('') }}" class="link-logo">
 						<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-logo">
 						<div class="inline" style="position: absolute; padding-top: 20px">
 							<span class="h2">คณะพยาบาลศาสตร์</span>
@@ -56,7 +56,7 @@
 						<li><a href="#">ผู้บริหาร</a></li>
 						<li ><a href="#">บุคลากร</a></li>
 						<li role="separator" class="divider"></li>
-						<li ><a href="#">กลุ่มวิชาการพยาบาลครอบครัวและผดุงครรภ์</a></li>
+						<li ><a href="/familyMidwife">กลุ่มวิชาการพยาบาลครอบครัวและผดุงครรภ์</a></li>
 						<li ><a href="#">กลุ่มวิชาการพยาบาลผู้ใหญ่และผู้สูงอายุ</a></li>
 						<li ><a href="#">กลุ่มวิชาการพยาบาลเด็กและวัยรุ่น</a></li>
 						<li ><a href="#">กลุ่มวิชาการพยาบาลสุขภาพจิตและจิตเวช</a></li>
