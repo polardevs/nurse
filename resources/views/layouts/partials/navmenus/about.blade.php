@@ -11,7 +11,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a href="#collapseTwo">
+				<a href="{{ url('manager') }}">
 					ผู้บริหาร
 				</a>
 			</h4>
@@ -26,10 +26,10 @@
 			</h4>
 		</div>
 		<div id="collapseTwo" class="panel-collapse collapse" >
-			<a href="/familyMidwife"><div class="panel-body">กลุ่มวิชาการพยาบาลครอบครัวและผดุงครรภ์</div></a>
-			<a href="#"><div class="panel-body">กลุ่มวิชาการพยาบาลผู้ใหญ่และผู้สูงอายุ</div></a>
-			<a href="#"><div class="panel-body">กลุ่มวิชาการพยาบาลเด็กและวัยรุ่น</div></a>
-			<a href="#"><div class="panel-body">กลุ่มวิชาการพยาบาลสุขภาพจิตและจิตเวช</div></a>
+			<a href="{{ url('familyMidwife') }}"><div class="panel-body">กลุ่มวิชาการพยาบาลครอบครัวและผดุงครรภ์</div></a>
+			<a href="{{ url('adultOld') }}"><div class="panel-body">กลุ่มวิชาการพยาบาลผู้ใหญ่และผู้สูงอายุ</div></a>
+			<a href="{{ url('childTeen') }}"><div class="panel-body">กลุ่มวิชาการพยาบาลเด็กและวัยรุ่น</div></a>
+			<a href="{{ url('mentalHealth') }}"><div class="panel-body">กลุ่มวิชาการพยาบาลสุขภาพจิตและจิตเวช</div></a>
 			<a href="#"><div class="panel-body">กลุ่มวิชาการพยาบาลอนามัยชุมชน</div></a>
 			<a href="#"><div class="panel-body">สำนักงานเลขานุการคณะ</div></a>
 		</div>
@@ -40,12 +40,12 @@
 		บริการวิชาการและสังคม
 	</div>
 	<div class="panel-body">
-		ศูนย์ส่งเสริมสุขภาพ
+		<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html">ศูนย์ส่งเสริมสุขภาพ</a>
 	</div>
 	<div class="panel-body">
-		Childhood Development
+		<a href="http://childhood.nurse.tu.ac.th/">Childhood Development</a>
 	</div>
 	<div class="panel-body">
-		ศูนย์วิจัยทางการพยาบาล
+		<a href="http://researchcenter.nurse.tu.ac.th/">ศูนย์วิจัยทางการพยาบาล</a>
 	</div>
 </div>

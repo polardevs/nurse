@@ -52,14 +52,14 @@
 						คณะเรา <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="/history">ความเป็นมา</a></li>
-						<li><a href="#">ผู้บริหาร</a></li>
+						<li><a href="{{ url('history') }}">ความเป็นมา</a></li>
+						<li><a href="{{ url('manager') }}">ผู้บริหาร</a></li>
 						<li ><a href="#">บุคลากร</a></li>
 						<li role="separator" class="divider"></li>
-						<li ><a href="/familyMidwife">กลุ่มวิชาการพยาบาลครอบครัวและผดุงครรภ์</a></li>
-						<li ><a href="#">กลุ่มวิชาการพยาบาลผู้ใหญ่และผู้สูงอายุ</a></li>
-						<li ><a href="#">กลุ่มวิชาการพยาบาลเด็กและวัยรุ่น</a></li>
-						<li ><a href="#">กลุ่มวิชาการพยาบาลสุขภาพจิตและจิตเวช</a></li>
+						<li ><a href="{{ url('familyMidwife') }}">กลุ่มวิชาการพยาบาลครอบครัวและผดุงครรภ์</a></li>
+						<li ><a href="{{ url('adultOld') }}">กลุ่มวิชาการพยาบาลผู้ใหญ่และผู้สูงอายุ</a></li>
+						<li ><a href="{{ url('childTeen') }}">กลุ่มวิชาการพยาบาลเด็กและวัยรุ่น</a></li>
+						<li ><a href="{{ url('mentalHealth') }}">กลุ่มวิชาการพยาบาลสุขภาพจิตและจิตเวช</a></li>
 						<li ><a href="#">กลุ่มวิชาการพยาบาลอนามัยชุมชน</a></li>
 						<li ><a href="#">สำนักงานเลขานุการคณะ</a></li>
 					</ul>
@@ -77,6 +77,13 @@
 						<li ><a href="#">ปฏิทินกิจกรรม</a></li>
 						<li ><a href="#">กิจกรรม น.ศ.รายเดือน</a></li>
 						<li ><a href="#">ภาพกิจกรรม</a></li>
+						<li ><a href="{{ url('news/student_news') }}">งานกิจกรรมนักศึกษา</a></li>
+						<li ><a href="#">งานทุนนักศึกษา</a></li>
+						<li ><a href="#">งานบริการนักศึกษา</a></li>
+						<li ><a href="#">ผลงานนักศึกษา</a></li>
+						<li ><a href="#">ภาพกิจกรรมฯย้อนหลัง</a></li>
+						<li ><a href="#">ปฏิทินกิจกรรม</a></li>
+						<li ><a href="#">หนังสือเวียนภายในของนศ</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
@@ -107,7 +114,7 @@
 					</ul>
 				</li>
 				<li><a href="#">มุมดาวน์โหลด</a></li>
-				<li><a href="#">ติดต่อ</a></li>
+				<li><a href="{{ url('contactus') }}">ติดต่อ</a></li>
 
 			</ul>
 		</div>
