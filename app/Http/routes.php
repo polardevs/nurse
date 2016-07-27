@@ -45,6 +45,21 @@ Route::get('/contactus', function () {
     return view('pages.contactus.index');
 });
 
+//     D R G R E E     //
+Route::get('/degree/bachelor', function () {
+    return view('pages.degree.bachelor.index');
+});
+Route::get('/degree/bachelor/curriculum', function () {
+    return view('pages.degree.bachelor.curriculum');
+});
+Route::get('/degree/bachelor/selective', function () {
+    return view('pages.degree.bachelor.selective');
+});
+Route::get('/degree/master', function () {
+    return view('pages.degree.master.index');
+});
+
+
 
 Route::get('/test', function () {
     return view('test.index');

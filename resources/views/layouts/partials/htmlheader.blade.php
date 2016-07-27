@@ -13,4 +13,5 @@
 	<link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
 	<link href="{{ asset('/plugins/jstree/themes/default/style.css') }}" rel="stylesheet" type="text/css" />
 	<link href="{{ asset('/css/default-style.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('/css/main.css') }}" rel="stylesheet" type="text/css" />
 </head>

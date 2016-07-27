@@ -30,26 +30,26 @@
                         <div class="content-mission">
                             <h1>พัฒนาคณะให้เป็นสถาบันการศึกษาพยาบาลชั้นนำ</h1>
                             <h2>เป็นที่ยอมรับทั้งในระดับชาติและนานาชาติ</h2>
-                            <span class="btn btn-warning">หลักสูตรทั้งหมด</span>
+                            <!-- <span class="btn btn-warning">หลักสูตรทั้งหมด</span> -->
                         </div>
                     </div>
 	            </div> <!-- row end  -->
 	            <div class="row">
                     <div class="col-md-12">
                         <div class="row article-news">
-            				<a href="#">
+            				<a href="{{ url('degree/bachelor') }}">
 	            				<div class="col-md-4">
 									<img src="{{ asset('/images/pages/home/news/1.jpg') }}" class="img-responsive">
 									<div class="caption">
-						            	<h4>จัดทำโครงร่างองค์การระดับมหาวิทยาลัย</h4>
+						            	<h4>หลักสูตรปริญญาตรี</h4>
 									</div>
 	            				</div>
 	            			</a>
-            				<a href="#">
+            				<a href="{{ url('degree/master') }}">
 	            				<div class="col-md-4">
 									<img src="{{ asset('/images/pages/home/news/2.jpg') }}" class="img-responsive">
 									<div class="caption">
-						            	<h4>การสือค้นสิทธิบัตร อนุสิทธิบัตร เพื่องานวิจัย</h4>
+						            	<h4>หลักสูตรปริญญาโท</h4>
 				    				</div>
 	            				</div>
 	            			</a>
@@ -57,14 +57,14 @@
 	            				<div class="col-md-4">
 									<img src="{{ asset('/images/pages/home/news/3.jpg') }}" class="img-responsive">
 									<div class="caption">
-						            	<h4>๒๐ ปี คณะพยาบาลศาสตร์ </h4>
+						            	<h4>หลักสูตรปริญญาเอก </h4>
 				    				</div>
 	            				</div>
 	            			</a>
                         </div>
                     </div>
                     <div class="col-md-12 text-center">
-                        <span class="btn btn-warning" style="margin-top:30px;">ข่าวทั้งหมด</span>
+                        <!-- <span class="btn btn-warning" style="margin-top:30px;">ข่าวทั้งหมด</span> -->
                     </div>
 	            </div>
 	        </div>
@@ -104,7 +104,7 @@
 		<div class="container">
 			<div class="row article-news">
     			<div class="row">
-    				<div class="col-md-6">
+    				<div class="col-md-12">
     					<h3>ข่าวประชาสัมพันธ์</h3>
     					<div class="panel-group" id="accordion" aria-multiselectable="true">
 							<div class="panel panel-default">
@@ -139,8 +139,8 @@
 							</div>
 						</div>
     				</div>
-    				<div class="col-md-6">
-    					<h3>ผู้บริหาร</h3>
+    				<div class="col-md-8 col-md-offset-2">
+    					<h3 class="text-center">ผู้บริหาร</h3>
     					<div class="row">
     						<div class="col-md-4 col-md-offset-4 personal">
 								<img src="{{ asset('/images/pages/home/persons/person1.png') }}" class="img-circle img-responsive center-block">
