@@ -37,7 +37,7 @@
 	            <div class="row">
                     <div class="col-md-12">
                         <div class="row article-news">
-            				<a href="{{ url('degree/bachelor') }}">
+            				<a href="{{ url('degree/bachelor') }}" target="_blank">
 	            				<div class="col-md-4">
 									<img src="{{ asset('/images/pages/home/news/1.jpg') }}" class="img-responsive">
 									<div class="caption">
@@ -46,7 +46,7 @@
 	            				</div>
 	            			</a>
             				<!-- <a href="{{ url('degree/master') }}"> -->
-            				<a href="http://www.nurse.tu.ac.th/master_degree_new/">
+            				<a href="http://www.nurse.tu.ac.th/master_degree_new/" target="_blank">
 	            				<div class="col-md-4">
 									<img src="{{ asset('/images/pages/home/news/2.jpg') }}" class="img-responsive">
 									<div class="caption">

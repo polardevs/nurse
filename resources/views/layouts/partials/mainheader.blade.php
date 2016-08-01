@@ -52,14 +52,14 @@
 						คณะเรา <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="{{ url('history') }}">ความเป็นมา</a></li>
-						<li><a href="{{ url('manager') }}">ผู้บริหาร</a></li>
+						<li><a href="{{ url('history') }}" target="_blank">ความเป็นมา</a></li>
+						<li><a href="{{ url('manager') }}" target="_blank">ผู้บริหาร</a></li>
 						<li ><a href="#">บุคลากร</a></li>
-						<li role="separator" class="divider"></li>
-						<li ><a href="{{ url('familyMidwife') }}">กลุ่มวิชาการพยาบาลครอบครัวและผดุงครรภ์</a></li>
-						<li ><a href="{{ url('adultOld') }}">กลุ่มวิชาการพยาบาลผู้ใหญ่และผู้สูงอายุ</a></li>
-						<li ><a href="{{ url('childTeen') }}">กลุ่มวิชาการพยาบาลเด็กและวัยรุ่น</a></li>
-						<li ><a href="{{ url('mentalHealth') }}">กลุ่มวิชาการพยาบาลสุขภาพจิตและจิตเวช</a></li>
+						<li role="separator" class="divider" target="_blank"></li>
+						<li ><a href="{{ url('familyMidwife') }}" target="_blank">กลุ่มวิชาการพยาบาลครอบครัวและผดุงครรภ์</a></li>
+						<li ><a href="{{ url('adultOld') }}" target="_blank">กลุ่มวิชาการพยาบาลผู้ใหญ่และผู้สูงอายุ</a></li>
+						<li ><a href="{{ url('childTeen') }}" target="_blank">กลุ่มวิชาการพยาบาลเด็กและวัยรุ่น</a></li>
+						<li ><a href="{{ url('mentalHealth') }}" target="_blank">กลุ่มวิชาการพยาบาลสุขภาพจิตและจิตเวช</a></li>
 						<li ><a href="#">กลุ่มวิชาการพยาบาลอนามัยชุมชน</a></li>
 						<li ><a href="#">สำนักงานเลขานุการคณะ</a></li>
 					</ul>
@@ -69,8 +69,16 @@
 						หลักสูตร <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="{{ url('degree/bachelor') }}">หลักสูตรปริญญาตรี</a></li>
-						<li><a href="http://www.nurse.tu.ac.th/master_degree_new/">หลักสูตรปริญญาโท</a></li>
+						<li>
+							<a href="{{ url('degree/bachelor') }}" target="_blank">
+								หลักสูตรปริญญาตรี
+							</a>
+						</li>
+						<li>
+							<a href="http://www.nurse.tu.ac.th/master_degree_new/" target="_blank">
+								หลักสูตรปริญญาโท
+							</a>
+						</li>
 						<li ><a href="#">หลักสูตรปริญญาเอก</a></li>
 					</ul>
 				</li>
@@ -87,7 +95,7 @@
 						<li ><a href="#">ปฏิทินกิจกรรม</a></li>
 						<li ><a href="#">กิจกรรม น.ศ.รายเดือน</a></li>
 						<li ><a href="#">ภาพกิจกรรม</a></li>
-						<li ><a href="{{ url('news/student_news') }}">งานกิจกรรมนักศึกษา</a></li>
+						<li ><a href="{{ url('news/student_news') }}" target="_blank">งานกิจกรรมนักศึกษา</a></li>
 						<li ><a href="#">งานทุนนักศึกษา</a></li>
 						<li ><a href="#">งานบริการนักศึกษา</a></li>
 						<li ><a href="#">ผลงานนักศึกษา</a></li>
@@ -124,7 +132,7 @@
 					</ul>
 				</li>
 				<li><a href="#">มุมดาวน์โหลด</a></li>
-				<li><a href="{{ url('contactus') }}">ติดต่อ</a></li>
+				<li><a href="{{ url('contactus') }}" target="_blank">ติดต่อ</a></li>
 
 			</ul>
 		</div>
