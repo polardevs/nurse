@@ -60,8 +60,8 @@
 						<li ><a href="{{ url('adultOld') }}" target="_blank">กลุ่มวิชาการพยาบาลผู้ใหญ่และผู้สูงอายุ</a></li>
 						<li ><a href="{{ url('childTeen') }}" target="_blank">กลุ่มวิชาการพยาบาลเด็กและวัยรุ่น</a></li>
 						<li ><a href="{{ url('mentalHealth') }}" target="_blank">กลุ่มวิชาการพยาบาลสุขภาพจิตและจิตเวช</a></li>
-						<li ><a href="#">กลุ่มวิชาการพยาบาลอนามัยชุมชน</a></li>
-						<li ><a href="#">สำนักงานเลขานุการคณะ</a></li>
+						<li ><a href="{{ url('communityHealth') }}" target="_blank">กลุ่มวิชาการพยาบาลอนามัยชุมชน</a></li>
+						<li ><a href="{{ url('secretariat') }}" target="_blank">สำนักงานเลขานุการคณะ</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">

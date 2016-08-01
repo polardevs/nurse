@@ -24,8 +24,6 @@
 								<li><a href="#">หลักสูตร</a></li>
 								<li><a href="{{ url('degree/bachelor') }}">ปริญญาตรี</a></li>
 								<li class="active">วิธีการคัดเลือก</li>
-								
-
 							</ol>
 						</small>
 						<hr>

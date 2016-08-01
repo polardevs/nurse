@@ -36,6 +36,14 @@ Route::get('/childTeen', function () {
 Route::get('/mentalHealth', function () {
     return view('pages.about.staff.mentalHealth');
 });
+Route::get('/communityHealth', function () {
+    return view('pages.about.staff.communityHealth');
+});
+Route::get('/secretariat', function () {
+    return view('pages.about.staff.secretariat');
+});
+
+
 
 Route::get('/news/student_news/', function () {
     return view('pages.news.StudentNews');
@@ -55,6 +63,12 @@ Route::get('/degree/bachelor/curriculum', function () {
 Route::get('/degree/bachelor/selective', function () {
     return view('pages.degree.bachelor.selective');
 });
+Route::get('/degree/bachelor/rules', function () {
+    return view('pages.degree.bachelor.rules');
+});
+
+
+
 Route::get('/degree/master', function () {
     return view('pages.degree.master.index');
 });

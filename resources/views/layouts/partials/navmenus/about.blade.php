@@ -30,8 +30,8 @@
 			<a href="{{ url('adultOld') }}"><div class="panel-body">กลุ่มวิชาการพยาบาลผู้ใหญ่และผู้สูงอายุ</div></a>
 			<a href="{{ url('childTeen') }}"><div class="panel-body">กลุ่มวิชาการพยาบาลเด็กและวัยรุ่น</div></a>
 			<a href="{{ url('mentalHealth') }}"><div class="panel-body">กลุ่มวิชาการพยาบาลสุขภาพจิตและจิตเวช</div></a>
-			<a href="#"><div class="panel-body">กลุ่มวิชาการพยาบาลอนามัยชุมชน</div></a>
-			<a href="#"><div class="panel-body">สำนักงานเลขานุการคณะ</div></a>
+			<a href="{{ url('communityHealth') }}"><div class="panel-body">กลุ่มวิชาการพยาบาลอนามัยชุมชน</div></a>
+			<a href="{{ url('secretariat') }}"><div class="panel-body">สำนักงานเลขานุการคณะ</div></a>
 		</div>
 	</div>
 </div>
@@ -40,12 +40,12 @@
 		บริการวิชาการและสังคม
 	</div>
 	<div class="panel-body">
-		<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html">ศูนย์ส่งเสริมสุขภาพ</a>
+		<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html" target="_blank">ศูนย์ส่งเสริมสุขภาพ</a>
 	</div>
 	<div class="panel-body">
-		<a href="http://childhood.nurse.tu.ac.th/">Childhood Development</a>
+		<a href="http://childhood.nurse.tu.ac.th/" target="_blank">Childhood Development</a>
 	</div>
 	<div class="panel-body">
-		<a href="http://researchcenter.nurse.tu.ac.th/">ศูนย์วิจัยทางการพยาบาล</a>
+		<a href="http://researchcenter.nurse.tu.ac.th/" target="_blank">ศูนย์วิจัยทางการพยาบาล</a>
 	</div>
 </div>

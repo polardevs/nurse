@@ -9,9 +9,9 @@
 		</div>
 		<div id="collapseOne" class="panel-collapse collapse" >
 			<a href="{{ url('degree/bachelor/curriculum') }}"><div class="panel-body">การเรียนการสอน ภาคทฤษฎี/ปฏิบัติ</div></a>
-			<a href="#"><div class="panel-body">คุณสมบัติผู้เข้าศึกษา</div></a>
+			<a href="http://www.nurse.tu.ac.th/bachelor-degree/pdf/qualification.pdf" target="_blank"><div class="panel-body">คุณสมบัติผู้เข้าศึกษา</div></a>
 			<a href="{{ url('degree/bachelor/selective') }}"><div class="panel-body">วิธีการคัดเลือก</div></a>
-			<a href="#"><div class="panel-body">แผนการศึกษา</div></a>
+			<a href="http://www.nurse.tu.ac.th/bachelor-degree/pdf/timetable.pdf" target="_blank"><div class="panel-body">แผนการศึกษา</div></a>
 		</div>
 	</div>
 	<div class="panel panel-default">
@@ -24,9 +24,9 @@
 		</div>
 		<div id="collapseTwo" class="panel-collapse collapse" >
 			<a href="#"><div class="panel-body">ปฏิทินการศึกษา</div></a>
-			<a href="#"><div class="panel-body">ข้อบังคับ กฏ ระเบียบต่างๆ</div></a>
-			<a href="#"><div class="panel-body">อัตราค่าธรรมเนียมการศึกษาและค่าใช้จ่าย</div></a>
-			<a href="#"><div class="panel-body">อาจารย์ประจำหลักสูตร</div></a>
+			<a href="{{ url('degree/bachelor/rules') }}"><div class="panel-body">ข้อบังคับ กฏ ระเบียบต่างๆ</div></a>
+			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%88%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%B554.doc"><div class="panel-body">อัตราค่าธรรมเนียมการศึกษาและค่าใช้จ่าย</div></a>
+			<a href="http://www.nurse.tu.ac.th/bachelor-degree/pdf/Lecturer.pdf" target="_blank"><div class="panel-body">อาจารย์ประจำหลักสูตร</div></a>
 		</div>
 	</div>
 	<div class="panel panel-default">
@@ -38,11 +38,11 @@
 			</h4>
 		</div>
 		<div id="collapseThree" class="panel-collapse collapse" >
-			<a href="#"><div class="panel-body">ใบลาป่วย</div></a>
-			<a href="#"><div class="panel-body"> ใบลากิจ</div></a>
-			<a href="#"><div class="panel-body">ใบคำร้อง</div></a>
-			<a href="#"><div class="panel-body">สัญญาการเรียน</div></a>
-			<a href="#"><div class="panel-body">ใบคำร้องขอทำสัญญาการเรียน</div></a>
+			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B9%83%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%A2.doc"><div class="panel-body">ใบลาป่วย</div></a>
+			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B9%83%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B4%E0%B8%88.doc"><div class="panel-body"> ใบลากิจ</div></a>
+			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B8%84%E0%B8%B3%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2.doc"><div class="panel-body">ใบคำร้อง</div></a>
+			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99.doc"><div class="panel-body">สัญญาการเรียน</div></a>
+			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B9%83%E0%B8%9A%E0%B8%84%E0%B8%B3%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99.doc"><div class="panel-body">ใบคำร้องขอทำสัญญาการเรียน</div></a>
 		</div>
 	</div>
 	<div class="panel panel-default">
