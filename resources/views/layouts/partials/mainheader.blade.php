@@ -96,11 +96,11 @@
 						<li ><a href="#">กิจกรรม น.ศ.รายเดือน</a></li>
 						<li ><a href="#">ภาพกิจกรรม</a></li>
 						<li ><a href="{{ url('news/student_news') }}" target="_blank">งานกิจกรรมนักศึกษา</a></li>
-						<li ><a href="#">งานทุนนักศึกษา</a></li>
+						<li ><a href="{{ url('news/student_fund') }}" target="_blank">งานทุนนักศึกษา</a></li>
 						<li ><a href="#">งานบริการนักศึกษา</a></li>
-						<li ><a href="#">ผลงานนักศึกษา</a></li>
-						<li ><a href="#">ภาพกิจกรรมฯย้อนหลัง</a></li>
-						<li ><a href="#">ปฏิทินกิจกรรม</a></li>
+						<li ><a href="{{ url('news/student_portfolio') }}" target="_blank">ผลงานนักศึกษา</a></li>
+						<li ><a href="{{ url('news/student_gallery') }}">ภาพกิจกรรมฯย้อนหลัง</a></li>
+						<li ><a href="http://www.nurse.tu.ac.th/%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%97%E0%B8%B4%E0%B8%991.xls">ปฏิทินกิจกรรม</a></li>
 						<li ><a href="#">หนังสือเวียนภายในของนศ</a></li>
 					</ul>
 				</li>

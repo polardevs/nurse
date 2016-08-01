@@ -48,6 +48,17 @@ Route::get('/secretariat', function () {
 Route::get('/news/student_news/', function () {
     return view('pages.news.StudentNews');
 });
+Route::get('/news/student_fund/', function () {
+    return view('pages.news.StudentFund');
+});
+Route::get('/news/student_portfolio/', function () {
+    return view('pages.news.StudentPortfolio');
+});
+Route::get('/news/student_gallery/', function () {
+    return view('pages.news.StudentGallery');
+});
+
+
 
 Route::get('/contactus', function () {
     return view('pages.contactus.index');

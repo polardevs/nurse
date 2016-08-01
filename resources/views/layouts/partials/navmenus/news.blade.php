@@ -39,11 +39,11 @@
 			<a href="#"><div class="panel-body">กิจกรรม น.ศ.รายเดือน</div></a>
 			<a href="#"><div class="panel-body">ภาพกิจกรรม</div></a>
 			<a href="{{ url('news/student_news') }}"><div class="panel-body">งานกิจกรรมนักศึกษา</div></a>
-			<a href="#"><div class="panel-body">งานทุนนักศึกษา</div></a>
+			<a href="{{ url('news/student_fund') }}"><div class="panel-body">งานทุนนักศึกษา</div></a>
 			<a href="#"><div class="panel-body">งานบริการนักศึกษา</div></a>
-			<a href="#"><div class="panel-body">ผลงานนักศึกษา</div></a>
-			<a href="#"><div class="panel-body">ภาพกิจกรรมฯย้อนหลัง</div></a>
-			<a href="#"><div class="panel-body">ปฏิทินกิจกรรม</div></a>
+			<a href="{{ url('news/student_portfolio') }}"><div class="panel-body">ผลงานนักศึกษา</div></a>
+			<a href="{{ url('news/student_gallery') }}"><div class="panel-body">ภาพกิจกรรมฯย้อนหลัง</div></a>
+			<a href="http://www.nurse.tu.ac.th/%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%97%E0%B8%B4%E0%B8%991.xls"><div class="panel-body">ปฏิทินกิจกรรม</div></a>
 			<a href="#"><div class="panel-body">หนังสือเวียนภายในของนศ</div></a>
 		</div>
 	</div>
