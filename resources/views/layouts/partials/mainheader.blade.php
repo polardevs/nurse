@@ -66,6 +66,16 @@
 				</li>
 				<li class="dropdown">
 					<a href="" class="dropdown-toggle" data-toggle="dropdown">
+						หลักสูตร <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="{{ url('degree/bachelor') }}">หลักสูตรปริญญาตรี</a></li>
+						<li><a href="http://www.nurse.tu.ac.th/master_degree_new/">หลักสูตรปริญญาโท</a></li>
+						<li ><a href="#">หลักสูตรปริญญาเอก</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="" class="dropdown-toggle" data-toggle="dropdown">
 						ศิลปวัฒนธรรม <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">

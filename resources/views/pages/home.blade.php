@@ -45,7 +45,8 @@
 									</div>
 	            				</div>
 	            			</a>
-            				<a href="{{ url('degree/master') }}">
+            				<!-- <a href="{{ url('degree/master') }}"> -->
+            				<a href="http://www.nurse.tu.ac.th/master_degree_new/">
 	            				<div class="col-md-4">
 									<img src="{{ asset('/images/pages/home/news/2.jpg') }}" class="img-responsive">
 									<div class="caption">
