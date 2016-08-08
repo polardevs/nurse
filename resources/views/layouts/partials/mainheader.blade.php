@@ -123,12 +123,12 @@
 						<li><a href="#">Visiting Scholar</a></li>
 						<li><a href="#">Global collaboration</a></li>
 						<li role="separator" class="divider"></li>
-						<li ><a href="#">The George Washington University</a></li>
-						<li ><a href="#">The University of Texas Health Science Center</a></li>
-						<li ><a href="#">The University of Alabama</a></li>
-						<li ><a href="#">MIE University</a></li>
-						<li ><a href="#">World Health Organization</a></li>
-						<li ><a href="#">Pan American Health Organization</a></li>
+						<li ><a href="https://www.gwu.edu/" target="_blank">The George Washington University</a></li>
+						<li ><a href="https://www.uth.edu/" target="_blank">The University of Texas Health Science Center</a></li>
+						<li ><a href="https://www.ua.edu/" target="_blank">The University of Alabama</a></li>
+						<li ><a href="http://www.mie-u.ac.jp/en" target="_blank">MIE University</a></li>
+						<li ><a href="http://www.who.int/en/" target="_blank">World Health Organization</a></li>
+						<li ><a href="http://www.paho.org/hq/" target="_blank">Pan American Health Organization</a></li>
 					</ul>
 				</li>
 				<li><a href="#">มุมดาวน์โหลด</a></li>

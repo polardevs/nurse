@@ -13,10 +13,10 @@
 						<h3>ติดต่อเรา</h3>
 					</div>
 				</div>
-				<div class="col-md-2 side-menu">
+				<!-- <div class="col-md-2 side-menu">
 					@include('layouts.partials.navmenus.news')
-				</div>
-				<div class="col-md-10">
+				</div> -->
+				<div class="col-md-12">
 					<div class="sub-menu">
 						<small>
 							<ol class="breadcrumb">
