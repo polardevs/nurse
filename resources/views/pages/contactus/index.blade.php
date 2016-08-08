@@ -51,7 +51,7 @@
 
 @section('scripts')
 	@parent
-	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl9iXqFSFi3m3-seBKyEtXWbt1RTKHPSA&callback=initMap" async defer></script>
 	<script>
 		var myCenter=new google.maps.LatLng(14.0830617,100.5876353);
 		function initialize(){
