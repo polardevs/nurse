@@ -54,7 +54,7 @@
   <script>
     var myLocate = {lat: 14.0830617, lng: 100.5876353};
     function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
+      var map = new google.maps.Map(document.getElementById('googleMap'), {
         center: myLocate,
         zoom: 10,
         mapTypeId:google.maps.MapTypeId.ROADMAP
