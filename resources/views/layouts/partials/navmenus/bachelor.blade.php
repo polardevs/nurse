@@ -54,8 +54,12 @@
 			</h4>
 		</div>
 		<div id="collapseFour" class="panel-collapse collapse" >
-			<a href="http://www.tu.ac.th/index.php/th/"><div class="panel-body">มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต</div></a>
-			<a href="#"><div class="panel-body"> http://www.reg3.tu.ac.th/registrar/home.asp</div></a>
+			<a href="http://www.tu.ac.th/index.php/th/" target="_blank">
+				<div class="panel-body">มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต</div>
+			</a>
+			<a href="http://web.reg.tu.ac.th/registrar/home.asp" target="_blank">
+				<div class="panel-body">สำนักทะเบียน</div>
+			</a>
 		</div>
 	</div>
 </div>

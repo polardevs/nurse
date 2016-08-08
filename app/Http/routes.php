@@ -79,11 +79,14 @@ Route::get('/degree/bachelor/rules', function () {
 });
 
 
+//     A R T I C L E S     //
+Route::get('/articles', function () {
+    return view('pages.articles.index');
+});
 
 Route::get('/degree/master', function () {
     return view('pages.degree.master.index');
 });
-
 
 
 Route::get('/test', function () {

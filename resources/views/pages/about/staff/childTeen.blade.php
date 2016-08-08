@@ -66,7 +66,7 @@
 								<img src="{{ asset('/images/pages/about/childTeen/patchporn.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
-									<p>พัชรพร รัตนสงคราม</p>
+									<p>พัชรพร แก้ววิมล</p>
 								</div>
 							</div>
 						</div>

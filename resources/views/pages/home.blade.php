@@ -140,56 +140,63 @@
 							</div>
 						</div>
     				</div>
-    				<div class="col-md-8 col-md-offset-2">
-    					<h3 class="text-center">ผู้บริหาร</h3>
-    					<div class="row">
-    						<div class="col-md-4 col-md-offset-4 personal">
-								<img src="{{ asset('/images/pages/home/persons/person1.png') }}" class="img-circle img-responsive center-block">
-							<div class="text-center">
-    							<span>รศ.ดร.มรรยาท รุจิวิชชญ์</span><br>
-								<small>คณบดี คณะพยาบาลศาสตร์ มหาวิทยาลัยธรรมศาสตร์ </small>
-    						</div>
-    						</div>
-    					</div>
-    					<div class="row">
-    						
-    					</div>
-    					<div class="row">
-    						<div class="col-md-4 col-md-offset-1 personal">
-								<img src="{{ asset('/images/pages/home/persons/person2.png') }}" class="img-circle img-responsive center-block">
-								<div class="text-center">
-	    							<span>ผศ.ดร.ธีรนุช	ห้านิรัติศัย</span><br>
-	    							<small>ฝ่ายบริหารและวิชาการ</small>
-	    						</div>
-    						</div>
-    						<div class="col-md-4 col-md-offset-2 personal">
-								<img src="{{ asset('/images/pages/home/persons/person3.png') }}" class="img-circle img-responsive center-block">
-								<div class="text-center">
-	    							<span>ผศ.ดร.ปรีย์กมล รัชนกุล</span><br>
-	    							<small>ฝ่ายวางแผนและประกันคุณภาพ</small>
-	    						</div>
-    						</div>
-    					</div>
-    					<div class="row">
-    						<div class="col-md-4 col-md-offset-1 personal">
-								<img src="{{ asset('/images/pages/home/persons/person4.png') }}" class="img-circle img-responsive center-block">
-								<div class="text-center">
-	    							<span>ผศ.ดร. พวงผกา คงวัฒนานนท์</span><br>
-	    							<small>ฝ่ายพัฒนานักศึกษาและบริการวิชาการ</small>
-	    						</div>
-    						</div>
-    						<div class="col-md-4 col-md-offset-2 personal">
-								<img src="{{ asset('/images/pages/home/persons/person5.png') }}" class="img-circle img-responsive center-block">
-								<div class="text-center">
-	    							<span>ดร. สารรัตน์ วุฒิอาภา</span><br>
-	    							<small>ฝ่ายวิจัยแล้ว วิเทศสัมพันธ์และสื่อสารองค์กร</small>
-	    						</div>
-    						</div>
-    					</div>
-    				</div>
+    				
     			</div>
     		</div> 
 		</div>	
+	</section>
+	<section class="Home-Manager">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h3 class="text-center">ผู้บริหาร</h3>
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4 personal">
+							<img src="{{ asset('/images/pages/home/persons/person1.png') }}" class="img-circle img-responsive center-block">
+						<div class="text-center">
+							<span>รศ.ดร.มรรยาท รุจิวิชชญ์</span><br>
+							<small>คณบดี คณะพยาบาลศาสตร์ มหาวิทยาลัยธรรมศาสตร์ </small>
+						</div>
+						</div>
+					</div>
+					<div class="row">
+						
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-md-offset-1 personal">
+							<img src="{{ asset('/images/pages/home/persons/person2.png') }}" class="img-circle img-responsive center-block">
+							<div class="text-center">
+    							<span>ผศ.ดร.ธีรนุช	ห้านิรัติศัย</span><br>
+    							<small>ฝ่ายบริหารและวิชาการ</small>
+    						</div>
+						</div>
+						<div class="col-md-4 col-md-offset-2 personal">
+							<img src="{{ asset('/images/pages/home/persons/person3.png') }}" class="img-circle img-responsive center-block">
+							<div class="text-center">
+    							<span>ผศ.ดร.ปรีย์กมล รัชนกุล</span><br>
+    							<small>่ายวางแผนและพัฒนาคุณภาพ</small>
+    						</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-md-offset-1 personal">
+							<img src="{{ asset('/images/pages/home/persons/person4.png') }}" class="img-circle img-responsive center-block">
+							<div class="text-center">
+    							<span>ผศ.ดร. พวงผกา คงวัฒนานนท์</span><br>
+    							<small>ฝ่ายพัฒนานักศึกษาและบริการวิชาการ</small>
+    						</div>
+						</div>
+						<div class="col-md-4 col-md-offset-2 personal">
+							<img src="{{ asset('/images/pages/home/persons/person5.png') }}" class="img-circle img-responsive center-block">
+							<div class="text-center">
+    							<span>ดร. สารรัตน์ วุฒิอาภา</span><br>
+    							<small>ฝ่ายวิจัย วิเทศสัมพันธ์และสื่อสารองค์กร</small>
+    						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
     <section class="Home-Services">
@@ -391,7 +398,7 @@
 									<div class="panel panel-default">
 										<div class="panel-heading" >
 											<h4 class="panel-title">
-												<a data-toggle="collapse" href="">
+												<a href="{{ url('articles') }}" target="_blank">
 													ประจำปี 2554
 												</a>
 											</h4>
@@ -400,7 +407,7 @@
 									<div class="panel panel-default">
 										<div class="panel-heading" id="headingTwo">
 											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" href="">
+												<a href="{{ url('articles') }}" target="_blank">
 													ประจำปี 2553
 												</a>
 											</h4>

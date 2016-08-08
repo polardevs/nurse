@@ -76,6 +76,14 @@ a:hover ,a:focus{
     /*color: #FFF;*/
     padding: 80px 0px;
 }
+.Home-Manager{
+    background-color: #7b3d39;
+    background-image: url("../images/bg/bg-lines.png");
+    background-repeat: no-repeat;
+    background-position: 0px 20px;
+    color: #fff;
+    padding-bottom: 50px;
+}
 .Home-Services , .Home-Vision ,.Home-StdAct{
     box-shadow: inset 0px 50px 32px -20px rgba(188,188,188,1);
     padding-bottom: 50px;

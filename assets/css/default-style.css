@@ -1,0 +1,19 @@
+body{
+	font: 18px THSarabunNew-Bold;
+}
+.inline{
+	display: inline;
+}
+.img-logo{
+	max-width: 120px;
+}
+
+#benefit {
+    position: relative;
+    background-image: url("../images/bg/features-bg.jpg");
+    background-attachment: fixed !important;
+    background-size: cover;
+    background-repeat: repeat;
+    color: #FFF;
+    padding: 80px 0px;
+}
