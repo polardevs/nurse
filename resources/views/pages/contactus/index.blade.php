@@ -36,7 +36,7 @@
 								รหัสไปรษณีย์ 12120 <br>
 								โทรศัพท์ : 66-2-986 9213 ต่อ 7316-8 <br>
 								โทรสาร : 66--2-516 5381 <br>
-								http://www.nurse.tu.ac.th <br><br>
+								<a href="http://www.nurse.tu.ac.th">http://www.nurse.tu.ac.th</a> <br><br>
 							</div>
 							<div class="col-md-12">
 								<div id="googleMap" style="height:380px;"></div>

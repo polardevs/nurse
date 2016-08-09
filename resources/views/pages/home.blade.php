@@ -7,17 +7,17 @@
 @section('main-content')
 	<div class="sidebar">
 		<div class="sidebar-item">
-			<a href="http://childhood.nurse.tu.ac.th/" data-toggle="tooltip" title="ศูนย์พัฒนาเด็กปฐมวัย" data-placement="right" >
+			<a href="http://childhood.nurse.tu.ac.th/" data-toggle="tooltip" title="ศูนย์พัฒนาเด็กปฐมวัย" data-placement="right" target="_blank">
 				<img src="{{ asset('/images/pages/home/services/Childhood.png') }}" class="center-block">
 			</a>
 		</div>
 		<div class="sidebar-item">
-			<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html" data-toggle="tooltip" title="ศูนย์ส่งเสริมสุขภาพ " data-placement="right" >
+			<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html" data-toggle="tooltip" title="ศูนย์ส่งเสริมสุขภาพ " data-placement="right" target="_blank">
 				<img src="{{ asset('/images/pages/home/services/health.png') }}" class="center-block">
 			</a>
 		</div>
 		<div>
-			<a href="http://researchcenter.nurse.tu.ac.th/" data-toggle="tooltip" title="ศูนย์วิจัยทางการพยาบาลและพฤติกรรมศาสตร์" data-placement="right" >
+			<a href="http://researchcenter.nurse.tu.ac.th/" data-toggle="tooltip" title="ศูนย์วิจัยทางการพยาบาลและพฤติกรรมศาสตร์" data-placement="right" target="_blank">
 				<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="center-block">
 			</a>
 		</div>
@@ -174,7 +174,7 @@
 							<img src="{{ asset('/images/pages/home/persons/person3.png') }}" class="img-circle img-responsive center-block">
 							<div class="text-center">
     							<span>ผศ.ดร.ปรีย์กมล รัชนกุล</span><br>
-    							<small>่ายวางแผนและพัฒนาคุณภาพ</small>
+    							<small>ฝ่ายวางแผนและพัฒนาคุณภาพ</small>
     						</div>
 						</div>
 					</div>

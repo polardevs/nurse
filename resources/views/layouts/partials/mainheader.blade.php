@@ -120,7 +120,6 @@
 						International Affairs <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="#">Visiting Scholar</a></li>
 						<li><a href="#">Global collaboration</a></li>
 						<li role="separator" class="divider"></li>
 						<li ><a href="https://www.gwu.edu/" target="_blank">The George Washington University</a></li>
