@@ -193,7 +193,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-4 col-md-offset-4">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/about/secretariat/natenapha.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>นางเนตรนภาภร์ เพ็ขรผึ้ง</b>
 									<p>นักวิชาการศึกษาชำนาญการพิเศษ</p>
@@ -203,7 +203,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/about/secretariat/venus.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>นางสาววีนัส ปาลาเลย์</b>
 									<p>นักวิชาการศึกษา</p>

@@ -131,7 +131,7 @@
 								</div>
 							</div>
 							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/about/manager/natenapha.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>งานวิจัย วิเทศสัมพันธ์ และสื่อสารองค์กร</b>
 									<p>นางเนตรนภาภรณ์ เพ็ชรผึ้ง</p>

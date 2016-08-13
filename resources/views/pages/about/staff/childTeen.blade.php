@@ -65,35 +65,35 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/childTeen/patchporn.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
+									<b>ผู้ช่วยศาสตร์จารย์</b>
 									<p>พัชรพร แก้ววิมล</p>
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/about/childTeen/wipada.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>ผู้ช่วยศาสตร์จารย์</b>
 									<p>วิภาดา แสงนิมิตรชัยกุล</p>
 								</div>
 							</div>
 							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/childTeen/sayamong.jpg') }}" class="img-responsive">
+								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
 									<b>ดร.</b>
 									<p>วาริยา หมื่นสา</p>
 								</div>
 							</div>
 							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/childTeen/supawadee.jpg') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/about/childTeen/sayamong.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>อาจารย์</b>
 									<p>ศยามล รมพิพัฒน์</p>
 								</div>
 							</div>
 							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/adultOld/siriruk.jpg') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/about/childTeen/supawadee.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>อาจารย์</b>
 									<p>สุภาวดี ทับกล่ำ</p>
