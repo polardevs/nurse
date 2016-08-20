@@ -44,7 +44,7 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/manager/teeranuch.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ฝ่ายบริหารและวิชาการ์</b>
+									<b>ฝ่ายบริหารและวิชาการ</b>
 									<p>ผศ.ดร.ธีรนุช	ห้านิรัติศัย</p>
 								</div>
 							</div>
