@@ -265,7 +265,7 @@
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/secretariat/ratchaneechai.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>นางสาวรัชนีฉาย บรรณทอง ทัพใหญ่</b>
+									<b>นางสาวรัชนีฉาย บรรณทอง</b>
 									<p>นักวิชาการศึกษาชำนาญการ</p>
 									<p>หัวหน้างานวิชาการและพัฒนานักศึกษา</p>
 								</div>
