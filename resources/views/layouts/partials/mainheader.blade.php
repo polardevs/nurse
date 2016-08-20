@@ -128,7 +128,6 @@
 						<li ><a href="http://www.mie-u.ac.jp/en/" target="_blank">MIE University</a></li>
 						<li ><a href="http://www.who.int/en/" target="_blank">World Health Organization</a></li>
 						<li ><a href="http://www.paho.org/hq/" target="_blank">Pan American Health Organization</a></li>
-						http://www.mie-u.ac.jp/en/
 					</ul>
 				</li>
 				<li><a href="#">มุมดาวน์โหลด</a></li>
