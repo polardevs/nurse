@@ -79,6 +79,21 @@ Route::get('/degree/bachelor/rules', function () {
 });
 
 
+//     D R G R E E  P H D    //
+Route::get('/degree/phd', function () {
+    return view('pages.degree.phd.index');
+});
+Route::get('/degree/phd/curriculum', function () {
+    return view('pages.degree.phd.curriculum');
+});
+Route::get('/degree/phd/selective', function () {
+    return view('pages.degree.phd.selective');
+});
+Route::get('/degree/phd/rules', function () {
+    return view('pages.degree.phd.rules');
+});
+
+
 //     A R T I C L E S     //
 Route::get('/articles', function () {
     return view('pages.articles.index');
