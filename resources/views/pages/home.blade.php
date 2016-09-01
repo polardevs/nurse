@@ -5,7 +5,7 @@
 @endsection
 
 @section('main-content')
-	<div class="sidebar">
+	<!-- <div class="sidebar">
 		<div class="sidebar-item">
 			<a href="http://childhood.nurse.tu.ac.th/" data-toggle="tooltip" title="ศูนย์พัฒนาเด็กปฐมวัย" data-placement="right" target="_blank">
 				<img src="{{ asset('/images/pages/home/services/Childhood.png') }}" class="center-block">
@@ -21,7 +21,7 @@
 				<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="center-block">
 			</a>
 		</div>
-	</div>
+	</div> -->
     <section class="Home-Course">
         <div class="slider-wrap">
             <div class="container">
@@ -447,4 +447,3 @@
 		$('[data-toggle="tooltip"]').tooltip();
 	</script>
 @endsection
-

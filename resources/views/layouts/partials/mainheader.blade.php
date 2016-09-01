@@ -148,6 +148,21 @@
 						<li ><a href="https://docs.google.com/a/nurse.tu.ac.th/forms/d/1zpbrm7OYwInZD8h9OLa61e-hPujZWXOGWMI0otUjJTo/edit" target="_blank">ระบบยืมคืนอุปกรณ์</a></li>
 					</ul>
 				</li>
+				<li class="dropdown">
+					<a href="" class="dropdown-toggle" data-toggle="dropdown">
+						ลิ้งค์ภายใน <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="http://203.131.209.180/znstu/login.php" target="_blank">Manament Information System (MIS)</a></li>
+						<li><a href="http://www.nurse.tu.ac.th/KM_NURSETU.htm" target="_blank">Knowledge Management</a></li>
+						<!-- <li role="separator" class="divider"></li> -->
+						<li ><a href="http://203.131.209.178/scripts/foxweb.exe/oa_login" target="_blank">E-Office</a></li>
+						<li ><a href="http://e-learning.tu.ac.th/index512.php" target="_blank">E-Learning</a></li>
+						<li ><a href="https://nursetu.blackboard.com/webapps/login/" target="_blank">Blackboard</a></li>
+						<li ><a href="http://moodle.tu.ac.th/" target="_blank">Moodle</a></li>
+						<li ><a href="http://nurse.tu.ac.th/information/index.html" target="_blank">ระบบบริการข้อมูลสารสนเทศ</a></li>
+					</ul>
+				</li>
 				<li><a href="{{ url('contactus') }}" target="_blank">ติดต่อ</a></li>
 
 			</ul>

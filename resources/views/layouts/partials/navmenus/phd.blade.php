@@ -3,7 +3,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" >
-					หลักสูตร
+					organization-structure
 				</a>
 			</h4>
 		</div>
