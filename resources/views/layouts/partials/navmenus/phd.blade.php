@@ -1,24 +1,26 @@
 <div class="panel-group" id="accordion" aria-multiselectable="true">
+
+
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" >
-					organization-structure
+					Administrative and Directory
 				</a>
 			</h4>
 		</div>
 		<div id="collapseOne" class="panel-collapse collapse" >
-			<a href="{{ url('degree/bachelor/curriculum') }}"><div class="panel-body">การเรียนการสอน ภาคทฤษฎี/ปฏิบัติ</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/pdf/qualification.pdf" target="_blank"><div class="panel-body">คุณสมบัติผู้เข้าศึกษา</div></a>
-			<a href="{{ url('degree/bachelor/selective') }}"><div class="panel-body">วิธีการคัดเลือก</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/pdf/timetable.pdf" target="_blank"><div class="panel-body">แผนการศึกษา</div></a>
+			<a href="http://nurse.tu.ac.th/english/administrative-and-directory/organization-structure/"><div class="panel-body">Organization Structure</div></a>
 		</div>
 	</div>
+
+
+	
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" >
-					รายละเอียด
+					Administrative
 				</a>
 			</h4>
 		</div>
@@ -29,6 +31,10 @@
 			<a href="http://www.nurse.tu.ac.th/bachelor-degree/pdf/Lecturer.pdf" target="_blank"><div class="panel-body">อาจารย์ประจำหลักสูตร</div></a>
 		</div>
 	</div>
+
+
+
+
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
@@ -45,6 +51,9 @@
 			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B9%83%E0%B8%9A%E0%B8%84%E0%B8%B3%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99.doc"><div class="panel-body">ใบคำร้องขอทำสัญญาการเรียน</div></a>
 		</div>
 	</div>
+
+
+
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">

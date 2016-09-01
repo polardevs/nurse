@@ -78,7 +78,10 @@
 								หลักสูตรปริญญาโท
 							</a>
 						</li>
-						<li ><a href="#">หลักสูตรปริญญาเอก</a></li>
+						<li >
+							<a href="{{ url('degree/phd') }}" target="_blank">
+							หลักสูตรปริญญาเอก
+						</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
