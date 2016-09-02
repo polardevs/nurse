@@ -1,5 +1,36 @@
 <div class="panel-group" id="accordion" aria-multiselectable="true">
 
+	<div class="panel panel-default">
+		<div class="panel-heading" id="headingTwo">
+			<h4 class="panel-title">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" >
+					 About
+				</a>
+			</h4>
+		</div>
+		<div id="collapseThree" class="panel-collapse collapse" >
+			<a href="http://nurse.tu.ac.th/english/about/dean-s-welcome/" target="_blank"><div class="panel-body">Dean's Welcome</div></a>
+			<a href="http://nurse.tu.ac.th/english/about/history/" target="_blank"><div class="panel-body">History</div></a>
+			<a href="http://nurse.tu.ac.th/english/about/vision-and-mission/" target="_blank"><div class="panel-body">Vision & Mission</div></a>
+		</div>
+	</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading" id="headingTwo">
+				<h4 class="panel-title">
+					<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" >
+						 Academic Program
+					</a>
+				</h4>
+			</div>
+			<div id="collapseThree" class="panel-collapse collapse" >
+				<a href="http://nurse.tu.ac.th/english/academic-program/bns/" target="_blank"><div class="panel-body">Bachelor of Nursing Science (B.N.S.)</div></a>
+				<a href="http://nurse.tu.ac.th/english/academic-program/mns/" target="_blank"><div class="panel-body">Master of Nursing Science Program in Psychiatric and Mental Health Nursing M.N.S. (Psychiatric and Mental Health Nursing)</div></a>
+				<a href="http://nurse.tu.ac.th/english/academic-program/phd/" target="_blank"><div class="panel-body">Ph.D. Progam in Nursing Science (International Program)</div></a>
+				<a href="http://nurse.tu.ac.th/english/academic-program/phd/online-form/" target="_blank"><div class="panel-body">Application Form for Graduate Study Faculty of Nursing, Thammasat University</div></a>
+			</div>
+		</div>
 
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
@@ -10,12 +41,12 @@
 			</h4>
 		</div>
 		<div id="collapseOne" class="panel-collapse collapse" >
-			<a href="http://nurse.tu.ac.th/english/administrative-and-directory/organization-structure/"><div class="panel-body">Organization Structure</div></a>
+			<a href="http://nurse.tu.ac.th/english/administrative-and-directory/organization-structure/" target="_blank"><div class="panel-body">Organization Structure</div></a>
 		</div>
 	</div>
 
 
-	
+
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
@@ -25,10 +56,7 @@
 			</h4>
 		</div>
 		<div id="collapseTwo" class="panel-collapse collapse" >
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/pdf/calendar2-56.pdf"><div class="panel-body">ปฏิทินการศึกษา</div></a>
-			<a href="{{ url('degree/bachelor/rules') }}"><div class="panel-body">ข้อบังคับ กฏ ระเบียบต่างๆ</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%88%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%B554.doc"><div class="panel-body">อัตราค่าธรรมเนียมการศึกษาและค่าใช้จ่าย</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/pdf/Lecturer.pdf" target="_blank"><div class="panel-body">อาจารย์ประจำหลักสูตร</div></a>
+			<a href="http://nurse.tu.ac.th/english/administrative-and-directory/administrative/" target="_blank"><div class="panel-body">Administrative</div></a>
 		</div>
 	</div>
 
@@ -39,16 +67,17 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" >
-					Download แบบฟอร์มต่างๆ
+					Faculty Directory
 				</a>
 			</h4>
 		</div>
 		<div id="collapseThree" class="panel-collapse collapse" >
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B9%83%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%A2.doc"><div class="panel-body">ใบลาป่วย</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B9%83%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B4%E0%B8%88.doc"><div class="panel-body"> ใบลากิจ</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B8%84%E0%B8%B3%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2.doc"><div class="panel-body">ใบคำร้อง</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99.doc"><div class="panel-body">สัญญาการเรียน</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B9%83%E0%B8%9A%E0%B8%84%E0%B8%B3%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99.doc"><div class="panel-body">ใบคำร้องขอทำสัญญาการเรียน</div></a>
+			<a href="http://nurse.tu.ac.th/english/department/department-of-child-and-adolescent-nursing/" target="_blank"><div class="panel-body">Department of Child and Adolescent Nursing</div></a>
+			<a href="http://nurse.tu.ac.th/english/department/department-of-adult-nursing-and-the-aged/" target="_blank"><div class="panel-body">Department of Adult Nursing and the Aged</div></a>
+			<a href="http://nurse.tu.ac.th/english/department/department-of-family-nursing-and-midwifery/" target="_blank"><div class="panel-body">Department of Family Nursing and Midwifery</div></a>
+			<a href="http://nurse.tu.ac.th/english/department/department-of-community-health-nursing/" target="_blank"><div class="panel-body">Department of Community Health Nursing</div></a>
+			<a href="http://nurse.tu.ac.th/english/department/department-of-psychiatric-nursing-and-mental-health/" target="_blank"><div class="panel-body">Department of Psychiatric Nursing and Mental Health</div></a>
+			<a href="http://nurse.tu.ac.th/english/department/experts/" target="_blank"><div class="panel-body">Experts</div></a>
 		</div>
 	</div>
 
@@ -72,6 +101,9 @@
 		</div>
 	</div>
 </div>
+
+
+
 <div class="Sidebar-Server hidden">
 	<div class="panel-head">
 		บริการวิชาการและสังคม

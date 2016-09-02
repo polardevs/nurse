@@ -29,18 +29,25 @@
 					</div>
 					<div class="content">
 						<h4>ปริญญาเอก</h4>
-						<img src="{{ asset('/images/pages/degree/bachelor/img06.jpg') }}" class="img-responsive">
-						<h6>หลักสูตรพยาบาลดุษฎีบัณฑิต  </h6>
-
-						<form class="form-horizontal">
-							<!-- <div class="form-group">
-								<label class="col-md-2 control-label">ชื่อหลักสูตร</label>
+						<!-- <img src="{{ asset('/images/pages/degree/bachelor/img06.jpg') }}" class="img-responsive"> -->
+						<!-- <h6>หลักสูตรพยาบาลดุษฎีบัณฑิต  </h6> -->
+            <form class="form-horizontal">
+							<div class="form-group">
+								<!-- <label class="col-md-2 control-label">History</label> -->
 								<div class="col-md-10">
-									<div class="form-control-static">หลักสูตรพยาบาลศาสตรบัณฑิต</div>
-									<div class="form-control-static">Bachelor of Nursing Science Program</div>
+									<div class="form-control-static">History</div>
+									<div class="form-control-static">The faculty of nursing was established on June 28th, 1996. It is the fourteenth faculty of Thammasat University. There are approximately 80-100 students enrolled in each year. They are selected by means of a quota and an admission process.</div>
 								</div>
 							</div>
+						<form class="form-horizontal">
 							<div class="form-group">
+								<!-- <label class="col-md-2 control-label">History</label> -->
+								<div class="col-md-10">
+									<div class="form-control-static">PHILOSOPHY</div>
+									<div class="form-control-static">The Faculty of Nursing believes that the nursing profession is an essential part of society. Nursing plays a vital role in Holistic health care, ranging from infants to the elderly, from those with perfect health to those with severe illness. The goal of nursing is to assist individuals to maintain the well-being of their families and communities. Clients and families are of the utmost importance for the nursing profession. There are the centers of nursing care. Clients must have the right to be informed and to make decisions about their own care. Nursing education is a socialization process that provides knowledge, develops professional ethics, and nursing skill so that the nurses can work effectively as professionals at all levels. The quality of the teaching-learning process focuses on a student-centered approach to develop critical thinking and the self-directed learning skills that lead to life-long learning</div>
+								</div>
+							</div>
+							<!-- <div class="form-group">
 								<label for="inputPassword" class="col-md-2 control-label">ชื่อปริญญา</label>
 								<div class="col-md-10">
 									<div class="form-control-static">พยาบาลศาสตรบัณฑิต ( พย.บ. )</div>
@@ -66,8 +73,8 @@
 										</li>
 										<li>1.3 วิชาเลือกเสรี	6 หน่วยกิต</li>
 									</ul>
-								</div>
-							</div> -->
+								</div> -->
+							</div>
 						</form>
 					</div>
 				</div>
