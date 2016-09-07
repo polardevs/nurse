@@ -35,8 +35,8 @@
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/mentalHealth/nuchjanang.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผศ.ดร. นุชนาถ บรรทุมพร</b>
-									<p>ผู้รักษาการต่ำแหน่งหัวหน้ากลุ่มวิชา</p>
+									<b>ผศ.ดร.นุชนาถ บรรทุมพร</b>
+									<p>ผู้รักษาการแทนตำแหน่งหัวหน้ากลุ่มวิชา</p>
 								</div>
 							</div>
 						</div>
@@ -44,29 +44,29 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/mentalHealth/marayat.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>รองศาสตร์จารย์ ดร.</b>
-									<p>มรรยาท รุจิวิชชญ์</p>
+									<b>รศ.ดร.มรรยาท รุจิวิชชญ์</b>
+									<!-- <p>มรรยาท รุจิวิชชญ์</p> -->
 								</div>
 							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
-								<div class="text-center">
-									<b>รองศาสตร์จารย์</b>
-									<p>สุวนีย์ เกี่ยวกิ่งแก้ว</p>
-								</div>
-							</div>
+              <div class="col-md-3">
+                <img src="{{ asset('/images/pages/about/mentalHealth/eekuma.jpg') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>ผศ.ดร. เอกอุมา อิ้มคำ</b>
+                  <!-- <p>เอกอุมา อิ้มคำ</p> -->
+                </div>
+              </div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/mentalHealth/kasorn.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>เกสร มุ้ยจีน</p>
+									<b>อ.เกสร มุ้ยจีน</b>
+									<!-- <p>เกสร มุ้ยจีน</p> -->
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/mentalHealth/chomchaoem.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
-									<p>ชมชื่น สมประเสริฐ</p>
+									<b>ผศ.ดร.ชมชื่น สมประเสริฐ</b>
+									<!-- <p>ชมชื่น สมประเสริฐ</p> -->
 								</div>
 							</div>
 						</div>
@@ -74,63 +74,64 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/mentalHealth/nitaya.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
-									<p>นิตยา ตากวิริยะนันท์</p>
+									<b>ผศ.ดร.นิตยา ตากวิริยะนันท์</b>
+									<!-- <p>นิตยา ตากวิริยะนันท์</p> -->
 								</div>
 							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
-									<p>รังสิมันต์ สุนทรไชยา</p>
-								</div>
-							</div>
+              <div class="col-md-3">
+                <img src="{{ asset('/images/pages/about/mentalHealth/tipsuda.jpg') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>ผศ. ทิพย์สุดา สำเนียงเสนาะ</b>
+                  <!-- <p>ทิพย์สุดา สำเนียงเสนาะ</p> -->
+                </div>
+              </div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/mentalHealth/sararud.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ดร.</b>
-									<p>สารรัตน์ วุฒิอาภา</p>
+									<b>อ.ดร. สารรัตน์ วุฒิอาภา</b>
+									<!-- <p>สารรัตน์ วุฒิอาภา</p> -->
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/mentalHealth/supawadee_j.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>สุภาวดี เจริญวานิช</p>
+									<b>อ. สุภาวดี เจริญวานิช</b>
+									<!-- <p>สุภาวดี เจริญวานิช</p> -->
 								</div>
 							</div>
 						</div>
 						<div class="row">
+              <div class="col-md-3">
+                <img src="{{ asset('/images/pages/about/mentalHealth/angkana.jpg') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>ผศ. อังคณา จิรโรจน์</b>
+                  <!-- <p>อังคณา จิรโรจน์</p> -->
+                </div>
+              </div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์</b>
-									<p>ปริยศ กิตติธีระศักดิ์</p>
+									<b>ผศ. ปริยศ กิตติธีระศักดิ์</b>
+									<!-- <p>ปริยศ กิตติธีระศักดิ์</p> -->
 								</div>
 							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/mentalHealth/eekuma.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
-									<p>เอกอุมา อิ้มคำ</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/mentalHealth/angkana.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์</b>
-									<p>อังคณา จิรโรจน์</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/mentalHealth/tipsuda.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์</b>
-									<p>ทิพย์สุดา สำเนียงเสนาะ</p>
-								</div>
-							</div>
+              <div class="col-md-3">
+                <img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>รศ.สุวนีย์ เกี่ยวกิ่งแก้ว</b>
+                  <!-- <p>สุวนีย์ เกี่ยวกิ่งแก้ว</p> -->
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>ผศ.ดร.รังสิมันต์ สุนทรไชยา</b>
+                  <!-- <p>รังสิมันต์ สุนทรไชยา</p> -->
+                </div>
+              </div>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>

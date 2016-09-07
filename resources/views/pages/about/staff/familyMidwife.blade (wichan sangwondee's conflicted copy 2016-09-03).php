@@ -112,7 +112,7 @@
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
 									<b>อ.พรสวรรค์ คำทิพย์</b>
-									<!-- <p></p> -->
+									<p></p>
 								</div>
 							</div>
 

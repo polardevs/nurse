@@ -42,6 +42,9 @@ Route::get('/communityHealth', function () {
 Route::get('/secretariat', function () {
     return view('pages.about.staff.secretariat');
 });
+Route::get('/OfficeSecrerariat', function () {
+    return view('pages.OfficeSecrerariat.index');
+});
 
 
 
@@ -107,3 +110,101 @@ Route::get('/degree/master', function () {
 Route::get('/test', function () {
     return view('test.index');
 });
+
+
+
+// O f f i c e S e c r e r a r i a t
+
+
+// M a n a g e A n d  H R
+Route::get('/OfficeSecrerariat/ManageAndHr/Archives', function () {
+    return view('pages.OfficeSecrerariat.ManageAndHr.Archives.index');
+});
+
+Route::get('/OfficeSecrerariat/ManageAndHr/BuildAndCar', function () {
+    return view('pages.OfficeSecrerariat.ManageAndHr.BuildAndCar.index');
+});
+
+
+Route::get('/OfficeSecrerariat/ManageAndHr/GeneralAffairs', function () {
+    return view('pages.OfficeSecrerariat.ManageAndHr.GeneralAffairs.index');
+});
+
+Route::get('/OfficeSecrerariat/ManageAndHr/MadePaper', function () {
+    return view('pages.OfficeSecrerariat.ManageAndHr.MadePaper.index');
+});
+
+// End M a n a g e A n d  H R
+
+
+
+
+// P l a n t s And B u d g e t s
+
+
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Finance', function () {
+    return view('pages.OfficeSecrerariat.PlantsAndBudgets.Finance.index');
+});
+
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Parcel', function () {
+    return view('pages.OfficeSecrerariat.PlantsAndBudgets.Parcel.index');
+});
+
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan', function () {
+    return view('pages.OfficeSecrerariat.PlantsAndBudgets.Budgetsplan.index');
+});
+
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning', function () {
+    return view('pages.OfficeSecrerariat.PlantsAndBudgets.PolicyAndPlanning.index');
+});
+
+//End  P l a n t s And B u d g e t s
+
+
+
+
+
+
+// T e c h n i c a l A n d Q u a l i t y I m p r o v e m e n t
+
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation', function () {
+    return view('pages.OfficeSecrerariat.TechnicalAndQualityImprovement.DevelopQualityEducation.index');
+});
+
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor', function () {
+    return view('pages.OfficeSecrerariat.TechnicalAndQualityImprovement.EducationServiceBachelor.index');
+});
+
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster', function () {
+    return view('pages.OfficeSecrerariat.TechnicalAndQualityImprovement.EducationServiceMaster.index');
+});
+
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd', function () {
+    return view('pages.OfficeSecrerariat.TechnicalAndQualityImprovement.EducationServicePhd.index');
+});
+
+
+// End T e c h n i c a l A n d Q u a l i t y I m p r o v e m e n t
+
+Route::get('/OfficeSecrerariat/InternationalAffair/Affair', function () {
+    return view('pages.OfficeSecrerariat.InternationalAffair.Affair.index');
+});
+
+Route::get('/OfficeSecrerariat/InternationalAffair/Research', function () {
+    return view('pages.OfficeSecrerariat.InternationalAffair.Research.index');
+});
+
+
+
+// I n t e r n a t i o n a l A f f a i r
+
+
+
+
+
+
+
+
+
+
+// End  I n t e r n a t i o n a l A f f a i r

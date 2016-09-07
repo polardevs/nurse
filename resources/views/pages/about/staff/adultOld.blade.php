@@ -35,153 +35,149 @@
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/adultOld/siriruk_k.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผศ.ดร. ศิริลักษณ์ กิจศรีไพศาล</b>
-									<p>ผู้รักษาการต่ำแหน่งหัวหน้ากลุ่มวิชา</p>
+									<b>ผศ.ดร.ศิริลักษณ์ กิจศรีไพศาล</b>
+									<p>ผู้รักษาการตำแหน่งหัวหน้ากลุ่มวิชา</p>
 								</div>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-3">
+							<!-- <div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/adultOld/panoong.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ศาสตราจารย์ ดร.</b>
-									<p>ประนอม โอทกานนท์</p>
+									<b>ศ.ดร.ประนอม โอทกานนท์</b>
+									<p></p>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/adultOld/bunjai.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>รองศาสตราจารย์ ดร.</b>
-									<p>บุญใจ ศรีสถิตย์นรากูร</p>
+									<b>รศ.ดร.บุญใจ ศรีสถิตย์นรากูร</b>
+									<p></p>
 								</div>
 							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+              <div class="col-md-3">
+								<img src="{{ asset('/images/pages/about/adultOld/parinya.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>บังอร ปีประทุม</p>
+									<b>ผศ.ปริญญา แร่ทอง</b>
+									<p></p>
 								</div>
-							</div>
+							</div> -->
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/adultOld/teeranut.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>รองศาสตร์จารย์ ดร.</b>
-									<p>ธีรนุช ห้านิรัติศัย</p>
+									<b>ผศ.ดร.ธีรนุช ห้านิรัติศัย</b>
+									<!-- <p></p> -->
 								</div>
 							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
-									<p>เยาวรัตน์ มัชฌิม</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/adultOld/parinya.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์</b>
-									<p>ปริญญา แร่ทอง</p>
-								</div>
-							</div>
-							<div class="col-md-3">
+              <div class="col-md-3">
+                <img src="{{ asset('/images/pages/about/adultOld/benjaporn.jpg') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>อ.ดร.เบญญพร บรรณสาร</b>
+                  <!-- <p></p> -->
+                </div>
+              </div>
+              <div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/adultOld/yutagar.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ดร.</b>
-									<p>โยทะกา ภคพงศ์</p>
+									<b>อ.ดร.โยทะกา ภคพงศ์</b>
+									<!-- <p></p> -->
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/adultOld/suntara.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
-									<p>สุนทรา เลี้ยงเชวงวงศ์</p>
+									<b>ผศ.ดร.สุนทรา เลี้ยงเชวงวงศ์</b>
+									<!-- <p></p> -->
+								</div>
+							</div>
+
+						</div>
+						<div class="row">
+              <div class="col-md-3">
+                <img src="{{ asset('/images/pages/about/adultOld/jinpichar.jpg') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>ผศ.จิณพิชญ์ชา มะมม</b>
+                  <!-- <p></p> -->
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="{{ asset('/images/pages/about/adultOld/touchsanee.jpg') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>อ.ทัศนีย์ ภู่สำอางค์</b>
+                  <!-- <p></p> -->
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="{{ asset('/images/pages/about/adultOld/patsanee.jpg') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>อ.ปรัศนีย์ พันธุ์กสิกร</b>
+                  <!-- <p></p> -->
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="{{ asset('/images/pages/about/adultOld/peeyawon.jpg') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>ผศ.ปิยะวรรณ ขนาน</b>
+                  <!-- <p></p> -->
+                </div>
+              </div>
+
+						</div>
+						<div class="row">
+              <div class="col-md-3">
+                <img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>ผศ.ดร.เยาวรัตน์ มัชฌิม</b>
+                  <!-- <p></p> -->
+                </div>
+              </div>
+              <div class="col-md-3">
+								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+								<div class="text-center">
+									<b>อ.วิชิยา ยลพันธ์</b>
+									<!-- <p></p> -->
+								</div>
+							</div>
+              <div class="col-md-3">
+                <img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>อ.บังอร ปีประทุม</b>
+                  <!-- <p></p> -->
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>อ.ธัญญารัตน์ บุญโทย</b>
+                  <!-- <p></p> -->
+                </div>
+              </div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+								<div class="text-center">
+									<b>อ.บวรลักษณ์ ทองทวี</b>
+									<!-- <p></p> -->
+								</div>
+							</div>
+              <div class="col-md-3">
+                <img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+                <div class="text-center">
+                  <b>อ.บุณฑริกา ชาตรีวัฒนกุล</b>
+                  <!-- <p></p> -->
+                </div>
+              </div>
+							<div class="col-md-3">
+								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+								<div class="text-center">
+									<b>อ.ฐิติพร ปฐมจารุวัฒน์</b>
+									<!-- <p></p> -->
 								</div>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/adultOld/siriruk.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ดร.</b>
-									<p>ศิริลักษณ์ แก้วศรีวงค์</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/adultOld/benjaporn.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ดร.</b>
-									<p>เบญญพร บรรณสาร</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/adultOld/touchsanee.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>ทัศนีย์ ภู่สำอางค์</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
-								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>บุณฑริกา ชาตรีวัฒนกุล</p>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
-								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>บวรลักษณ์ ทองทวี</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/adultOld/patsanee.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>ปรัศนีย์ พันธุ์กสิกร</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
-								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>ฐิติพร ปฐมจารุวัฒน์</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
-								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>ธัญญารัตน์ บุญโทย</p>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/adultOld/jinpichar.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์</b>
-									<p>จิณพิชญ์ชา มะมม</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/adultOld/peeyawon.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์</b>
-									<p>ปิยะวรรณ ขนาน</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
-								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>วิชิยา ยลพันธ์</p>
-								</div>
-							</div>
+
 						</div>
 					</div>
 				</div>

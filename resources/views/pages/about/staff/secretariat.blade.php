@@ -30,12 +30,11 @@
 					</div>
 					<div class="content">
 						<h4>สำนักงานเลขานุการ</h4>
-
 						<div class="row ">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/secretariat/jutamand.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>นาง จุฑามาศ อินทรปรีชา</b>
+									<b>นางจุฑามาศ อินทรปรีชา</b>
 									<p>เลขานุการคณะ คณะพยาบาลศาสตร์ มหาวิทยาลัยธรรมศาสตร์</p>
 									<p>เลขานุการคณะพยาบาลศาสตร์</p>
 								</div>
@@ -45,7 +44,7 @@
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/secretariat/jim.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>นาง ธัญญา วรินทรเวช</b>
+									<b>นางธัญญา วรินทรเวช</b>
 									<p>เจ้าหน้าที่บริหารงานทั่วไปชำนาญการพิเศษ</p>
 									<p>หัวหน้างานบริหารและพัฒนาทรัพยากรมนุษย์</p>
 								</div>
@@ -105,7 +104,7 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
-									<b>นาย พิพัฒน์ แสนธิ</b>
+									<b>นายพิพัฒน์ แสนธิ</b>
 									<p>พนักงานขับรถยนต์</p>
 									<p>หน่วยอาคารสถานที่และยานพาหนะ</p>
 								</div>
@@ -113,7 +112,7 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/secretariat/chaisin.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>นาย ฉายศิลป์ พรรณโคตร แสนธิ</b>
+									<b>นายฉายศิลป์ พรรณโคตร</b>
 									<p>พนักงานขับรถยนต์</p>
 									<p>หน่วยอาคารสถานที่และยานพาหนะ</p>
 								</div>
@@ -142,7 +141,7 @@
 								<img src="{{ asset('/images/pages/about/secretariat/nardtaya.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>นางนาตยา ทัพใหญ่</b>
-									<p>นักวิชาการเงินและบัญชีชำนาญการพิเศษ </p>
+									<p>นักวิชาการเงินและบัญชีชำนาญการพิเศษ  </p>
 									<p>หัวหน้างานวางแผนและงบประมาณ</p>
 								</div>
 							</div>
@@ -175,7 +174,7 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
-									<b>นางสาวศิริการญจน์ดา สร้อยฟ้า</b>
+									<b>นางสาวศิริกาญจน์ดา สร้อยฟ้า</b>
 									<p>นักวิเคราะห์นโยบายและแผนปฏิบัติการ</p>
 									<p>หน่วยหน่วยแผนพัสดุ</p>
 								</div>
@@ -195,7 +194,7 @@
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/secretariat/natenapha.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>นางเนตรนภาภร์ เพ็ขรผึ้ง</b>
+									<b>นางเนตรนภาภรณ์ เพ็ขรผึ้ง</b>
 									<p>นักวิชาการศึกษาชำนาญการพิเศษ</p>
 									<p>หัวหน้างานวิจัย วิเทศสัมพันธ์ และสื่อสารองค์การ</p>
 								</div>
@@ -213,9 +212,9 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
-									<b>นางสลิดา เกตกะโกมล</b>
+									<b>นางสลิลดา เกตกะโกมล</b>
 									<p>นักวิเทศสัมพันธ์ปฏิบัติการ</p>
-									<p>หน่วยวิเทศสัมพันธ์</p>
+									<p>หน่วยวิเทศสัมพันธ์และสื่อสารองค์กร</p>
 								</div>
 							</div>
 							<div class="col-md-3">
@@ -223,7 +222,7 @@
 								<div class="text-center">
 									<b>นายประวิทย์ แว่นแค้น</b>
 									<p>นักวิเทศสัมพันธ์ปฏิบัติการ</p>
-									<p>หน่วยวิเทศสัมพันธ์</p>
+									<p>หน่วยวิเทศสัมพันธ์และสื่อสารองค์กร</p>
 								</div>
 							</div>
 							<div class="col-md-3">
@@ -231,7 +230,7 @@
 								<div class="text-center">
 									<b>นางสาวกาจญจณี พันธุ์ไฟโรจน์</b>
 									<p>นักวิจัยปฏิบัติการ</p>
-									<p>ศูนย์วิจัยทางการพยาบาล</p>
+									<p>ศูนย์วิจัยทางการพยาบาลศาสตร์และพฤติกรรมศาสตร์</p>
 								</div>
 							</div>
 						</div>
@@ -266,7 +265,7 @@
 								<img src="{{ asset('/images/pages/about/secretariat/ratchaneechai.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>นางสาวรัชนีฉาย บรรณทอง</b>
-									<p>นักวิชาการศึกษาชำนาญการ</p>
+									<p>นักวิชาการศึกษาชำนาญการ </p>
 									<p>หัวหน้างานวิชาการและพัฒนานักศึกษา</p>
 								</div>
 							</div>
@@ -343,7 +342,7 @@
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/secretariat/pawon.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>นางสาวภาวรรณ พันธ์ไฟโรจน์</b>
+									<b>นางสาวภาวรรณ พันธ์ไพโรจน์</b>
 									<p>นักวิชาการศึกษาชำนาญการ</p>
 									<p>หัวหน้างานบริการวิชาการและพัฒนาคุณภาพ</p>
 								</div>

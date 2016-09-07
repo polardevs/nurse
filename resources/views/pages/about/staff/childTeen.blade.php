@@ -36,7 +36,7 @@
 								<img src="{{ asset('/images/pages/about/childTeen/chikamong.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>ผศ.ชิดกมล สังข์ทอง</b>
-									<p>ผู้รักษาการต่ำแหน่งหัวหน้ากลุ่มวิชา</p>
+									<p>ผู้รักษาการแทนในตำแหน่งหัวหน้ากลุ่มวิชาฯ</p>
 								</div>
 							</div>
 						</div>
@@ -44,29 +44,29 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
-									<p>ปรีย์กมล รัชนกุล</p>
+									<b>ผศ.ดร.ปรีย์กมล รัชนกุล</b>
+									<p></p>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/childTeen/panida.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
-									<p>พนิดา ศิริอำพันธ์กุล</p>
+									<b>ผศ.ดร.พนิดา ศิริอำพันธ์กุล</b>
+									<!-- <p></p> -->
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/childTeen/jurirat.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>จุไรรัตน์ กีบาง</p>
+									<b>อ.จุไรรัตน์ กีบาง</b>
+									<!-- <p>จุไรรัตน์ กีบาง</p> -->
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/childTeen/patchporn.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์</b>
-									<p>พัชรพร แก้ววิมล</p>
+									<b>ผศ.พัชรพร แก้ววิมล</b>
+									<!-- <p>พัชรพร แก้ววิมล</p> -->
 								</div>
 							</div>
 						</div>
@@ -74,33 +74,33 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/childTeen/wipada.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์</b>
-									<p>วิภาดา แสงนิมิตรชัยกุล</p>
+									<b>ผศ.วิภาดา แสงนิมิตรชัยกุล</b>
+									<!-- <p>วิภาดา แสงนิมิตรชัยกุล</p> -->
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ดร.</b>
-									<p>วาริยา หมื่นสา</p>
+									<b>อ.ดร.วาริยา หมื่นสา</b>
+									<!-- <p>วาริยา หมื่นสา</p> -->
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/childTeen/sayamong.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>ศยามล รมพิพัฒน์</p>
+									<b>อ.ศยามล รมพิพัฒน์</b>
+									<!-- <p>ศยามล รมพิพัฒน์</p> -->
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/childTeen/supawadee.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>สุภาวดี ทับกล่ำ</p>
+									<b>อ.สุภาวดี ทับกล่ำ</b>
+									<!-- <p>สุภาวดี ทับกล่ำ</p> -->
 								</div>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>

@@ -58,7 +58,7 @@
 	            				<div class="col-md-4">
 									<img src="{{ asset('/images/pages/home/news/3.jpg') }}" class="img-responsive">
 									<div class="caption">
-						            	<h4>หลักสูตรปริญญาเอก </h4>
+						            	<h4>หลักสูตรปริญญาเอก</h4>
 				    				</div>
 	            				</div>
 	            			</a>
@@ -107,11 +107,11 @@
     			<div class="row">
     				<div class="col-md-12">
     					<h3>ข่าวประชาสัมพันธ์</h3>
-    					<div class="panel-group" id="accordion" aria-multiselectable="true">
+    					<div class="panel-group" id="accordion1" aria-multiselectable="true">
 							<div class="panel panel-default">
 								<div class="panel-heading"  id="headingOne">
 									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" >
+										<a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" aria-expanded="true" >
 											โครงการพัฒนาศักยภาพเจ้าหน้าที่ผู้ปฎิบัติการงานสร้างเสริมภูมิคุ้มกันโรค
 										</a>
 									</h4>
@@ -126,7 +126,7 @@
 								<div class="panel panel-default">
 								<div class="panel-heading" id="headingTwo">
 									<h4 class="panel-title">
-										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" >
+										<a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo" aria-expanded="false" >
 											ฝ่ายงานวิจัย
 										</a>
 									</h4>
@@ -140,11 +140,39 @@
 							</div>
 						</div>
     				</div>
-
     			</div>
     		</div>
 		</div>
 	</section>
+  <section class="Home-News">
+		<div class="container">
+			<div class="row article-news">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<h3>ข่าวรับสมัครงาน</h3>
+    					<div class="panel-group" id="accordion2" aria-multiselectable="true">
+								<div class="panel panel-default">
+									<div class="panel-heading"  id="headingThree">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree" aria-expanded="true" >
+												ข่าวรับสมัครงาน
+											</a>
+										</h4>
+									</div>
+									<div id="collapseThree" class="panel-collapse collapse in">
+										<a href="http://www.nurse.tu.ac.th/pdf/94-59.pdf" target="_blank"><div class="panel-body">รายชื่อผู้เข้ารับการคัดเลือกเป็นพนักงานมหาลัย ตำแหน่งนักวิชาการการศึกษาปฏิบัติการ</div></a>
+										<a href="http://www.nurse.tu.ac.th/pdf/90-59.pdf" target="_blank"><div class="panel-body">รับสมัครบุคคลเข้าเป็นพนักงานมหาวิทยาลัย ตำแหน่ง อาจารย์ คณะพยาบาลศาสตร์ สาขาการพยาบาลครอบครัวและผดุงครรภ์</div></a>
+										<a href="http://www.nurse.tu.ac.th/pdf/88-59.pdf" target="_blank"><div class="panel-body">รับสมัครบุคคลเข้าบรรจุเป็นพนักงานเงินรายได้ประเภทประจำ ตำแหน่งนักวิชาการ การศึกษา</div></a>
+										<!-- <a href="#"><div class="panel-body">อ่านทั้งหมด</div></a> -->
+									</div>
+								</div>
+						</div>
+    				</div>
+    			</div>
+    		</div>
+		</div>
+	</section>
+
 	<section class="Home-Manager">
 		<div class="container">
 			<div class="row">

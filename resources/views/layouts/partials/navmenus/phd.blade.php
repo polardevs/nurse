@@ -17,18 +17,18 @@
 
 
 		<div class="panel panel-default">
-			<div class="panel-heading" id="headingTwo">
+			<div class="panel-heading" id="headingFour">
 				<h4 class="panel-title">
-					<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" >
+					<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" >
 						 Academic Program
 					</a>
 				</h4>
 			</div>
-			<div id="collapseThree" class="panel-collapse collapse" >
+			<div id="collapseFour" class="panel-collapse collapse" >
 				<a href="http://nurse.tu.ac.th/english/academic-program/bns/" target="_blank"><div class="panel-body">Bachelor of Nursing Science (B.N.S.)</div></a>
 				<a href="http://nurse.tu.ac.th/english/academic-program/mns/" target="_blank"><div class="panel-body">Master of Nursing Science Program in Psychiatric and Mental Health Nursing M.N.S. (Psychiatric and Mental Health Nursing)</div></a>
 				<a href="http://nurse.tu.ac.th/english/academic-program/phd/" target="_blank"><div class="panel-body">Ph.D. Progam in Nursing Science (International Program)</div></a>
-				<a href="http://nurse.tu.ac.th/english/academic-program/phd/online-form/" target="_blank"><div class="panel-body">Application Form for Graduate Study Faculty of Nursing, Thammasat University</div></a>
+				<a href="http://nurse.tu.ac.th/english/academic-program/phd/online-form/" target="_blank"><div class="panel-body">Application Form for Graduate Study  of Nursing, Thammasat University</div></a>
 			</div>
 		</div>
 
@@ -66,12 +66,12 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" >
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" >
 					Faculty Directory
 				</a>
 			</h4>
 		</div>
-		<div id="collapseThree" class="panel-collapse collapse" >
+		<div id="collapseFive" class="panel-collapse collapse" >
 			<a href="http://nurse.tu.ac.th/english/department/department-of-child-and-adolescent-nursing/" target="_blank"><div class="panel-body">Department of Child and Adolescent Nursing</div></a>
 			<a href="http://nurse.tu.ac.th/english/department/department-of-adult-nursing-and-the-aged/" target="_blank"><div class="panel-body">Department of Adult Nursing and the Aged</div></a>
 			<a href="http://nurse.tu.ac.th/english/department/department-of-family-nursing-and-midwifery/" target="_blank"><div class="panel-body">Department of Family Nursing and Midwifery</div></a>
@@ -81,17 +81,33 @@
 		</div>
 	</div>
 
+	<div class="panel panel-default">
+		<div class="panel-heading" id="headingTwo">
+			<h4 class="panel-title">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" >
+					Centers
+				</a>
+			</h4>
+		</div>
+		<div id="collapseSeven" class="panel-collapse collapse" >
+			<a href="http://nurse.tu.ac.th/english/centers/research-center-for-nursing-and-behavioral-science/" target="_blank"><div class="panel-body">Research Center for Nursing and Behavioral Science</div></a>
+			<a href="http://nurse.tu.ac.th/english/centers/the-health-promotion-center/" target="_blank"><div class="panel-body">The Health Promotion Center</div></a>
+			<a href="http://nurse.tu.ac.th/english/centers/the-early-childhood-development-center/" target="_blank"><div class="panel-body">The Early Childhood Development Center</div></a>
+			<a href="http://nurse.tu.ac.th/english/centers/international-palliative-care-center/" target="_blank"><div class="panel-body">International Palliative Care Center</div></a>
+		</div>
+	</div>
+
 
 
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" >
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" >
 					Link
 				</a>
 			</h4>
 		</div>
-		<div id="collapseFour" class="panel-collapse collapse" >
+		<div id="collapseSix" class="panel-collapse collapse" >
 			<a href="http://www.tu.ac.th/index.php/th/" target="_blank">
 				<div class="panel-body">มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต</div>
 			</a>

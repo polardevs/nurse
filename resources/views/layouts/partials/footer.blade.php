@@ -1,6 +1,7 @@
 <footer>
 	<div class="container">
 		<ul class="nav nav-pills pull-right">
+			<li><a href="#">ชมรมศิษย์เก่า</a></li>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">Profile</a></li>
 			<li><a href="#">Messages</a></li>
