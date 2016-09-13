@@ -48,7 +48,7 @@
             				<!-- <a href="{{ url('degree/master') }}"> -->
             				<a href="http://www.nurse.tu.ac.th/master_degree_new/" target="_blank">
 	            				<div class="col-md-4">
-									<img src="{{ asset('/images/pages/home/news/22.jpg') }}" class="img-responsive">
+									<img src="{{ asset('/images/pages/home/news/masterPicture.jpg') }}" class="img-responsive">
 									<div class="caption">
 						            	<h4>หลักสูตรปริญญาโท</h4>
 				    				</div>
@@ -56,7 +56,7 @@
 	            			</a>
             				<a href="#">
 	            				<div class="col-md-4">
-									<img src="{{ asset('/images/pages/home/news/33.jpg') }}" class="img-responsive">
+									<img src="{{ asset('/images/pages/home/news/PhdPicture.jpg') }}" class="img-responsive">
 									<div class="caption">
 						            	<h4>หลักสูตรปริญญาเอก</h4>
 				    				</div>
