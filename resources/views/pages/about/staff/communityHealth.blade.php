@@ -44,29 +44,26 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/communityHealth/pagaypatch.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์</b>
-									<p>ประกายเพชร วินัยประเสริฐ์</p>
+									<b>ผศ.ประกายเพชร วินัยประเสริฐ์</b>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/communityHealth/saowarat.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>เสาวลักษณ์ ค้าของ</p>
+									<b>อ.เสาวลักษณ์ ค้าของ</b>
+									<p></p>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/communityHealth/sutasinee.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>เรือเอกหญิงสุธาสินี ศรีนุ่น</p>
+									<b>อ.เรือเอกหญิงสุธาสินี ศรีนุ่น</b>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
-									<b>อาจารย์</b>
-									<p>แสงวรรณ ตั้งแสงสกุล</p>
+									<b>อ.แสงวรรณ ตั้งแสงสกุล</b>
 								</div>
 							</div>
 						</div>
@@ -74,29 +71,25 @@
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/communityHealth/pandtip.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>รองศาสตร์จารย์</b>
-									<p>พานทิพย์ แสงประเสริฐ</p>
+									<b>รศ.พานทิพย์ แสงประเสริฐ</b>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
-									<p>จุลจราพร สินศิริ</p>
+									<b>ผศ.ดร.จุลจราพร สินศิริ</b>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/communityHealth/jeeraporn.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ผู้ช่วยศาสตร์จารย์ ดร.</b>
-									<p>จีราภรณ์ กรรมบุตร</p>
+									<b>ผ.ศ.ดร.จีราภรณ์ กรรมบุตร</b>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/communityHealth/wanalada.jpg') }}" class="img-responsive">
 								<div class="text-center">
-									<b>ดร.</b>
-									<p>วนลดา ทองใบ</p>
+									<b>ดร.วนลดา ทองใบ</b>
 								</div>
 							</div>
 						</div>

@@ -66,8 +66,20 @@
 									</ul>
 								</li>
 	        			<!-- <li><a href="#">ชมรมศิษย์เก่า</a></li> -->
-	        			<li><a href="http://www.nurse.tu.ac.th/nsresearch/index_light_blue.html" target="_blank">วิจัยและจริยธรรมการวิจัย</a></li>
+	        			<li><a href="http://www.nurse.tu.ac.th/nsresearch/index_light_blue.html" target="_blank">จริยธรรมการวิจัย</a></li>
 	        			<li><a href="#">บริการวิชาการ</a></li>
+	        			<li class="dropdown">
+									<a href="" class="dropdown-toggle" data-toggle="dropdown">
+										งานพัฒนานักศึกษา <span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="#">โครงสร้าง</a></li>
+										<li><a href="#">เป้าหมาย</a></li>
+										<li ><a href="#">คณะกรรมการฯ</a></li>
+										<li ><a href="#">อาจารย์ที่ปรึกษา ครูประจำชั้น</a></li>
+									</ul>
+								</li>
+								<li><a href="{{ url('contactus') }}" target="_blank">ติดต่อ</a></li>
 	        			<!-- <li><a href="#">ฝ่ายการนักศึกษา</a></li> -->
 	        		</ul>
 						</nav>
@@ -144,6 +156,7 @@
 					</ul>
 				</li>
 
+
 				<!-- <li class="dropdown">
 					<a href="" class="dropdown-toggle" data-toggle="dropdown">
 						ศิลปวัฒนธรรม <span class="caret"></span>
@@ -166,9 +179,12 @@
 						<li ><a href="#">หนังสือเวียนภายในของนศ</a></li>
 					</ul>
 				</li> -->
+				<!-- <li><a href="{{ url('OfficeSecrerariat') }}" target="_blank">สำนักงานเลขนุการ</a></li> -->
 				<li><a href="{{ url('OfficeSecrerariat') }}" target="_blank">สำนักงานเลขนุการ</a></li>
+				
 				<li><a href="http://nurse.tu.ac.th/english/" target="_blank">International Affairs </a></li>
-				<li><a href="{{ url('contactus') }}" target="_blank">ติดต่อ</a></li>
+				<li><a href="http://research.nurse.tu.ac.th" target="_blank">ฝ่ายวิจัย</a></li>
+
 
 			</ul>
 		</div>

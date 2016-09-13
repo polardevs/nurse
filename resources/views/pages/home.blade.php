@@ -39,7 +39,7 @@
                         <div class="row article-news">
             				<a href="{{ url('degree/bachelor') }}" target="_blank">
 	            				<div class="col-md-4">
-									<img src="{{ asset('/images/pages/home/news/1.jpg') }}" class="img-responsive">
+									<img src="{{ asset('/images/pages/home/news/11.jpg') }}" class="img-responsive">
 									<div class="caption">
 						            	<h4>หลักสูตรปริญญาตรี</h4>
 									</div>
@@ -48,7 +48,7 @@
             				<!-- <a href="{{ url('degree/master') }}"> -->
             				<a href="http://www.nurse.tu.ac.th/master_degree_new/" target="_blank">
 	            				<div class="col-md-4">
-									<img src="{{ asset('/images/pages/home/news/2.jpg') }}" class="img-responsive">
+									<img src="{{ asset('/images/pages/home/news/22.jpg') }}" class="img-responsive">
 									<div class="caption">
 						            	<h4>หลักสูตรปริญญาโท</h4>
 				    				</div>
@@ -56,7 +56,7 @@
 	            			</a>
             				<a href="#">
 	            				<div class="col-md-4">
-									<img src="{{ asset('/images/pages/home/news/3.jpg') }}" class="img-responsive">
+									<img src="{{ asset('/images/pages/home/news/33.jpg') }}" class="img-responsive">
 									<div class="caption">
 						            	<h4>หลักสูตรปริญญาเอก</h4>
 				    				</div>
@@ -250,7 +250,7 @@
     			</div>
     			<div class="heading-inner col-md-4">
 					<a href="http://researchcenter.nurse.tu.ac.th/">
-	    				<img src="{{ asset('/images/pages/home/services/run.jpg') }}" class="img-responsive">
+	    				<img src="{{ asset('/images/pages/home/services/research.jpg') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>ศูนย์วิจัยทางการพยาบาลและพฤติกรรมศาสตร์ </h4>
 	    				</div>

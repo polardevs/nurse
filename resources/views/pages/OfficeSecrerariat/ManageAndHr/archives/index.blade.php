@@ -14,61 +14,24 @@
 					</div>
 				</div>
 				<div class="col-md-2 side-menu">
-					@include('layouts.partials.navmenus.OfficeSecrerariat')
+					@include('layouts.partials.navmenus.ArchivesMenu')
 				</div>
 				<div class="col-md-10">
 					<div class="sub-menu">
 						<small>
 							<ol class="breadcrumb">
 								<li><a href="/">หน้าหลัก</a></li>
-								<li><a href="#">สำนักงานเลขานุการ</a></li>
+								<li><a href="{{ url('OfficeSecrerariat') }}">สำนักงานเลขานุการ</a></li>
 								<li class="active">หน่วยสารบรรณฯ</li>
 							</ol>
 						</small>
 						<hr>
 					</div>
 					<div class="content">
-						<h4>สำนักงานเลขานุการ</h4>
-						<!-- <img src="{{ asset('/images/pages/degree/bachelor/img06.jpg') }}" class="img-responsive"> -->
-						<h6>หลักสูตรพยาบาลศาสตรบัณฑิต  (หลักสูตรปรับปรุง พ.ศ. 2556)</h6>
-
-						<form class="form-horizontal">
-							<div class="form-group">
-								<label class="col-md-2 control-label">ชื่อหลักสูตร</label>
-								<div class="col-md-10">
-									<div class="form-control-static">หลักสูตรพยาบาลศาสตรบัณฑิต</div>
-									<div class="form-control-static">Bachelor of Nursing Science Program</div>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputPassword" class="col-md-2 control-label">ชื่อปริญญา</label>
-								<div class="col-md-10">
-									<div class="form-control-static">พยาบาลศาสตรบัณฑิต ( พย.บ. )</div>
-									<div class="form-control-static">Bachelor of Nursing Science ( B.N.S. )</div>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputPassword" class="col-md-12 control-label">โครงสร้างหลักสูตร</label>
-								<div class="col-md-12">
-									<div class="form-control-static"> 1.จำนวนหน่วยกิตรวมตลอดหลักสูตร		141 หน่วยกิต</div>
-									<ul>
-										<li>1.1 วิชาศึกษาทั่วไป	30 หน่วยกิต</li>
-										<li>1.2 วิชาเฉพาะ	105 หน่วยกิต
-											<ul>
-												<li>(1) กลุ่มวิชาพื้นฐานวิชาชีพ	28 หน่วยกิต</li>
-												<li>(1) กลุ่มวิชาชีพ	77 หน่วยกิต
-													<ul>
-														<li>- กลุ่มรายวิชาทฤษฏี	51 หน่วยกิต</li>
-														<li>- กลุ่มรายวิชาปฏิบัติ	26 หน่วยกิต</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li>1.3 วิชาเลือกเสรี	6 หน่วยกิต</li>
-									</ul>
-								</div>
-							</div>
-						</form>
+            <h4>แบบฟอร์มต่างๆ</h4>
+						<p>1. ระเบียบการฝึกปฏิบัติ  <a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9D%E0%B8%B6%E0%B8%81%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4.doc" target="_blank">[DOC]</a></p>
+						<p>2. ระเบียบเหตุการณ์วิสามัญ  <a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B9%80%E0%B8%AB%E0%B8%95%E0%B8%B8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%8D.doc" target="_blank">[DOC]</a></p>
+						<span class="text-info">สอบถามรายละเอียดเพิ่มเติม</span> คณะพยาบาลศาสตร์  โทรศัพท์ 0-2986-9213 ต่อ 7323
 					</div>
 				</div>
 			</div>

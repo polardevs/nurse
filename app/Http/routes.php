@@ -80,6 +80,58 @@ Route::get('/degree/bachelor/selective', function () {
 Route::get('/degree/bachelor/rules', function () {
     return view('pages.degree.bachelor.rules');
 });
+Route::get('/degree/bachelor/academic', function () {
+    return view('pages.degree.bachelor.activity.academic');
+});
+Route::get('/degree/bachelor/sport', function () {
+    return view('pages.degree.bachelor.activity.sport');
+});
+Route::get('/degree/bachelor/outreach', function () {
+    return view('pages.degree.bachelor.activity.outreach');
+});
+Route::get('/degree/bachelor/ethics', function () {
+    return view('pages.degree.bachelor.activity.ethics');
+});
+Route::get('/degree/bachelor/culture', function () {
+    return view('pages.degree.bachelor.activity.culture');
+});
+Route::get('/degree/bachelor/gallery', function () {
+    return view('pages.degree.bachelor.activity.gallery');
+});
+Route::get('/degree/bachelor/gallery/activity1', function () {
+    return view('pages.degree.bachelor.activity.activity1');
+});
+Route::get('/degree/bachelor/gallery/activity2', function () {
+    return view('pages.degree.bachelor.activity.activity2');
+});
+Route::get('/degree/bachelor/gallery/activity3', function () {
+    return view('pages.degree.bachelor.activity.activity3');
+});
+Route::get('/degree/bachelor/gallery/activity4', function () {
+    return view('pages.degree.bachelor.activity.activity4');
+});
+Route::get('/degree/bachelor/prophylactic', function () {
+    return view('pages.degree.bachelor.prophylactic');
+});
+Route::get('/degree/bachelor/healthCare', function () {
+    return view('pages.degree.bachelor.healthCare');
+});
+Route::get('/degree/bachelor/consultCare', function () {
+    return view('pages.degree.bachelor.consultCare');
+});
+Route::get('/degree/bachelor/advisors', function () {
+    return view('pages.degree.bachelor.advisors');
+});
+Route::get('/degree/bachelor/masterClass', function () {
+    return view('pages.degree.bachelor.masterClass');
+});
+Route::get('/degree/bachelor/assistantLecturer', function () {
+    return view('pages.degree.bachelor.assistantLecturer');
+});
+
+
+
+
 
 
 //     D R G R E E  P H D    //
@@ -115,6 +167,25 @@ Route::get('/test', function () {
 
 // O f f i c e S e c r e r a r i a t
 
+
+// O f f i c e S e c r e r a r i a t   G a l l e r y
+
+Route::get('/OfficeSecrerariat/gallery', function () {
+    return view('pages.OfficeSecrerariat.gallery.index');
+});
+
+Route::get('/OfficeSecrerariat/gallery/activity1', function () {
+    return view('pages.OfficeSecrerariat.gallery.activity1');
+});
+Route::get('/OfficeSecrerariat/gallery/activity2', function () {
+    return view('pages.OfficeSecrerariat.gallery.activity2');
+});
+Route::get('/OfficeSecrerariat/gallery/activity3', function () {
+    return view('pages.OfficeSecrerariat.gallery.activity3');
+});
+Route::get('/OfficeSecrerariat/gallery/activity4', function () {
+    return view('pages.OfficeSecrerariat.gallery.activity4');
+});
 
 // M a n a g e A n d  H R
 Route::get('/OfficeSecrerariat/ManageAndHr/Archives', function () {

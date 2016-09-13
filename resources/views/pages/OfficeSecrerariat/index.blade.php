@@ -21,8 +21,8 @@
 						<small>
 							<ol class="breadcrumb">
 								<li><a href="/">หน้าหลัก</a></li>
-								<li><a href="#">สำนักงานเลขานุการ</a></li>
-								<!-- <li class="active">หน่วยสารบรรณฯ</li> -->
+								<!-- <li><a href="#">สำนักงานเลขานุการ</a></li> -->
+								<li class="active">สำนักงานเลขานุการ</li>
 							</ol>
 						</small>
 						<hr>

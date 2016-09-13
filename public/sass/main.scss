@@ -20,3 +20,22 @@
 .line-right{
 	z-index: 3;
 }
+.gallery{
+	img{
+		padding: 20px;
+		max-height: 200px;
+		margin: auto;
+	}
+	border: 1px solid #bbb;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.img-gallery{
+	img{
+		height: 200px;
+		width: 100%;
+	}
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

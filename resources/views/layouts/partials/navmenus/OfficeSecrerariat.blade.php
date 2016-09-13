@@ -10,16 +10,16 @@
 			</h4>
 		</div>
 		<div id="collapseOne" class="panel-collapse collapse" >
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}" target="_blank">
 				<div class="panel-body">หน่วยสารบรรณฯ</div>
 			</a>
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs') }}">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs') }}" target="_blank">
 				<div class="panel-body">หน่วยการเจ้าหน้าที่</div>
 			</a>
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/BuildAndCar') }}">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/BuildAndCar') }}" target="_blank">
 				<div class="panel-body">หน่วยอาคารสถานที่และยานพาหนะ</div>
 			</a>
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper') }}">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper') }}" target="_blank">
 				<div class="panel-body">หน่วยผลิตเอกสาร</div>
 			</a>
 		</div>
@@ -147,7 +147,9 @@
 
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
-			<h4 class="panel-title"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" >ภาพแสดงกิจกรรมต่างๆ</a></h4>
+			<h4 class="panel-title">
+				<a href="{{ url('OfficeSecrerariat/gallery') }}">ภาพแสดงกิจกรรมต่างๆ</a>
+				</h4>
 		</div>
 	</div>
 

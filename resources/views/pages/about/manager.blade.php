@@ -106,47 +106,6 @@
 								</div>
 							</div>
 						</div>
-
-						<h4>หัวหน้างาน</h4>
-						<div class="row">
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/manager/thanya.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>งานบริหารและพัฒนาทรัพยากรมนุษย์</b>
-									<p>นางธัญญา วรินทรเวช</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/manager/ratchaneechai.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>งานวิชาการและพัฒนานักศึกษา</b>
-									<p>นางสาวรัชนีฉาย บรรณทอง</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/manager/pawon.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>งานบริการวิชาการและพัฒนาคุณภาพ</b>
-									<p>นางสาวภาวรรณ พันธ์ไพโรจน์</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/manager/natenapha.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>งานวิจัย วิเทศสัมพันธ์ และสื่อสารองค์กร</b>
-									<p>นางเนตรนภาภรณ์ เพ็ชรผึ้ง</p>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/manager/nardtaya.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>งานวางแผนและงบประมาณ</b>
-									<p>นางนาตยา ทัพใหญ่</p>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
