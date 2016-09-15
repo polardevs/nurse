@@ -30,7 +30,7 @@
 					</div>
 					<div class="content">
 						<h4>สำนักงานเลขานุการ</h4>
-						<div class="row ">
+						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/secretariat/jutamand.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -40,7 +40,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row ">
+						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/secretariat/jim.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -50,7 +50,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -84,7 +84,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -118,7 +118,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -136,7 +136,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/secretariat/nardtaya.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -146,7 +146,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -180,7 +180,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -190,7 +190,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/secretariat/natenapha.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -200,7 +200,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/secretariat/venus.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -234,7 +234,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -260,7 +260,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/secretariat/ratchaneechai.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -270,7 +270,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -304,7 +304,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -338,7 +338,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/secretariat/pawon.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -348,7 +348,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">

@@ -29,7 +29,7 @@
 					</div>
 					<div class="content">
 						<h4>คณบดี</h4>
-						<div class="row ">
+						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/manager/manyat.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -40,7 +40,7 @@
 						</div>
 
 						<h4>ดำรงตำแหน่งรองคณบดี</h4>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/manager/teeranuch.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -72,7 +72,7 @@
 						</div>
 
 						<h4>ผู้ช่วยคณบดี</h4>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -97,7 +97,7 @@
 						</div>
 
 						<h4>เลขานุการคณะพยาบาลศาสตร์</h4>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/manager/jutamand.jpg') }}" class="img-responsive">
 								<div class="text-center">

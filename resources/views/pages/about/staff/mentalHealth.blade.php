@@ -30,8 +30,7 @@
 					</div>
 					<div class="content">
 						<h4>กลุ่มวิชาการพยาบาลสุขภาพจิตและจิตเวช</h4>
-
-						<div class="row ">
+						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/mentalHealth/nuchjanang.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -40,7 +39,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/mentalHealth/marayat.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -70,7 +69,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/mentalHealth/nitaya.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -100,7 +99,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
               <div class="col-md-3">
                 <img src="{{ asset('/images/pages/about/mentalHealth/angkana.jpg') }}" class="img-responsive">
                 <div class="text-center">
@@ -131,7 +130,6 @@
                 </div>
               </div>
 						</div>
-
 					</div>
 				</div>
 			</div>

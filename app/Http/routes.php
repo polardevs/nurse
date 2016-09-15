@@ -128,6 +128,85 @@ Route::get('/degree/bachelor/masterClass', function () {
 Route::get('/degree/bachelor/assistantLecturer', function () {
     return view('pages.degree.bachelor.assistantLecturer');
 });
+//      B U R S A R Y      //
+Route::get('/degree/bursary/faculty', function () {
+    return view('pages.degree.bachelor.bursary.faculty');
+});
+Route::get('/degree/bursary/university', function () {
+    return view('pages.degree.bachelor.bursary.university');
+});
+Route::get('/degree/bursary/hospital', function () {
+    return view('pages.degree.bachelor.bursary.hospital');
+});
+Route::get('/degree/bursary/employ', function () {
+    return view('pages.degree.bachelor.bursary.employ');
+});
+Route::get('/degree/bursary/ICL', function () {
+    return view('pages.degree.bachelor.bursary.ICL');
+});
+Route::get('/degree/bursary/SLF', function () {
+    return view('pages.degree.bachelor.bursary.SLF');
+});
+
+Route::get('/degree/shouldKnow/1', function () {
+    return view('pages.degree.bachelor.shouldKnow.1');
+});
+Route::get('/degree/shouldKnow/2', function () {
+    return view('pages.degree.bachelor.shouldKnow.2');
+});
+Route::get('/degree/shouldKnow/3', function () {
+    return view('pages.degree.bachelor.shouldKnow.3');
+});
+Route::get('/degree/shouldKnow/4', function () {
+    return view('pages.degree.bachelor.shouldKnow.4');
+});
+Route::get('/degree/shouldKnow/5', function () {
+    return view('pages.degree.bachelor.shouldKnow.5');
+});
+Route::get('/degree/shouldKnow/6', function () {
+    return view('pages.degree.bachelor.shouldKnow.6');
+});
+Route::get('/degree/shouldKnow/7', function () {
+    return view('pages.degree.bachelor.shouldKnow.7');
+});
+
+//     D E V E L O P M E N T   //
+
+Route::get('/development/structure', function () {
+    return view('pages.development.structure');
+});
+Route::get('/development/goal', function () {
+    return view('pages.development.goal');
+});
+Route::get('/development/board', function () {
+    return view('pages.development.board');
+});
+Route::get('/development/advisors', function () {
+    return view('pages.development.advisors');
+});
+Route::get('/development/identity', function () {
+    return view('pages.development.identity');
+});
+Route::get('/development/progress', function () {
+    return view('pages.development.progress');
+});
+Route::get('/development/calendar', function () {
+    return view('pages.development.calendar');
+});
+Route::get('/development/scholarship', function () {
+    return view('pages.development.scholarship');
+});
+Route::get('/development/merit', function () {
+    return view('pages.development.merit');
+});
+Route::get('/development/manual', function () {
+    return view('pages.development.manual');
+});
+Route::get('/development/contact', function () {
+    return view('pages.development.contact');
+});
+
+
 
 
 
@@ -279,3 +358,19 @@ Route::get('/OfficeSecrerariat/InternationalAffair/Research', function () {
 
 
 // End  I n t e r n a t i o n a l A f f a i r
+
+
+
+//     Q u a l i t y 
+Route::get('/quality/board', function () {
+    return view('pages.quality.board');
+});
+Route::get('/quality/quality', function () {
+    return view('pages.quality.quality');
+});
+Route::get('/quality/assessment', function () {
+    return view('pages.quality.assessment');
+});
+Route::get('/quality/result', function () {
+    return view('pages.quality.result');
+});

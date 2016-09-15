@@ -30,8 +30,7 @@
 					</div>
 					<div class="content">
 						<h4>การพยาบาลผู้ใหญ่และผู้สูงอายุ</h4>
-
-						<div class="row ">
+						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/adultOld/siriruk_k.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -40,28 +39,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
-							<!-- <div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/adultOld/panoong.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ศ.ดร.ประนอม โอทกานนท์</b>
-									<p></p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/adultOld/bunjai.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>รศ.ดร.บุญใจ ศรีสถิตย์นรากูร</b>
-									<p></p>
-								</div>
-							</div>
-              <div class="col-md-3">
-								<img src="{{ asset('/images/pages/about/adultOld/parinya.jpg') }}" class="img-responsive">
-								<div class="text-center">
-									<b>ผศ.ปริญญา แร่ทอง</b>
-									<p></p>
-								</div>
-							</div> -->
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/adultOld/teeranut.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -76,7 +54,7 @@
                   <!-- <p></p> -->
                 </div>
               </div>
-              <div class="col-md-3">
+      				<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/adultOld/yutagar.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>อ.ดร.โยทะกา ภคพงศ์</b>
@@ -90,9 +68,8 @@
 									<!-- <p></p> -->
 								</div>
 							</div>
-
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
               <div class="col-md-3">
                 <img src="{{ asset('/images/pages/about/adultOld/jinpichar.jpg') }}" class="img-responsive">
                 <div class="text-center">
@@ -121,9 +98,8 @@
                   <!-- <p></p> -->
                 </div>
               </div>
-
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
               <div class="col-md-3">
                 <img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
                 <div class="text-center">
@@ -153,7 +129,7 @@
                 </div>
               </div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -175,9 +151,6 @@
 									<!-- <p></p> -->
 								</div>
 							</div>
-						</div>
-						<div class="row">
-
 						</div>
 					</div>
 				</div>

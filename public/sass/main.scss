@@ -39,3 +39,17 @@
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+.img-advisors{
+	.col-md-3{
+		img{
+			min-height: 300px;
+			max-height: 300px;
+		}
+	}
+	.col-md-4{
+		img{
+			min-height: 380px;
+			max-height: 380px;
+		}
+	}
+}

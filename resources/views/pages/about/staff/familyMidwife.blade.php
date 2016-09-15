@@ -30,8 +30,7 @@
 					</div>
 					<div class="content">
 						<h4>สาขาการพยาบาลครอบครัวและผดุงครรภ์</h4>
-
-						<div class="row ">
+						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/familyMidwife/teacher1.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -40,7 +39,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/familyMidwife/teacher2.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -70,7 +69,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/familyMidwife/teacher6.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -100,7 +99,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -115,7 +114,6 @@
 									<!-- <p></p> -->
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>

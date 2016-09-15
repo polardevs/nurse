@@ -54,7 +54,7 @@
 				    				</div>
 	            				</div>
 	            			</a>
-            				<a href="#">
+            				<a href="{{ url('degree/phd') }}" target="_blank">
 	            				<div class="col-md-4">
 									<img src="{{ asset('/images/pages/home/news/PhdPicture.jpg') }}" class="img-responsive">
 									<div class="caption">

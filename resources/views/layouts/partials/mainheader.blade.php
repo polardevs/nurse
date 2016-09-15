@@ -73,10 +73,10 @@
 										งานพัฒนานักศึกษา <span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu">
-										<li><a href="#">โครงสร้าง</a></li>
-										<li><a href="#">เป้าหมาย</a></li>
-										<li ><a href="#">คณะกรรมการฯ</a></li>
-										<li ><a href="#">อาจารย์ที่ปรึกษา ครูประจำชั้น</a></li>
+										<li><a href="{{ url('development/structure') }}">โครงสร้าง</a></li>
+										<li><a href="{{ url('development/goal') }}">เป้าหมาย</a></li>
+										<li ><a href="{{ url('development/board') }}">คณะกรรมการฯ</a></li>
+										<li ><a href="{{ url('development/advisors') }}">อาจารย์ที่ปรึกษาและครูประจำชั้น</a></li>
 									</ul>
 								</li>
 								<li><a href="{{ url('contactus') }}" target="_blank">ติดต่อ</a></li>

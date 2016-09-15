@@ -30,8 +30,7 @@
 					</div>
 					<div class="content">
 						<h4>การพยาบาลเด็กและวัยรุ่น</h4>
-
-						<div class="row ">
+						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/about/childTeen/chikamong.jpg') }}" class="img-responsive">
 								<div class="text-center">
@@ -40,7 +39,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
 								<div class="text-center">
@@ -70,7 +69,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row img-advisors">
 							<div class="col-md-3">
 								<img src="{{ asset('/images/pages/about/childTeen/wipada.jpg') }}" class="img-responsive">
 								<div class="text-center">

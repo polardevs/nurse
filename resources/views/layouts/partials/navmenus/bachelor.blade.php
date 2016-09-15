@@ -100,22 +100,22 @@
 			</h4>
 		</div>
 		<div id="collapseSix" class="panel-collapse collapse" >
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/bursary/faculty') }}" target="_blank">
 				<div class="panel-body">ทุนคณะฯ</div>
 			</a>
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/bursary/university') }}" target="_blank">
 				<div class="panel-body">ทุนมหาวิทยาลัย</div>
 			</a>
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/bursary/hospital') }}" target="_blank">
 				<div class="panel-body">ทุนของโรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ</div>
 			</a>
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/bursary/employ') }}" target="_blank">
 				<div class="panel-body">ทุนสงเคราะห์จ้างนักศึกษาทำงาน</div>
 			</a>
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/bursary/ICL') }}" target="_blank">
 				<div class="panel-body">กองทุนให้กู้ยืมเพื่อการศึกษา (กรอ.)</div>
 			</a>
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/bursary/SLF') }}" target="_blank">
 				<div class="panel-body">กองทุนให้กู้ยืมเพื่อการศึกษา (กยศ.)</div>
 			</a>
 		</div>
@@ -169,25 +169,25 @@
 			</h4>
 		</div>
 		<div id="collapseNine" class="panel-collapse collapse" >
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/shouldKnow/1') }}" target="_blank">
 				<div class="panel-body">ระเบียบคณะพยาบาลมหาวิทยาลัยธรรมศาสตร์ ว่าด้วย กิจกรรมนักศึกษาภายในคณะ พ.ศ. 2549</div>
 			</a>
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/shouldKnow/2') }}" target="_blank">
 				<div class="panel-body">ระเบียบคณะพยาบาลศาสตร์มหาวิทยาลัยธรรมศาสตร์ว่าด้วยการฝึกปฏิบัติการพยาบาลขอนักศึกษา พ.ศ. 2549</div>
 			</a>
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/shouldKnow/3') }}" target="_blank">
 				<div class="panel-body">ประกาศมหาวิทยาลัยธรรมศาสตร์ เรื่องเครื่องแต่งกายนักศึกษาชุดฝึกปฏิบัติการพยาบาล หลักสูตรพยาบาลศาสตร์บัณฑิต</div>
 			</a>
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/shouldKnow/4') }}" target="_blank">
 				<div class="panel-body">เกณฑ์การใช้สิทธิ์รักษาพยาบาลนักศึกษามหาวิทยาลัยธรรมศาสตร์</div>
 			</a>
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/shouldKnow/5') }}" target="_blank">
 				<div class="panel-body">ประกาศมหาวิทยาลัยภาษาเรื่องเกณฑ์การจัดสรรงบประมาณสำหรับทำกิจกรรมของคณะจากงบประมาณกองทุนค่าธรรมเนียมการศึกษาเพื่อการพัฒนามหาวิทยาลัยธรรมศาสตร์ พ.ศ. 2528</div>
 			</a>
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/shouldKnow/6') }}" target="_blank">
 				<div class="panel-body">วินัยนักศึกษา</div>
 			</a>
-			<a href="#" target="_blank">
+			<a href="{{ url('degree/shouldKnow/7') }}" target="_blank">
 				<div class="panel-body">ประชาสัมพันธ์ข่าว เพื่อให้ประชาสัมพันธ์ข่าวสาร</div>
 			</a>
 		</div>

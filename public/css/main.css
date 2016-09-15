@@ -43,3 +43,14 @@
   height: 200px;
   width: 100%;
 }
+
+.img-advisors .col-md-3 img {
+  min-height: 300px;
+  max-height: 300px;
+}
+.img-advisors .col-md-4 img {
+  min-height: 380px;
+  max-height: 380px;
+}
+
+/*# sourceMappingURL=main.css.map */
