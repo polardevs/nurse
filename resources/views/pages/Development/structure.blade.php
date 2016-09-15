@@ -31,7 +31,7 @@
 						<h4>โครงสร้าง</h4>
 						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
-								<img src="{{ asset('/images/pages/development/structure/manyat.jpg') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/development/structure/manyat.jpg') }}" class="img-responsive center-block">
 								<div class="text-center">
 									<b>คณบดี คณะพยาบาลศาสตร์ มหาวิทยาลัยธรรมศาสตร์</b>
 									<p>รศ.ดร.มรรยาท รุจิวิชชญ์</p>
@@ -40,7 +40,7 @@
 						</div>
 						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
-								<img src="{{ asset('/images/pages/development/structure/puangphaka.jpg') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/development/structure/puangphaka.jpg') }}" class="img-responsive center-block">
 								<div class="text-center">
 									<b>รองคณะบดีฝ่ายพัฒนานักศึกษา</b>
 									<p>ผศ.ดร.พวงผกา คงวัฒนานนท์</p>
@@ -49,7 +49,7 @@
 						</div>
 						<div class="row img-advisors">
 							<div class="col-md-4 col-md-offset-4">
-								<img src="{{ asset('/images/pages/development/structure/kasorn.jpg') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/development/structure/kasorn.jpg') }}" class="img-responsive center-block">
 								<div class="text-center">
 									<b>ผู้ช่วยคณะบดีฝ่ายพัฒนานักศึกษา</b>
 									<p>อ.เกสร มุ้ยจีน</p>
@@ -58,14 +58,14 @@
 						</div>
 						<div class="row img-advisors">
 							<div class="col-md-3 col-md-offset-3">
-								<img src="{{ asset('/images/pages/development/structure/Logo_Nurseing_TU.png') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/development/structure/Logo_Nurseing_TU.png') }}" class="img-responsive center-block">
 								<div class="text-center">
 									<b>นักวิชาการศึกษาปฏิบัติการ</b>
 									<!-- <p>นาง จุฑามาศ อินทรปรีชา</p> -->
 								</div>
 							</div>
 							<div class="col-md-3">
-								<img src="{{ asset('/images/pages/development/structure/Logo_Nurseing_TU.png') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/development/structure/Logo_Nurseing_TU.png') }}" class="img-responsive center-block">
 								<div class="text-center">
 									<b>ผู้ปฏิบัติงานบริหาร</b>
 									<!-- <p>นาง จุฑามาศ อินทรปรีชา</p> -->

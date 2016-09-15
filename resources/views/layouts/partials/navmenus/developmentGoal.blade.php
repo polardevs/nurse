@@ -23,7 +23,7 @@
 		<div class="panel-heading">
 			<h4 class="panel-title">
 				<a class="collapsed" href="{{ url('development/progress') }}">
-					การดำเนินงานของนักษึกษา
+					การดำเนินงานของนักศึกษา
 				</a>
 			</h4>
 		</div>
@@ -38,18 +38,18 @@
 		</div>
 	</div>
 	<div class="panel panel-default">
-		<div class="panel-heading" id="headingTwo">
+		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" >
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" >
 					ทุนการศึกษา
 				</a>
 			</h4>
 		</div>
-		<div id="collapseOne" class="panel-collapse collapse" >
-			<a href="{{ url('development/scholarship') }}" target="_blank">
+		<div id="collapseTwo" class="panel-collapse collapse" >
+			<a href="{{ url('development/scholarship') }}">
 				<div class="panel-body">ทุนผูกพัน</div>
 			</a>
-			<a href="{{ url('development/merit') }}" target="_blank">
+			<a href="{{ url('development/merit') }}">
 				<div class="panel-body">ทุนให้เปล่า</div>
 			</a>
 		</div>
@@ -58,7 +58,7 @@
 		<div class="panel-heading">
 			<h4 class="panel-title">
 				<a class="collapsed" href="{{ url('development/manual') }}">
-					คู่มือนักศึกษาและกฏระเบียบต่งๆ
+					คู่มือนักศึกษาและกฏระเบียบต่างๆ
 				</a>
 			</h4>
 		</div>
@@ -75,8 +75,8 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('development/advisors') }}">
-					สมาคมศิษย์เก่า
+				<a class="collapsed" href="{{ url('development/alumnus') }}">
+					สมาคมศิษย์เก่าฯ
 				</a>
 			</h4>
 		</div>

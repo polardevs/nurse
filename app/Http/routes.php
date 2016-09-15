@@ -205,7 +205,9 @@ Route::get('/development/manual', function () {
 Route::get('/development/contact', function () {
     return view('pages.development.contact');
 });
-
+Route::get('/development/alumnus', function () {
+    return view('pages.development.alumnus');
+});
 
 
 

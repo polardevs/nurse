@@ -149,10 +149,10 @@
 						ประกันคุณภาพการศึกษา <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="#">คณะกรรมการ</a></li>
-						<li><a href="#">การประกันคุณภาพการศึกษา</a></li>
-						<li ><a href="#">รายงานการประเมินตนเอง</a></li>
-						<li ><a href="#">รายงานผลการตรวจสอบ</a></li>
+						<li><a href="{{ url('quality/board') }}">คณะกรรมการ</a></li>
+						<li><a href="{{ url('quality/quality') }}">การประกันคุณภาพการศึกษา</a></li>
+						<li><a href="{{ url('quality/assessment') }}">รายงานการประเมินตนเอง</a></li>
+						<li><a href="{{ url('quality/result') }}">รายงานผลการตรวจสอบ</a></li>
 					</ul>
 				</li>
 
