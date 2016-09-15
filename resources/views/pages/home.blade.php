@@ -267,7 +267,7 @@
     				<div class="col-md-6">
     					<h3>
     						กิจกรรมรายเดือน
-    						<a href="#">
+    						<a href="{{ url('activity/eventsOfMonth') }}">
     							<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
     						</a>
     					</h3>
@@ -283,7 +283,7 @@
     				<div class="col-md-6">
     					<h3>
     						ภาพกิจกรรม
-    						<a href="#">
+    						<a href="{{ url('activity/gallery') }}">
     							<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
     						</a>
     					</h3>
@@ -331,7 +331,7 @@
     				<div class="col-md-12">
     					<h3>
     						ปฏิทินกิจกรรม
-    						<a href="#">
+    						<a href="{{ url('activity/calendar') }}">
     							<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
     						</a>
     					</h3>
@@ -369,13 +369,61 @@
 		</div>	<!-- container end -->
 	</section>
 
+	<section class="Home-MahahongNews">
+		<div class="container">
+			<div class="row article-news">
+				<div class="col-md-6 col-md-offset-3">
+					<h3 class="text-center">มหาหงส์นิวส์</h3>
+					<div id="MahahongNews" class="carousel slide" data-ride="carousel">
+					    <!-- Indicators -->
+					    <ol class="carousel-indicators">
+							<li data-target="#MahahongNews" data-slide-to="0" class="active"></li>
+							<li data-target="#MahahongNews" data-slide-to="1"></li>
+							<li data-target="#MahahongNews" data-slide-to="2"></li>
+							<li data-target="#MahahongNews" data-slide-to="3"></li>
+					    </ol>
+
+					    <!-- Wrapper for slides -->
+					    <div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="{{ asset('/images/pages/home/activitys/a1.jpg') }}" alt="Chania" width="460" height="345" class="center-block">
+							</div>
+
+							<div class="item">
+								<img src="{{ asset('/images/pages/home/activitys/a2.jpg') }}" alt="Chania" width="460" height="345" class="center-block">
+							</div>
+
+							<div class="item">
+								<img src="{{ asset('/images/pages/home/activitys/a3.jpg') }}" alt="Flower" width="460" height="345" class="center-block">
+							</div>
+
+							<div class="item">
+								<img src="{{ asset('/images/pages/home/activitys/a4.jpg') }}" alt="Flower" width="460" height="345" class="center-block">
+							</div>
+					    </div>
+
+					    <!-- Left and right controls -->
+						<a class="left carousel-control" href="#MahahongNews" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="margin-top: 150px;"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#MahahongNews" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="margin-top: 150px;"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="Home-StdAct">
 		<div class="container">
 			<div class="row">
     			<div class="heading-inner col-md-12">
     				<h3>
     					กิจกรรมนักศึกษา/ศิษย์เก่า
-    					<a href="#">
+    					<a href="{{ url('activity/alumnus') }}">
     						<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
     					</a>
     				</h3>

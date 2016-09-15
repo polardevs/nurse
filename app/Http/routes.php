@@ -348,6 +348,13 @@ Route::get('/OfficeSecrerariat/InternationalAffair/Research', function () {
 
 
 
+Route::get('/OfficeSecrerariat/news', function () {
+    return view('pages.OfficeSecrerariat.news.index');
+});
+Route::get('/OfficeSecrerariat/news/news1', function () {
+    return view('pages.OfficeSecrerariat.news.news1');
+});
+
 // I n t e r n a t i o n a l A f f a i r
 
 
@@ -376,3 +383,36 @@ Route::get('/quality/assessment', function () {
 Route::get('/quality/result', function () {
     return view('pages.quality.result');
 });
+
+//     A c t i v i t y
+Route::get('/activity/calendar', function () {
+    return view('pages.activity.calendar');
+});
+Route::get('/activity/eventsOfMonth', function () {
+    return view('pages.activity.eventsOfMonth');
+});
+Route::get('/activity/gallery', function () {
+    return view('pages.activity.gallery');
+});
+Route::get('/activity/gallery/activity1', function () {
+    return view('pages.activity.gallery.activity1');
+});
+Route::get('/activity/gallery/activity2', function () {
+    return view('pages.activity.gallery.activity2');
+});
+Route::get('/activity/gallery/activity3', function () {
+    return view('pages.activity.gallery.activity3');
+});
+Route::get('/activity/gallery/activity4', function () {
+    return view('pages.activity.gallery.activity4');
+});
+Route::get('/activity/alumnus', function () {
+    return view('pages.activity.alumnus');
+});
+
+
+
+
+
+
+

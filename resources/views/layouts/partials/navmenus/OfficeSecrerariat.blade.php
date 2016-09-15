@@ -119,7 +119,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" >
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/news') }}">
 					ข่าวประชาสัมพันธ์ชาว สนล.
 				</a>
 			</h4>
