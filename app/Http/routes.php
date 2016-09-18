@@ -49,16 +49,16 @@ Route::get('/OfficeSecrerariat', function () {
 
 
 Route::get('/news/student_news/', function () {
-    return view('pages.news.StudentNews');
+    return view('pages.news.studentNews');
 });
 Route::get('/news/student_fund/', function () {
-    return view('pages.news.StudentFund');
+    return view('pages.news.studentFund');
 });
 Route::get('/news/student_portfolio/', function () {
-    return view('pages.news.StudentPortfolio');
+    return view('pages.news.studentPortfolio');
 });
 Route::get('/news/student_gallery/', function () {
-    return view('pages.news.StudentGallery');
+    return view('pages.news.studentGallery');
 });
 
 
@@ -468,7 +468,7 @@ Route::get('/OfficeSecrerariat/news/news1', function () {
 
 
 
-//     Q u a l i t y 
+//     Q u a l i t y
 Route::get('/quality/board', function () {
     return view('pages.quality.board');
 });
