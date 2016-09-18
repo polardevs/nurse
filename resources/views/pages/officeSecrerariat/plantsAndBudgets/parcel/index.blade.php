@@ -29,45 +29,7 @@
 					</div>
 					<div class="content">
 						<h4>หน่วยพัสดุ</h4>
-						<!-- <img src="{{ asset('/images/pages/degree/bachelor/img06.jpg') }}" class="img-responsive"> -->
-						<!-- <h6>หลักสูตรพยาบาลศาสตรบัณฑิต  (หลักสูตรปรับปรุง พ.ศ. 2556)</h6>
-
-						<form class="form-horizontal">
-							<div class="form-group">
-								<label class="col-md-2 control-label">ชื่อหลักสูตร</label>
-								<div class="col-md-10">
-									<div class="form-control-static">หลักสูตรพยาบาลศาสตรบัณฑิต</div>
-									<div class="form-control-static">Bachelor of Nursing Science Program</div>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputPassword" class="col-md-2 control-label">ชื่อปริญญา</label>
-								<div class="col-md-10">
-									<div class="form-control-static">พยาบาลศาสตรบัณฑิต ( พย.บ. )</div>
-									<div class="form-control-static">Bachelor of Nursing Science ( B.N.S. )</div>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputPassword" class="col-md-12 control-label">โครงสร้างหลักสูตร</label>
-								<div class="col-md-12">
-									<div class="form-control-static"> 1.จำนวนหน่วยกิตรวมตลอดหลักสูตร		141 หน่วยกิต</div>
-									<ul>
-										<li>1.1 วิชาศึกษาทั่วไป	30 หน่วยกิต</li>
-										<li>1.2 วิชาเฉพาะ	105 หน่วยกิต
-											<ul>
-												<li>(1) กลุ่มวิชาพื้นฐานวิชาชีพ	28 หน่วยกิต</li>
-												<li>(1) กลุ่มวิชาชีพ	77 หน่วยกิต
-													<ul>
-														<li>- กลุ่มรายวิชาทฤษฏี	51 หน่วยกิต</li>
-														<li>- กลุ่มรายวิชาปฏิบัติ	26 หน่วยกิต</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li>1.3 วิชาเลือกเสรี	6 หน่วยกิต</li>
-									</ul>
-								</div>
-							</div> -->
+						Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์ และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960 เมื่อแผ่น Letraset วางจำหน่ายโดยมีข้อความบนนั้นเป็น Lorem Ipsum และล่าสุดกว่านั้น คือเมื่อซอฟท์แวร์การทำสื่อสิ่งพิมพ์ (Desktop Publishing) อย่าง Aldus PageMaker ได้รวมเอา Lorem Ipsum เวอร์ชั่นต่างๆ เข้าไว้ในซอฟท์แวร์ด้วย
 						</form>
 					</div>
 				</div>

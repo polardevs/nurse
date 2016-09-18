@@ -66,3 +66,13 @@
 .catg .panel-body {
   padding: 5px 15px;
 }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  color: #aaa;
+}
+
+.content {
+  min-height: 250px;
+}
+
+/*# sourceMappingURL=main.css.map */

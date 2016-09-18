@@ -410,6 +410,19 @@ Route::get('/OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning/report', funct
 
 //End  P l a n t s And B u d g e t s
 
+// A c a d e m i c
+Route::get('/OfficeSecrerariat/Academic/Bachelor', function () {
+    return view('pages.officeSecrerariat.academic.bachelor');
+});
+Route::get('/OfficeSecrerariat/Academic/Graduate', function () {
+    return view('pages.officeSecrerariat.academic.graduate');
+});
+Route::get('/OfficeSecrerariat/Academic/Affairs', function () {
+    return view('pages.officeSecrerariat.academic.affairs');
+});
+Route::get('/OfficeSecrerariat/Academic/IT', function () {
+    return view('pages.officeSecrerariat.academic.it');
+});
 
 
 
@@ -420,17 +433,158 @@ Route::get('/OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning/report', funct
 Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation', function () {
     return view('pages.officeSecrerariat.technicalAndQualityImprovement.developQualityEducation.index');
 });
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation/insurance', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.developQualityEducation.insurance');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation/ska', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.developQualityEducation.ska');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation/certification', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.developQualityEducation.certification');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation/aun', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.developQualityEducation.aun');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation/sar', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.developQualityEducation.sar');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation/tuOnline', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.developQualityEducation.tuOnline');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation/cheOnline', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.developQualityEducation.cheOnline');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation/qsRanking', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.developQualityEducation.qsRanking');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation/assessment', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.developQualityEducation.assessment');
+});
+
+
 
 Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor', function () {
     return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.index');
 });
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/plan', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.plan');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/gallery', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.gallery.index');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/gallery/activity1', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.gallery.activity1');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/gallery/activity2', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.gallery.activity2');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/gallery/activity3', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.gallery.activity3');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/gallery/activity4', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.gallery.activity4');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/board', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.board');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/Form/teacher', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.form.teacher');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/Form/student', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.form.student');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/Download/teacher', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.download.teacher');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/Download/student', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.download.student');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor/contact', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.contact');
+});
+
+
+
 
 Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster', function () {
     return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.index');
 });
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/plan', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.plan');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/gallery', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.gallery.index');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/gallery/activity1', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.gallery.activity1');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/gallery/activity2', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.gallery.activity2');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/gallery/activity3', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.gallery.activity3');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/gallery/activity4', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.gallery.activity4');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/board', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.board');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/Form/teacher', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.form.teacher');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/Form/student', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.form.student');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/Download/teacher', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.download.teacher');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/Download/student', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.download.student');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/contact', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.contact');
+});
+
 
 Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd', function () {
     return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.index');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/plan', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.plan');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/gallery', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.gallery.index');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/gallery/activity1', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.gallery.activity1');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/gallery/activity2', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.gallery.activity2');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/gallery/activity3', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.gallery.activity3');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/gallery/activity4', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.gallery.activity4');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/board', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.board');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/Form/teacher', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.form.teacher');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/Form/student', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.form.student');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/Download/teacher', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.download.teacher');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/Download/student', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.download.student');
+});
+Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd/contact', function () {
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.contact');
 });
 
 
@@ -453,6 +607,12 @@ Route::get('/OfficeSecrerariat/news/news1', function () {
     return view('pages.officeSecrerariat.news.news1');
 });
 
+Route::get('/OfficeSecrerariat/calendar', function () {
+    return view('pages.officeSecrerariat.calendar');
+});
+Route::get('/OfficeSecrerariat/download', function () {
+    return view('pages.officeSecrerariat.download');
+});
 // I n t e r n a t i o n a l A f f a i r
 
 

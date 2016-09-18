@@ -21,8 +21,8 @@
 						<small>
 							<ol class="breadcrumb">
 								<li><a href="/">หน้าหลัก</a></li>
-								<li><a href="{{ url('OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning') }}">สำนักงานเลขานุการ</a></li>
-								<li><a href="{{ url('OfficeSecrerariat') }}">หน่วยนโยบายและแผน</a></li>
+								<li><a href="{{ url('OfficeSecrerariat') }}">สำนักงานเลขานุการ</a></li>
+								<li><a href="{{ url('OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning') }}">หน่วยนโยบายและแผน</a></li>
 								<li class="active">คู่มือ กพร.</li>
 							</ol>
 						</small>

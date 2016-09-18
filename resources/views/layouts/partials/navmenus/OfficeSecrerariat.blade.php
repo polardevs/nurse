@@ -57,10 +57,10 @@
 			</h4>
 		</div>
 		<div id="collapseThree" class="panel-collapse collapse" >
-			<a href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance') }}" target="_blank"><div class="panel-body">หน่วยปริญญาตรี</div></a>
-			<a href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Parcel') }}" target="_blank"><div class="panel-body">หน่วยบันฑิตศึกษา</div></a>
-			<a href="{{ url('OfficeSecrerariat/PlantsAndBudgets/BudgetAndStaffing') }}" target="_blank"><div class="panel-body">หน่วยกิจการนักศึกษา</div></a>
-			<a href="{{ url('OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning') }}" target="_blank"><div class="panel-body">หน่วยเทคโนโลยีสารสนเทศ</div></a>
+			<a href="{{ url('OfficeSecrerariat/Academic/Bachelor') }}" target="_blank"><div class="panel-body">หน่วยปริญญาตรี</div></a>
+			<a href="{{ url('OfficeSecrerariat/Academic/Graduate') }}" target="_blank"><div class="panel-body">หน่วยบันฑิตศึกษา</div></a>
+			<a href="{{ url('OfficeSecrerariat/Academic/Affairs') }}" target="_blank"><div class="panel-body">หน่วยกิจการนักศึกษา</div></a>
+			<a href="{{ url('OfficeSecrerariat/Academic/IT') }}" target="_blank"><div class="panel-body">หน่วยเทคโนโลยีสารสนเทศ</div></a>
 		</div>
 	</div>
 
@@ -133,16 +133,12 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" >
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/calendar') }}">
 					ปฏิทินกิจกรรมประจำการศึกษาของคณะ สนล.
 				</a>
 			</h4>
 		</div>
 	</div>
-
-
-
-
 
 
 	<div class="panel panel-default">
@@ -153,43 +149,13 @@
 		</div>
 	</div>
 
-
-
-
-
-
-
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
-		<h4 class="panel-title"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" >ดาวน์โหลดแบบฟอร์ม</a></h4>
+			<h4 class="panel-title">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/download') }}">
+					ดาวน์โหลดแบบฟอร์ม
+				</a>
+			</h4>
 		</div>
 	</div>
-
-
-
-
-
-
-
-
-
-
 </div>
-
-
-
-
-<!-- <div class="Sidebar-Server hidden">
-	<div class="panel-head">
-		บริการวิชาการและสังคม
-	</div>
-	<div class="panel-body">
-		<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html">ศูนย์ส่งเสริมสุขภาพ</a>
-	</div>
-	<div class="panel-body">
-		<a href="http://childhood.nurse.tu.ac.th/">Childhood Development</a>
-	</div>
-	<div class="panel-body">
-		<a href="http://researchcenter.nurse.tu.ac.th/">ศูนย์วิจัยทางการพยาบาล</a>
-	</div>
-</div> -->
