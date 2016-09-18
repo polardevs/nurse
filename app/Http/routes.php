@@ -284,10 +284,10 @@ Route::get('/OfficeSecrerariat/ManageAndHr/BuildAndCar/Forms/car', function () {
     return view('pages.officeSecrerariat.manageAndHr.buildAndCar.forms.car');
 });
 Route::get('/OfficeSecrerariat/ManageAndHr/BuildAndCar/Schedule/meetingRoom', function () {
-    return view('pages.officeSecrerariat.manageAndHr.buildAndCar.Schedule.meetingRoom');
+    return view('pages.officeSecrerariat.manageAndHr.buildAndCar.schedule.meetingRoom');
 });
 Route::get('/OfficeSecrerariat/ManageAndHr/BuildAndCar/Schedule/car', function () {
-    return view('pages.officeSecrerariat.manageAndHr.buildAndCar.Schedule.car');
+    return view('pages.officeSecrerariat.manageAndHr.buildAndCar.schedule.car');
 });
 
 
