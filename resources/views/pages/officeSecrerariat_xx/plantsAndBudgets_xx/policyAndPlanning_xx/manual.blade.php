@@ -10,27 +10,27 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="col-md-12 menu-title">
-						<h3>สมาคมศิษย์เก่าฯ</h3>
+						<h3>คู่มือ กพร.</h3>
 					</div>
 				</div>
 				<div class="col-md-2 side-menu">
-					@include('layouts.partials.navmenus.developmentGoal')
+					@include('layouts.partials.navmenus.PolicyAndPlanning')
 				</div>
 				<div class="col-md-10">
 					<div class="sub-menu">
 						<small>
 							<ol class="breadcrumb">
 								<li><a href="/">หน้าหลัก</a></li>
-								<li><a href="#">งานพัฒนานักศึกษา</a></li>
-								<li><a href="{{ url('development/goal') }}">เป้าหมาย</a></li>
-								<li class="active">สมาคมศิษย์เก่าฯ</li>
+								<li><a href="{{ url('OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning') }}">สำนักงานเลขานุการ</a></li>
+								<li><a href="{{ url('OfficeSecrerariat') }}">หน่วยนโยบายและแผน</a></li>
+								<li class="active">คู่มือ กพร.</li>
 							</ol>
 						</small>
 						<hr>
 					</div>
 					<div class="content">
-						<h4>สมาคมศิษย์เก่าฯ</h4>
-						Under Construction Page
+						<h4>คู่มือ กพร.</h4>
+						
 					</div>
 				</div>
 			</div>

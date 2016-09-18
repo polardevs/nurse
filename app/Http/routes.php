@@ -43,7 +43,7 @@ Route::get('/secretariat', function () {
     return view('pages.about.staff.secretariat');
 });
 Route::get('/OfficeSecrerariat', function () {
-    return view('pages.OfficeSecrerariat.index');
+    return view('pages.officeSecrerariat.index');
 });
 
 
@@ -252,38 +252,78 @@ Route::get('/test', function () {
 // O f f i c e S e c r e r a r i a t   G a l l e r y
 
 Route::get('/OfficeSecrerariat/gallery', function () {
-    return view('pages.OfficeSecrerariat.gallery.index');
+    return view('pages.officeSecrerariat.gallery.index');
 });
 
 Route::get('/OfficeSecrerariat/gallery/activity1', function () {
-    return view('pages.OfficeSecrerariat.gallery.activity1');
+    return view('pages.officeSecrerariat.gallery.activity1');
 });
 Route::get('/OfficeSecrerariat/gallery/activity2', function () {
-    return view('pages.OfficeSecrerariat.gallery.activity2');
+    return view('pages.officeSecrerariat.gallery.activity2');
 });
 Route::get('/OfficeSecrerariat/gallery/activity3', function () {
-    return view('pages.OfficeSecrerariat.gallery.activity3');
+    return view('pages.officeSecrerariat.gallery.activity3');
 });
 Route::get('/OfficeSecrerariat/gallery/activity4', function () {
-    return view('pages.OfficeSecrerariat.gallery.activity4');
+    return view('pages.officeSecrerariat.gallery.activity4');
 });
 
 // M a n a g e A n d  H R
 Route::get('/OfficeSecrerariat/ManageAndHr/Archives', function () {
-    return view('pages.OfficeSecrerariat.ManageAndHr.Archives.index');
+    return view('pages.officeSecrerariat.manageAndHr.archives.index');
 });
 
+
 Route::get('/OfficeSecrerariat/ManageAndHr/BuildAndCar', function () {
-    return view('pages.OfficeSecrerariat.ManageAndHr.BuildAndCar.index');
+    return view('pages.officeSecrerariat.manageAndHr.buildAndCar.index');
+});
+Route::get('/OfficeSecrerariat/ManageAndHr/BuildAndCar/Forms/meetingRoom', function () {
+    return view('pages.officeSecrerariat.manageAndHr.buildAndCar.forms.meetingRoom');
+});
+Route::get('/OfficeSecrerariat/ManageAndHr/BuildAndCar/Forms/car', function () {
+    return view('pages.officeSecrerariat.manageAndHr.buildAndCar.forms.car');
+});
+Route::get('/OfficeSecrerariat/ManageAndHr/BuildAndCar/Schedule/meetingRoom', function () {
+    return view('pages.officeSecrerariat.manageAndHr.buildAndCar.Schedule.meetingRoom');
+});
+Route::get('/OfficeSecrerariat/ManageAndHr/BuildAndCar/Schedule/car', function () {
+    return view('pages.officeSecrerariat.manageAndHr.buildAndCar.Schedule.car');
 });
 
 
 Route::get('/OfficeSecrerariat/ManageAndHr/GeneralAffairs', function () {
-    return view('pages.OfficeSecrerariat.ManageAndHr.GeneralAffairs.index');
+    return view('pages.officeSecrerariat.manageAndHr.generalAffairs.index');
+});
+Route::get('/OfficeSecrerariat/ManageAndHr/GeneralAffairs/Rules/content1', function () {
+    return view('pages.officeSecrerariat.manageAndHr.generalAffairs.rules.content1');
+});
+Route::get('/OfficeSecrerariat/ManageAndHr/GeneralAffairs/Rules/content2', function () {
+    return view('pages.officeSecrerariat.manageAndHr.generalAffairs.rules.content2');
+});
+
+Route::get('/OfficeSecrerariat/ManageAndHr/GeneralAffairs/Advancement/content1', function () {
+    return view('pages.officeSecrerariat.manageAndHr.generalAffairs.advancement.content1');
+});
+Route::get('/OfficeSecrerariat/ManageAndHr/GeneralAffairs/Advancement/content2', function () {
+    return view('pages.officeSecrerariat.manageAndHr.generalAffairs.advancement.content2');
+});
+
+Route::get('/OfficeSecrerariat/ManageAndHr/GeneralAffairs/Forms/', function () {
+    return view('pages.officeSecrerariat.manageAndHr.generalAffairs.forms.index');
 });
 
 Route::get('/OfficeSecrerariat/ManageAndHr/MadePaper', function () {
-    return view('pages.OfficeSecrerariat.ManageAndHr.MadePaper.index');
+    return view('pages.officeSecrerariat.manageAndHr.madePaper.index');
+});
+Route::get('/OfficeSecrerariat/ManageAndHr/MadePaper/copying', function () {
+    return view('pages.officeSecrerariat.manageAndHr.madePaper.copying');
+});
+Route::get('/OfficeSecrerariat/ManageAndHr/MadePaper/snack', function () {
+    return view('pages.officeSecrerariat.manageAndHr.madePaper.snack');
+});
+
+Route::get('/OfficeSecrerariat/ManageAndHr/Jobs', function () {
+    return view('pages.officeSecrerariat.manageAndHr.jobs.index');
 });
 
 // End M a n a g e A n d  H R
@@ -295,19 +335,77 @@ Route::get('/OfficeSecrerariat/ManageAndHr/MadePaper', function () {
 
 
 Route::get('/OfficeSecrerariat/PlantsAndBudgets/Finance', function () {
-    return view('pages.OfficeSecrerariat.PlantsAndBudgets.Finance.index');
+    return view('pages.officeSecrerariat.plantsAndBudgets.finance.index');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Finance/budgets', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.finance.budgets');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Finance/rule', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.finance.rule');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Finance/download', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.finance.download');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Finance/news', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.finance.news');
 });
 
+
 Route::get('/OfficeSecrerariat/PlantsAndBudgets/Parcel', function () {
-    return view('pages.OfficeSecrerariat.PlantsAndBudgets.Parcel.index');
+    return view('pages.officeSecrerariat.plantsAndBudgets.parcel.index');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Parcel/rule', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.parcel.rule');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Parcel/download', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.parcel.download');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Parcel/news', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.parcel.news');
 });
 
 Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan', function () {
-    return view('pages.OfficeSecrerariat.PlantsAndBudgets.Budgetsplan.index');
+    return view('pages.officeSecrerariat.plantsAndBudgets.budgetsplan.index');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/system', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.budgetsplan.system');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/schedule', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.budgetsplan.schedule');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/form', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.budgetsplan.form');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/otherNews', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.budgetsplan.otherNews');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/news', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.budgetsplan.news');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/report', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.budgetsplan.report');
 });
 
 Route::get('/OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning', function () {
-    return view('pages.OfficeSecrerariat.PlantsAndBudgets.PolicyAndPlanning.index');
+    return view('pages.officeSecrerariat.plantsAndBudgets.policyAndPlanning.index');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning/manual', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.policyAndPlanning.manual');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning/plan', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.policyAndPlanning.plan');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning/calendar', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.policyAndPlanning.calendar');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning/detail', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.policyAndPlanning.detail');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning/news', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.policyAndPlanning.news');
+});
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning/report', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.policyAndPlanning.report');
 });
 
 //End  P l a n t s And B u d g e t s
@@ -320,39 +418,39 @@ Route::get('/OfficeSecrerariat/PlantsAndBudgets/PolicyAndPlanning', function () 
 // T e c h n i c a l A n d Q u a l i t y I m p r o v e m e n t
 
 Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/DevelopQualityEducation', function () {
-    return view('pages.OfficeSecrerariat.TechnicalAndQualityImprovement.DevelopQualityEducation.index');
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.developQualityEducation.index');
 });
 
 Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceBachelor', function () {
-    return view('pages.OfficeSecrerariat.TechnicalAndQualityImprovement.EducationServiceBachelor.index');
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceBachelor.index');
 });
 
 Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster', function () {
-    return view('pages.OfficeSecrerariat.TechnicalAndQualityImprovement.EducationServiceMaster.index');
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServiceMaster.index');
 });
 
 Route::get('/OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServicePhd', function () {
-    return view('pages.OfficeSecrerariat.TechnicalAndQualityImprovement.EducationServicePhd.index');
+    return view('pages.officeSecrerariat.technicalAndQualityImprovement.educationServicePhd.index');
 });
 
 
 // End T e c h n i c a l A n d Q u a l i t y I m p r o v e m e n t
 
 Route::get('/OfficeSecrerariat/InternationalAffair/Affair', function () {
-    return view('pages.OfficeSecrerariat.InternationalAffair.Affair.index');
+    return view('pages.officeSecrerariat.internationalAffair.affair.index');
 });
 
 Route::get('/OfficeSecrerariat/InternationalAffair/Research', function () {
-    return view('pages.OfficeSecrerariat.InternationalAffair.Research.index');
+    return view('pages.officeSecrerariat.internationalAffair.research.index');
 });
 
 
 
 Route::get('/OfficeSecrerariat/news', function () {
-    return view('pages.OfficeSecrerariat.news.index');
+    return view('pages.officeSecrerariat.news.index');
 });
 Route::get('/OfficeSecrerariat/news/news1', function () {
-    return view('pages.OfficeSecrerariat.news.news1');
+    return view('pages.officeSecrerariat.news.news1');
 });
 
 // I n t e r n a t i o n a l A f f a i r

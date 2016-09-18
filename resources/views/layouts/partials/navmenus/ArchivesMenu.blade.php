@@ -4,12 +4,13 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" >
+				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" > -->
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}" >
 					แบบฟอร์มต่างๆ
 				</a>
 			</h4>
 		</div>
-		<div id="collapseOne" class="panel-collapse collapse" >
+		<!-- <div id="collapseOne" class="panel-collapse collapse" >
 			<a href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}" target="_blank">
 				<div class="panel-body">Content 1</div>
 			</a>
@@ -22,7 +23,7 @@
 			<a href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}" target="_blank">
 				<div class="panel-body">Content 4</div>
 			</a>
-		</div>
+		</div> -->
 	</div>
 
 

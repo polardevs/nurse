@@ -1,5 +1,5 @@
 <div class="panel-group" id="accordion" aria-multiselectable="true">
-	
+
 
 	<div class="panel panel-default">
 		<div class="panel-heading">
@@ -66,8 +66,8 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('development/contact') }}">
-					ติดต่อเรา
+				<a class="collapsed" href="{{ url('development/alumnus') }}">
+					สมาคมศิษย์เก่าฯ
 				</a>
 			</h4>
 		</div>
@@ -75,8 +75,8 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('development/alumnus') }}">
-					สมาคมศิษย์เก่าฯ
+				<a class="collapsed" href="{{ url('development/contact') }}">
+					ติดต่อเรา
 				</a>
 			</h4>
 		</div>

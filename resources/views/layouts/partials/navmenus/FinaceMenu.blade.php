@@ -5,8 +5,8 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper/copying') }}" >
-			แบบฟอร์มขอถ่ายเอกสาร
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/budgets') }}">
+					งบประมาณคงเหลือ PDF
 				</a>
 			</h4>
 		</div>
@@ -28,8 +28,8 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper/snack') }}" >
-					แบฟอร์มการขออาหารว่างและเครื่องดื่ม
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/rule') }}">
+					ระเบียบ ประกาศ ข้อบังคับ
 				</a>
 			</h4>
 		</div>
@@ -43,13 +43,36 @@
 		</div> -->
 	</div>
 
+	<div class="panel panel-default">
+		<div class="panel-heading" id="headingTwo">
+			<h4 class="panel-title">
+				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" > -->
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/download') }}">
+					ดาวน์โหลดแบบฟอร์มต่างๆ
+				</a>
+			</h4>
+		</div>
+		<!-- <div id="collapseThree" class="panel-collapse collapse" >
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}" target="_blank">
+				<div class="panel-body">content 1</div>
+			</a>
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs') }}" target="_blank">
+				<div class="panel-body">content 2</div>
+			</a>
+		</div> -->
+	</div>
 
 
-
-
-
-
-
+	<div class="panel panel-default">
+		<div class="panel-heading" id="headingTwo">
+			<h4 class="panel-title">
+				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" > -->
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/news') }}">
+					ข่าวประชาสัมพันธ์ของงาน
+				</a>
+			</h4>
+		</div>
+	</div>
 
 
 

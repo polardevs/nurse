@@ -10,10 +10,10 @@
 			</h4>
 		</div>
 		<div id="collapseOne" class="panel-collapse collapse" >
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/BuildAndCar') }}" target="_blank">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/BuildAndCar/Forms/meetingRoom') }}" target="_blank">
 				<div class="panel-body">แบบฟอร์มการขอใช้ห้องประชุม</div>
 			</a>
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper') }}" target="_blank">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/BuildAndCar/Forms/car') }}" target="_blank">
 				<div class="panel-body">แบบฟอร์มการขอใช้รถ</div>
 			</a>
 		</div>
@@ -32,10 +32,10 @@
 			</h4>
 		</div>
 		<div id="collapseTwo" class="panel-collapse collapse" >
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}" target="_blank">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/BuildAndCar/Schedule/meetingRoom') }}" target="_blank">
 				<div class="panel-body">ตารางจองห้องประชุม</div>
 			</a>
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs') }}" target="_blank">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/BuildAndCar/Schedule/car') }}" target="_blank">
 				<div class="panel-body">ตารางการใช้รถประจำเดือน</div>
 			</a>
 		</div>

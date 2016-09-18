@@ -373,7 +373,7 @@
 		<div class="container">
 			<div class="row article-news">
 				<div class="col-md-6 col-md-offset-3">
-					<h3 class="text-center">มหาหงส์นิวส์</h3>
+					<h3 class="text-center">ดั่งมหาหงส์นิวส์</h3>
 					<div id="MahahongNews" class="carousel slide" data-ride="carousel">
 					    <!-- Indicators -->
 					    <ol class="carousel-indicators">

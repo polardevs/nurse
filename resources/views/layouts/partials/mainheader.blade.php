@@ -67,7 +67,7 @@
 								</li>
 	        			<!-- <li><a href="#">ชมรมศิษย์เก่า</a></li> -->
 	        			<li><a href="http://www.nurse.tu.ac.th/nsresearch/index_light_blue.html" target="_blank">จริยธรรมการวิจัย</a></li>
-	        			<li><a href="#">บริการวิชาการ</a></li>
+	        			<!-- <li><a href="#">บริการวิชาการ</a></li> -->
 	        			<li class="dropdown">
 									<a href="" class="dropdown-toggle" data-toggle="dropdown">
 										งานพัฒนานักศึกษา <span class="caret"></span>

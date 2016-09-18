@@ -10,27 +10,29 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="col-md-12 menu-title">
-						<h3>สมาคมศิษย์เก่าฯ</h3>
+						<h3>content 2</h3>
 					</div>
 				</div>
 				<div class="col-md-2 side-menu">
-					@include('layouts.partials.navmenus.developmentGoal')
+					@include('layouts.partials.navmenus.GeneralAffairsMenu')
 				</div>
 				<div class="col-md-10">
 					<div class="sub-menu">
 						<small>
 							<ol class="breadcrumb">
 								<li><a href="/">หน้าหลัก</a></li>
-								<li><a href="#">งานพัฒนานักศึกษา</a></li>
-								<li><a href="{{ url('development/goal') }}">เป้าหมาย</a></li>
-								<li class="active">สมาคมศิษย์เก่าฯ</li>
+								<li><a href="{{ url('OfficeSecrerariat') }}">สำนักงานเลขานุการ</a></li>
+								<li><a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs') }}">หน่วยการเจ้าหน้าที่</a></li>
+								<li>ระเบียบ/ข้อบังคับด้านบุคคล</li>
+								<li class="active">content 2</li>
 							</ol>
 						</small>
 						<hr>
 					</div>
 					<div class="content">
-						<h4>สมาคมศิษย์เก่าฯ</h4>
-						Under Construction Page
+						<h4>content 2</h4>
+						<!-- <img src="{{ asset('/images/pages/degree/bachelor/img06.jpg') }}" class="img-responsive"> -->
+
 					</div>
 				</div>
 			</div>

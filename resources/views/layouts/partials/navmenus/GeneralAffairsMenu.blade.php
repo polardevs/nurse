@@ -10,10 +10,10 @@
 			</h4>
 		</div>
 		<div id="collapseOne" class="panel-collapse collapse" >
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/BuildAndCar') }}" target="_blank">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs/Rules/content1') }}" target="_blank">
 				<div class="panel-body">content 1</div>
 			</a>
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper') }}" target="_blank">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs/Rules/content2') }}" target="_blank">
 				<div class="panel-body">content 2</div>
 			</a>
 		</div>
@@ -32,10 +32,10 @@
 			</h4>
 		</div>
 		<div id="collapseTwo" class="panel-collapse collapse" >
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}" target="_blank">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs/Advancement/content1') }}" target="_blank">
 				<div class="panel-body">content 1</div>
 			</a>
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs') }}" target="_blank">
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs/Advancement/content2') }}" target="_blank">
 				<div class="panel-body">content 2</div>
 			</a>
 		</div>
@@ -46,19 +46,20 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" >
+				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" > -->
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs/Forms') }}">
 					แบบฟอร์มต่างๆ ของมธ.
 				</a>
 			</h4>
 		</div>
-		<div id="collapseThree" class="panel-collapse collapse" >
+		<!-- <div id="collapseThree" class="panel-collapse collapse" >
 			<a href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}" target="_blank">
 				<div class="panel-body">content 1</div>
 			</a>
 			<a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs') }}" target="_blank">
 				<div class="panel-body">content 2</div>
 			</a>
-		</div>
+		</div> -->
 	</div>
 
 

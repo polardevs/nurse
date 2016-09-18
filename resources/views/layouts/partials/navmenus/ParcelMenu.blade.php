@@ -5,8 +5,8 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper/copying') }}" >
-			แบบฟอร์มขอถ่ายเอกสาร
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Parcel/download') }}" >
+					ดาวน์โหลดแบบฟอร์มต่างๆ
 				</a>
 			</h4>
 		</div>
@@ -28,8 +28,8 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper/snack') }}" >
-					แบฟอร์มการขออาหารว่างและเครื่องดื่ม
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Parcel/news') }}" >
+					ข่าวประชาสัมพันธ์ของงาน
 				</a>
 			</h4>
 		</div>
@@ -43,11 +43,24 @@
 		</div> -->
 	</div>
 
-
-
-
-
-
+	<div class="panel panel-default">
+		<div class="panel-heading" id="headingTwo">
+			<h4 class="panel-title">
+				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" > -->
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Parcel/rule') }}" >
+					ระเบียบประกาศเกี่ยวกับงานพัสดุ
+				</a>
+			</h4>
+		</div>
+		<!-- <div id="collapseThree" class="panel-collapse collapse" >
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}" target="_blank">
+				<div class="panel-body">content 1</div>
+			</a>
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs') }}" target="_blank">
+				<div class="panel-body">content 2</div>
+			</a>
+		</div> -->
+	</div>
 
 
 

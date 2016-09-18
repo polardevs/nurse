@@ -19,8 +19,8 @@
 			<a href="{{ url('OfficeSecrerariat/ManageAndHr/BuildAndCar') }}" target="_blank">
 				<div class="panel-body">หน่วยอาคารสถานที่และยานพาหนะ</div>
 			</a>
-			<a href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper') }}" target="_blank">
-				<div class="panel-body">หน่วยผลิตเอกสาร</div>
+			<a href="{{ url('OfficeSecrerariat/ManageAndHr/Jobs') }}" target="_blank">
+				<div class="panel-body">ประชาสัมพันธ์ รับสมัครงาน</div>
 			</a>
 		</div>
 	</div>
