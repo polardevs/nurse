@@ -23,7 +23,7 @@
 								<li><a href="/">หน้าหลัก</a></li>
 								<li><a href="{{ url('OfficeSecrerariat') }}">สำนักงานเลขานุการ</a></li>
 								<li>บริหารพัฒนาทรัพยากรคน</li>
-								<li><a href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper') }}">หน่วยการเจ้าหน้าที่</a></li>
+								<li><a href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper') }}">หน่วยผลิตเอกสาร</a></li>
 								<li class="active">แแบฟอร์มการขออาหารว่างและเครื่องดื่ม</li>
 							</ol>
 						</small>
