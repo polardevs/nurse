@@ -79,10 +79,13 @@
 		</div>
 		<div id="collapseFour" class="panel-collapse collapse" >
 			<a href="{{ url('OfficeSecrerariat/InternationalAffair/Research') }}" target="_blank">
-				<div class="panel-body"> หน่วยวิจัย</div>
+				<div class="panel-body">หน่วยวิจัย</div>
 			</a>
 			<a href="{{ url('OfficeSecrerariat/InternationalAffair/Affair') }}" target="_blank">
-				<div class="panel-body">หน่วยวิเทศ</div>
+				<div class="panel-body">หน่วยวิเทศสัมพันธ์</div>
+			</a>
+			<a href="{{ url('OfficeSecrerariat/InternationalAffair/media') }}" target="_blank">
+				<div class="panel-body">หน่วยโสตทัศนูปกรณ์ </div>
 			</a>
 		</div>
 	</div>

@@ -597,7 +597,9 @@ Route::get('/OfficeSecrerariat/InternationalAffair/Affair', function () {
 Route::get('/OfficeSecrerariat/InternationalAffair/Research', function () {
     return view('pages.officeSecrerariat.internationalAffair.research.index');
 });
-
+Route::get('/OfficeSecrerariat/InternationalAffair/media', function () {
+    return view('pages.officeSecrerariat.internationalAffair.media.index');
+});
 
 
 Route::get('/OfficeSecrerariat/news', function () {
@@ -667,10 +669,3 @@ Route::get('/activity/gallery/activity4', function () {
 Route::get('/activity/alumnus', function () {
     return view('pages.activity.alumnus');
 });
-
-
-
-
-
-
-
