@@ -22,7 +22,7 @@
 							<ol class="breadcrumb">
 								<li><a href="/">หน้าหลัก</a></li>
 								<li><a href="#">งานพัฒนานักศึกษา</a></li>
-								<li><a href="{{ url('development/goal') }}">เป้าหมาย</a></li>
+								<li><a href="{{ url('development/goal') }}" target="_blank">เป้าหมาย</a></li>
 								<li class="active">สมาคมศิษย์เก่าฯ</li>
 							</ol>
 						</small>

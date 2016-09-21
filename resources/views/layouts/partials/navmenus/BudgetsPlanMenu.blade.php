@@ -5,7 +5,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/system') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/system') }}" target="_blank">
 					ระบบภาระงานสอน
 				</a>
 			</h4>
@@ -28,7 +28,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/table') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/table') }}" target="_blank">
 					ตารางจัดทำงบประมาณ
 				</a>
 			</h4>
@@ -47,7 +47,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/schedule') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/schedule') }}" target="_blank">
 					แบบฟอร์มภาระงานสอน
 				</a>
 			</h4>
@@ -68,7 +68,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/form') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/form') }}" target="_blank">
 					แบบฟอร์มการจัดทำงบประมาณ
 				</a>
 			</h4>
@@ -100,7 +100,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/news') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/news') }}" target="_blank">
 					ประชาสัมพันธ์อื่นๆที่เกี่ยวข้อง
 				</a>
 			</h4>
@@ -119,7 +119,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/report') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/report') }}" target="_blank">
 					รายงานไตรมาส
 				</a>
 			</h4>

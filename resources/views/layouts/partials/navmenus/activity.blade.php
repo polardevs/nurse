@@ -8,10 +8,10 @@
 			</h4>
 		</div>
 		<div id="collapseTwo" class="panel-collapse collapse in" >
-			<a href="{{ url('activity/calendar') }}"><div class="panel-body">ปฏิทินกิจกรรม</div></a>
-			<a href="{{ url('activity/eventsOfMonth') }}"><div class="panel-body">กิจกรรม น.ศ.รายเดือน</div></a>
-			<a href="{{ url('activity/gallery') }}"><div class="panel-body">ภาพกิจกรรม</div></a>
-			<a href="{{ url('activity/alumnus') }}"><div class="panel-body">กิจกรรมนักศึกษา/ศิษย์เก่า</div></a>
+			<a href="{{ url('activity/calendar') }}" target="_blank"><div class="panel-body">ปฏิทินกิจกรรม</div></a>
+			<a href="{{ url('activity/eventsOfMonth') }}" target="_blank"><div class="panel-body">กิจกรรม น.ศ.รายเดือน</div></a>
+			<a href="{{ url('activity/gallery') }}" target="_blank"><div class="panel-body">ภาพกิจกรรม</div></a>
+			<a href="{{ url('activity/alumnus') }}" target="_blank"><div class="panel-body">กิจกรรมนักศึกษา/ศิษย์เก่า</div></a>
 			<!-- <a href="{{ url('news/student_news') }}"><div class="panel-body">งานกิจกรรมนักศึกษา</div></a> -->
 			<!-- <a href="{{ url('news/student_fund') }}"><div class="panel-body">งานทุนนักศึกษา</div></a> -->
 			<!-- <a href="#"><div class="panel-body">งานบริการนักศึกษา</div></a> -->
@@ -27,12 +27,12 @@
 		บริการวิชาการและสังคม
 	</div>
 	<div class="panel-body">
-		<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html">ศูนย์ส่งเสริมสุขภาพ</a>
+		<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html" target="_blank">ศูนย์ส่งเสริมสุขภาพ</a>
 	</div>
 	<div class="panel-body">
-		<a href="http://childhood.nurse.tu.ac.th/">Childhood Development</a>
+		<a href="http://childhood.nurse.tu.ac.th/" target="_blank">Childhood Development</a>
 	</div>
 	<div class="panel-body">
-		<a href="http://researchcenter.nurse.tu.ac.th/">ศูนย์วิจัยทางการพยาบาล</a>
+		<a href="http://researchcenter.nurse.tu.ac.th/" target="_blank">ศูนย์วิจัยทางการพยาบาล</a>
 	</div>
 </div>

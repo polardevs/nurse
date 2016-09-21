@@ -4,7 +4,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('development/goal') }}">
+				<a class="collapsed" href="{{ url('development/goal') }}" target="_blank">
 					การพัฒนานักศึกษา
 				</a>
 			</h4>
@@ -13,7 +13,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('development/identity') }}">
+				<a class="collapsed" href="{{ url('development/identity') }}" target="_blank">
 					ตามอัตลักษณ์
 				</a>
 			</h4>
@@ -22,7 +22,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('development/progress') }}">
+				<a class="collapsed" href="{{ url('development/progress') }}" target="_blank">
 					การดำเนินงานของนักศึกษา
 				</a>
 			</h4>
@@ -31,7 +31,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('development/calendar') }}">
+				<a class="collapsed" href="{{ url('development/calendar') }}" target="_blank">
 					ปฏิทินกิจกรรม
 				</a>
 			</h4>
@@ -46,10 +46,10 @@
 			</h4>
 		</div>
 		<div id="collapseTwo" class="panel-collapse collapse" >
-			<a href="{{ url('development/scholarship') }}">
+			<a href="{{ url('development/scholarship') }}" target="_blank">
 				<div class="panel-body">ทุนผูกพัน</div>
 			</a>
-			<a href="{{ url('development/merit') }}">
+			<a href="{{ url('development/merit') }}" target="_blank">
 				<div class="panel-body">ทุนให้เปล่า</div>
 			</a>
 		</div>
@@ -57,7 +57,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('development/manual') }}">
+				<a class="collapsed" href="{{ url('development/manual') }}" target="_blank">
 					คู่มือนักศึกษาและกฏระเบียบต่างๆ
 				</a>
 			</h4>
@@ -66,7 +66,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('development/alumnus') }}">
+				<a class="collapsed" href="{{ url('development/alumnus') }}" target="_blank">
 					สมาคมศิษย์เก่าฯ
 				</a>
 			</h4>
@@ -75,28 +75,10 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('development/contact') }}">
+				<a class="collapsed" href="{{ url('development/contact') }}" target="_blank">
 					ติดต่อเรา
 				</a>
 			</h4>
 		</div>
 	</div>
 </div>
-
-
-
-
-<!-- <div class="Sidebar-Server hidden">
-	<div class="panel-head">
-		บริการวิชาการและสังคม
-	</div>
-	<div class="panel-body">
-		<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html">ศูนย์ส่งเสริมสุขภาพ</a>
-	</div>
-	<div class="panel-body">
-		<a href="http://childhood.nurse.tu.ac.th/">Childhood Development</a>
-	</div>
-	<div class="panel-body">
-		<a href="http://researchcenter.nurse.tu.ac.th/">ศูนย์วิจัยทางการพยาบาล</a>
-	</div>
-</div> -->

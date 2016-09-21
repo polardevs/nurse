@@ -5,7 +5,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/budgets') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/budgets') }}" target="_blank">
 					งบประมาณคงเหลือ PDF
 				</a>
 			</h4>
@@ -28,7 +28,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/rule') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/rule') }}" target="_blank">
 					ระเบียบ ประกาศ ข้อบังคับ
 				</a>
 			</h4>
@@ -47,7 +47,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/download') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/download') }}" target="_blank">
 					ดาวน์โหลดแบบฟอร์มต่างๆ
 				</a>
 			</h4>
@@ -67,7 +67,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/news') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/PlantsAndBudgets/Finance/news') }}" target="_blank">
 					ข่าวประชาสัมพันธ์ของงาน
 				</a>
 			</h4>

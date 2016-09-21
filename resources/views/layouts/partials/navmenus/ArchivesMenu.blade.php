@@ -5,7 +5,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}" >
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/Archives') }}"  target="_blank">
 					แบบฟอร์มต่างๆ
 				</a>
 			</h4>

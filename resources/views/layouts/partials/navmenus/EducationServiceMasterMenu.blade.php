@@ -5,7 +5,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/plan') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/plan') }}" target="_blank">
 					แผนการศึกษา
 				</a>
 			</h4>
@@ -28,7 +28,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/gallery') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/gallery') }}" target="_blank">
 					อัลบั้มรูปภาพ
 				</a>
 			</h4>
@@ -49,7 +49,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/board') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/board') }}" target="_blank">
 					กระดานถามตอบ
 				</a>
 			</h4>
@@ -71,7 +71,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" >
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false"  target="_blank">
 					แบบฟอร์ม
 				</a>
 			</h4>
@@ -111,7 +111,7 @@
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" > -->
 				<!-- <a class="collapsed" href="{{ url('OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/assessment') }}"> -->
-				<a class="collapsed" href="#">
+				<a class="collapsed" href="#" target="_blank">
 					ประเมินผล Online  (Google Form)
 				</a>
 			</h4>
@@ -122,7 +122,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/contact') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/TechnicalAndQualityImprovement/EducationServiceMaster/contact') }}" target="_blank">
 					ติดต่อเจ้าหน้าที่
 				</a>
 			</h4>

@@ -80,95 +80,10 @@ Route::get('/degree/bachelor/selective', function () {
 Route::get('/degree/bachelor/rules', function () {
     return view('pages.degree.bachelor.rules');
 });
-Route::get('/degree/bachelor/academic', function () {
-    return view('pages.degree.bachelor.activity.academic');
-});
-Route::get('/degree/bachelor/sport', function () {
-    return view('pages.degree.bachelor.activity.sport');
-});
-Route::get('/degree/bachelor/outreach', function () {
-    return view('pages.degree.bachelor.activity.outreach');
-});
-Route::get('/degree/bachelor/ethics', function () {
-    return view('pages.degree.bachelor.activity.ethics');
-});
-Route::get('/degree/bachelor/culture', function () {
-    return view('pages.degree.bachelor.activity.culture');
-});
-Route::get('/degree/bachelor/gallery', function () {
-    return view('pages.degree.bachelor.activity.gallery');
-});
-Route::get('/degree/bachelor/gallery/activity1', function () {
-    return view('pages.degree.bachelor.activity.activity1');
-});
-Route::get('/degree/bachelor/gallery/activity2', function () {
-    return view('pages.degree.bachelor.activity.activity2');
-});
-Route::get('/degree/bachelor/gallery/activity3', function () {
-    return view('pages.degree.bachelor.activity.activity3');
-});
-Route::get('/degree/bachelor/gallery/activity4', function () {
-    return view('pages.degree.bachelor.activity.activity4');
-});
-Route::get('/degree/bachelor/prophylactic', function () {
-    return view('pages.degree.bachelor.prophylactic');
-});
-Route::get('/degree/bachelor/healthCare', function () {
-    return view('pages.degree.bachelor.healthCare');
-});
-Route::get('/degree/bachelor/consultCare', function () {
-    return view('pages.degree.bachelor.consultCare');
-});
-Route::get('/degree/bachelor/advisors', function () {
-    return view('pages.degree.bachelor.advisors');
-});
-Route::get('/degree/bachelor/masterClass', function () {
-    return view('pages.degree.bachelor.masterClass');
-});
-Route::get('/degree/bachelor/assistantLecturer', function () {
-    return view('pages.degree.bachelor.assistantLecturer');
-});
-//      B U R S A R Y      //
-Route::get('/degree/bursary/faculty', function () {
-    return view('pages.degree.bachelor.bursary.faculty');
-});
-Route::get('/degree/bursary/university', function () {
-    return view('pages.degree.bachelor.bursary.university');
-});
-Route::get('/degree/bursary/hospital', function () {
-    return view('pages.degree.bachelor.bursary.hospital');
-});
-Route::get('/degree/bursary/employ', function () {
-    return view('pages.degree.bachelor.bursary.employ');
-});
-Route::get('/degree/bursary/ICL', function () {
-    return view('pages.degree.bachelor.bursary.ICL');
-});
-Route::get('/degree/bursary/SLF', function () {
-    return view('pages.degree.bachelor.bursary.SLF');
-});
 
-Route::get('/degree/shouldKnow/1', function () {
-    return view('pages.degree.bachelor.shouldKnow.1');
-});
-Route::get('/degree/shouldKnow/2', function () {
-    return view('pages.degree.bachelor.shouldKnow.2');
-});
-Route::get('/degree/shouldKnow/3', function () {
-    return view('pages.degree.bachelor.shouldKnow.3');
-});
-Route::get('/degree/shouldKnow/4', function () {
-    return view('pages.degree.bachelor.shouldKnow.4');
-});
-Route::get('/degree/shouldKnow/5', function () {
-    return view('pages.degree.bachelor.shouldKnow.5');
-});
-Route::get('/degree/shouldKnow/6', function () {
-    return view('pages.degree.bachelor.shouldKnow.6');
-});
-Route::get('/degree/shouldKnow/7', function () {
-    return view('pages.degree.bachelor.shouldKnow.7');
-});
+
+
+
 
 //     D E V E L O P M E N T   //
 
@@ -208,11 +123,109 @@ Route::get('/development/contact', function () {
 Route::get('/development/alumnus', function () {
     return view('pages.development.alumnus');
 });
+Route::get('/development/shouldKnow', function () {
+    return view('pages.development.shouldKnow.index');
+});
+Route::get('/development/shouldKnow/1', function () {
+    return view('pages.development.shouldKnow.1');
+});
+Route::get('/development/shouldKnow/2', function () {
+    return view('pages.development.shouldKnow.2');
+});
+Route::get('/development/shouldKnow/3', function () {
+    return view('pages.development.shouldKnow.3');
+});
+Route::get('/development/shouldKnow/4', function () {
+    return view('pages.development.shouldKnow.4');
+});
+Route::get('/development/shouldKnow/5', function () {
+    return view('pages.development.shouldKnow.5');
+});
+Route::get('/development/shouldKnow/6', function () {
+    return view('pages.development.shouldKnow.6');
+});
+Route::get('/development/shouldKnow/7', function () {
+    return view('pages.development.shouldKnow.7');
+});
+Route::get('/development/bursary', function () {
+    return view('pages.development.bursary.index');
+});
+Route::get('/development/bursary/faculty', function () {
+    return view('pages.development.bursary.faculty');
+});
+Route::get('/development/bursary/university', function () {
+    return view('pages.development.bursary.university');
+});
+Route::get('/development/bursary/hospital', function () {
+    return view('pages.development.bursary.hospital');
+});
+Route::get('/development/bursary/employ', function () {
+    return view('pages.development.bursary.employ');
+});
+Route::get('/development/bursary/ICL', function () {
+    return view('pages.development.bursary.ICL');
+});
+Route::get('/development/bursary/SLF', function () {
+    return view('pages.development.bursary.SLF');
+});
+Route::get('/development/healthCare', function () {
+    return view('pages.development.healthCare.index');
+});
+Route::get('/development/healthCare/prophylactic', function () {
+    return view('pages.development.healthCare.prophylactic');
+});
+Route::get('/development/healthCare/healthCare', function () {
+    return view('pages.development.healthCare.healthCare');
+});
+Route::get('/development/healthCare/consultCare', function () {
+    return view('pages.development.healthCare.consultCare');
+});
+Route::get('/development/suggestion', function () {
+    return view('pages.development.advisors.index');
+});
+Route::get('/development/advisors/advisors', function () {
+    return view('pages.development.advisors.advisors');
+});
+Route::get('/development/advisors/masterClass', function () {
+    return view('pages.development.advisors.masterClass');
+});
+Route::get('/development/advisors/assistantLecturer', function () {
+    return view('pages.development.advisors.assistantLecturer');
+});
 
-
-
-
-
+Route::get('/development/activity', function () {
+    return view('pages.development.activity.index');
+});
+Route::get('/development/academic', function () {
+    return view('pages.development.activity.academic');
+});
+Route::get('/development/sport', function () {
+    return view('pages.development.activity.sport');
+});
+Route::get('/development/outreach', function () {
+    return view('pages.development.activity.outreach');
+});
+Route::get('/development/ethics', function () {
+    return view('pages.development.activity.ethics');
+});
+Route::get('/development/culture', function () {
+    return view('pages.development.activity.culture');
+});
+Route::get('/development/gallery', function () {
+    return view('pages.development.activity.gallery');
+});
+Route::get('/development/gallery/activity1', function () {
+    return view('pages.development.activity.activity1');
+});
+Route::get('/development/gallery/activity2', function () {
+    return view('pages.development.activity.activity2');
+});
+Route::get('/development/gallery/activity3', function () {
+    return view('pages.development.activity.activity3');
+});
+Route::get('/development/gallery/activity4', function () {
+    return view('pages.development.activity.activity4');
+});
 
 
 //     D R G R E E  P H D    //

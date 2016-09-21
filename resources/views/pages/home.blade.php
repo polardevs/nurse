@@ -149,23 +149,23 @@
 			<div class="row article-news">
     			<div class="row">
     				<div class="col-md-12">
-    					<h3>ข่าวรับสมัครงาน</h3>
+    					<h2>ข่าวรับสมัครงาน</h2>
     					<div class="panel-group" id="accordion2" aria-multiselectable="true">
-								<div class="panel panel-default">
-									<div class="panel-heading"  id="headingThree">
-										<h4 class="panel-title">
-											<a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree" aria-expanded="true" >
-												ข่าวรับสมัครงาน
-											</a>
-										</h4>
-									</div>
-									<div id="collapseThree" class="panel-collapse collapse in">
-										<a href="http://www.nurse.tu.ac.th/pdf/94-59.pdf" target="_blank"><div class="panel-body">รายชื่อผู้เข้ารับการคัดเลือกเป็นพนักงานมหาลัย ตำแหน่งนักวิชาการการศึกษาปฏิบัติการ</div></a>
-										<a href="http://www.nurse.tu.ac.th/pdf/90-59.pdf" target="_blank"><div class="panel-body">รับสมัครบุคคลเข้าเป็นพนักงานมหาวิทยาลัย ตำแหน่ง อาจารย์ คณะพยาบาลศาสตร์ สาขาการพยาบาลครอบครัวและผดุงครรภ์</div></a>
-										<a href="http://www.nurse.tu.ac.th/pdf/88-59.pdf" target="_blank"><div class="panel-body">รับสมัครบุคคลเข้าบรรจุเป็นพนักงานเงินรายได้ประเภทประจำ ตำแหน่งนักวิชาการ การศึกษา</div></a>
-										<!-- <a href="#"><div class="panel-body">อ่านทั้งหมด</div></a> -->
-									</div>
+							<div class="panel panel-default">
+								<div class="panel-heading"  id="headingThree">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree" aria-expanded="true" >
+											ข่าวรับสมัครงาน
+										</a>
+									</h4>
 								</div>
+								<div id="collapseThree" class="panel-collapse collapse in">
+									<a href="http://www.nurse.tu.ac.th/pdf/94-59.pdf" target="_blank"><div class="panel-body">รายชื่อผู้เข้ารับการคัดเลือกเป็นพนักงานมหาลัย ตำแหน่งนักวิชาการการศึกษาปฏิบัติการ</div></a>
+									<a href="http://www.nurse.tu.ac.th/pdf/90-59.pdf" target="_blank"><div class="panel-body">รับสมัครบุคคลเข้าเป็นพนักงานมหาวิทยาลัย ตำแหน่ง อาจารย์ คณะพยาบาลศาสตร์ สาขาการพยาบาลครอบครัวและผดุงครรภ์</div></a>
+									<a href="http://www.nurse.tu.ac.th/pdf/88-59.pdf" target="_blank"><div class="panel-body">รับสมัครบุคคลเข้าบรรจุเป็นพนักงานเงินรายได้ประเภทประจำ ตำแหน่งนักวิชาการ การศึกษา</div></a>
+									<!-- <a href="#"><div class="panel-body">อ่านทั้งหมด</div></a> -->
+								</div>
+							</div>
 						</div>
     				</div>
     			</div>
@@ -177,7 +177,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h3 class="text-center">ผู้บริหาร</h3>
+					<h2 class="text-center">ผู้บริหาร</h2>
 					<div class="row">
 						<div class="col-md-4 col-md-offset-4 personal">
 							<img src="{{ asset('/images/pages/home/persons/person1.png') }}" class="img-circle img-responsive center-block">
@@ -256,6 +256,30 @@
 	    				</div>
 	    			</a>
     			</div>
+    			<div class="heading-inner col-md-4">
+					<a href="http://researchcenter.nurse.tu.ac.th/">
+	    				<img src="{{ asset('/images/pages/home/services/Child.jpg') }}" class="img-responsive">
+	    				<div class="caption">
+			            	<h4>โครงการบริการการศึกษา </h4>
+	    				</div>
+	    			</a>
+    			</div>
+    			<div class="heading-inner col-md-4">
+					<a href="http://researchcenter.nurse.tu.ac.th/">
+	    				<img src="{{ asset('/images/pages/home/services/Healthy.jpg') }}" class="img-responsive">
+	    				<div class="caption">
+			            	<h4>โครงการบริการสังคม/หลักสูตรอบรมระยะสั้น </h4>
+	    				</div>
+	    			</a>
+    			</div>
+    			<div class="heading-inner col-md-4">
+					<a href="http://researchcenter.nurse.tu.ac.th/">
+	    				<img src="{{ asset('/images/pages/home/services/research.jpg') }}" class="img-responsive">
+	    				<div class="caption">
+			            	<h4>ศูนย์ธรรมศาสตร์ </h4>
+	    				</div>
+	    			</a>
+    			</div>
     		</div>
     	</div>
     </section>
@@ -265,12 +289,12 @@
 			<div class="row article-news">
     			<div class="row">
     				<div class="col-md-6">
-    					<h3>
+    					<h2>
     						กิจกรรมรายเดือน
     						<a href="{{ url('activity/eventsOfMonth') }}">
     							<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
     						</a>
-    					</h3>
+    					</h2>
     					<a href="#">
     						<div class="col-md-12">
     							<h5>ความร่วมมือระหว่างประเทศ</h5>
@@ -281,12 +305,12 @@
     					</a>
     				</div>
     				<div class="col-md-6">
-    					<h3>
+    					<h2>
     						ภาพกิจกรรม
     						<a href="{{ url('activity/gallery') }}">
     							<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
     						</a>
-    					</h3>
+    					</h2>
     					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						    <!-- Indicators -->
 						    <ol class="carousel-indicators">
@@ -329,12 +353,12 @@
     			</div>
     			<div class="row">
     				<div class="col-md-12">
-    					<h3>
+    					<h2>
     						ปฏิทินกิจกรรม
     						<a href="{{ url('activity/calendar') }}">
     							<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
     						</a>
-    					</h3>
+    					</h2>
 	    				<div class="row">
     						<a href="#">
 		    					<div class="col-md-6">
@@ -373,7 +397,7 @@
 		<div class="container">
 			<div class="row article-news">
 				<div class="col-md-6 col-md-offset-3">
-					<h3 class="text-center">ดั่งมหาหงส์นิวส์</h3>
+					<h2 class="text-center">ดั่งมหาหงส์นิวส์</h2>
 					<div id="MahahongNews" class="carousel slide" data-ride="carousel">
 					    <!-- Indicators -->
 					    <ol class="carousel-indicators">
@@ -421,7 +445,7 @@
 		<div class="container">
 			<div class="row">
     			<div class="heading-inner col-md-12">
-    				<h3>
+    				<h2>
     					กิจกรรมนักศึกษา/ศิษย์เก่า
     					<a href="{{ url('activity/alumnus') }}">
     						<small class="pull-right">อ่านทั้งหมด <i class="fa fa-angle-double-right"></i></small>
@@ -463,11 +487,11 @@
 			<div class="row article-news">
     			<div class="row">
     				<div class="col-md-6">
-    					<h3>สุขภาพดีมีที่นี่</h3>
+    					<h2>สุขภาพดีมีที่นี่</h2>
     					<img src="{{ asset('/images/pages/home/healthy.jpg') }}" class="img-responsive center-block">
     				</div>
     				<div class="col-md-6">
-    					<h3>บทความวิชาการ / วิจัย</h3>
+    					<h2>บทความวิชาการ / วิจัย</h3>
     					<div class="row">
     						<div class="col-md-12">
 								<div class="panel-group"  aria-multiselectable="true">
@@ -492,7 +516,7 @@
 								</div>
 							</div>
     					</div>
-    					<h3>จรรยาบรรณวิชาชีพ</h3>
+    					<h2>จรรยาบรรณวิชาชีพ</h2>
     					<div class="row">
     						<div class="col-md-12">
 								<div class="panel-group"  aria-multiselectable="true">
@@ -508,7 +532,6 @@
 								</div>
 							</div>
     					</div>
-
     				</div>
     			</div>
     		</div> <!-- heading row end -->

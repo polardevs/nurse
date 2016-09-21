@@ -125,7 +125,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/news') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/news') }}" target="_blank">
 					ข่าวประชาสัมพันธ์ชาว สนล.
 				</a>
 			</h4>
@@ -139,7 +139,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/calendar') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/calendar') }}" target="_blank">
 					ปฏิทินกิจกรรมประจำการศึกษาของคณะ สนล.
 				</a>
 			</h4>
@@ -150,7 +150,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a href="{{ url('OfficeSecrerariat/gallery') }}">ภาพแสดงกิจกรรมต่างๆ</a>
+				<a href="{{ url('OfficeSecrerariat/gallery') }}" target="_blank">ภาพแสดงกิจกรรมต่างๆ</a>
 				</h4>
 		</div>
 	</div>
@@ -158,7 +158,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/download') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/download') }}" target="_blank">
 					ดาวน์โหลดแบบฟอร์ม
 				</a>
 			</h4>

@@ -47,7 +47,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs/Forms') }}">
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/GeneralAffairs/Forms') }}" target="_blank">
 					แบบฟอร์มต่างๆ ของมธ.
 				</a>
 			</h4>

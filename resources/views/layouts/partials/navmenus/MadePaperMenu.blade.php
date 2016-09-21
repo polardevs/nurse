@@ -5,7 +5,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper/copying') }}" >
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper/copying') }}"  target="_blank">
 			แบบฟอร์มขอถ่ายเอกสาร
 				</a>
 			</h4>
@@ -28,7 +28,7 @@
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
 				<!-- <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" > -->
-				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper/snack') }}" >
+				<a class="collapsed" href="{{ url('OfficeSecrerariat/ManageAndHr/MadePaper/snack') }}" target="_blank" >
 					แบฟอร์มการขออาหารว่างและเครื่องดื่ม
 				</a>
 			</h4>
