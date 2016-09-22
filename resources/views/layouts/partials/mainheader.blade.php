@@ -180,7 +180,7 @@
 						</ul>
 					</li>
 					<li><a href="http://www.nurse.tu.ac.th/nsresearch/index_light_blue.html" target="_blank">จริยธรรมการวิจัย</a></li>
-					<li><a href="{{ url('OfficeSecrerariat') }}" target="_blank">สมาคมศิษย์เก่า</a></li>
+					<li><a href="#" target="_blank">สมาคมศิษย์เก่า</a></li>
 					<li><a href="{{ url('OfficeSecrerariat') }}" target="_blank">สำนักงานเลขนุการ</a></li>
 					<li><a href="http://nurse.tu.ac.th/english/" target="_blank">International Affairs </a></li>
 					<li><a href="http://research.nurse.tu.ac.th" target="_blank">ฝ่ายวิจัย</a></li>

@@ -74,7 +74,7 @@
 						<h4>ผู้ช่วยคณบดี</h4>
 						<div class="row img-advisors">
 							<div class="col-md-3">
-								<img src="{{ asset('/images/partials/header/Logo_Nurseing_TU.png') }}" class="img-responsive">
+								<img src="{{ asset('/images/pages/about/manager/wariya.jpg') }}" class="img-responsive">
 								<div class="text-center">
 									<b>ฝ่ายวิเทศสัมพันธ์และสื่อสารองค์กร</b>
 									<p>ดร.วาริยา หมื่นสา</p>
