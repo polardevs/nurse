@@ -30,8 +30,8 @@
 					</div>
 					<div class="content">
 						<h4>ตารางจัดทำงบประมาณ</h4>
-						
-					</div>
+                        @include('layouts.partials.underConstruction')                        
+                    </div>
 				</div>
 			</div>
 		</div>

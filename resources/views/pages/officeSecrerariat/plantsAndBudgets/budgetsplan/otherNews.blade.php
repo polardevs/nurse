@@ -30,8 +30,8 @@
 					</div>
 					<div class="content">
 						<h4>ประชาสัมพันธ์อื่นๆที่เกี่ยวข้อง</h4>
-						
-					</div>
+                        @include('layouts.partials.underConstruction')                        
+                    </div>
 				</div>
 			</div>
 		</div>

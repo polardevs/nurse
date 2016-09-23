@@ -97,3 +97,12 @@
 .nav-link a{
 	color: #fff;
 }
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+	margin-top: 0px !important;
+	margin-right: -40px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+	margin-top: 0px !important;
+	margin-left: -40px;
+}

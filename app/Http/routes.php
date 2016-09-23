@@ -383,6 +383,9 @@ Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan', function () {
 Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/system', function () {
     return view('pages.officeSecrerariat.plantsAndBudgets.budgetsplan.system');
 });
+Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/table', function () {
+    return view('pages.officeSecrerariat.plantsAndBudgets.budgetsplan.table');
+});
 Route::get('/OfficeSecrerariat/PlantsAndBudgets/Budgetsplan/schedule', function () {
     return view('pages.officeSecrerariat.plantsAndBudgets.budgetsplan.schedule');
 });
@@ -681,4 +684,14 @@ Route::get('/activity/gallery/activity4', function () {
 });
 Route::get('/activity/alumnus', function () {
     return view('pages.activity.alumnus');
+});
+
+Route::get('/managementEducation', function () {
+    return view('pages.education.index');
+});
+Route::get('/socialServices', function () {
+    return view('pages.socialServices.index');
+});
+Route::get('/thammasatUniversity', function () {
+    return view('pages.thammasatUniversity.index');
 });

@@ -233,7 +233,7 @@
     			<div class="heading-inner col-md-12">
     				<h2 class="sec-title">การบริการวิชาการและสังคม</h2>
     			<div class="heading-inner col-md-4">
-					<a href="http://childhood.nurse.tu.ac.th/">
+					<a href="http://childhood.nurse.tu.ac.th/" target="_blank">
 	    				<img src="{{ asset('/images/pages/home/services/Child.jpg') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>ศูนย์พัฒนาเด็กปฐมวัย </h4>
@@ -241,7 +241,7 @@
 	    			</a>
     			</div>
     			<div class="heading-inner col-md-4">
-					<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html">
+					<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html" target="_blank">
 	    				<img src="{{ asset('/images/pages/home/services/Healthy.jpg') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>ศูนย์ส่งเสริมสุขภาพ </h4>
@@ -249,7 +249,7 @@
 	    			</a>
     			</div>
     			<div class="heading-inner col-md-4">
-					<a href="http://researchcenter.nurse.tu.ac.th/">
+					<a href="http://researchcenter.nurse.tu.ac.th/" target="_blank">
 	    				<img src="{{ asset('/images/pages/home/services/research.jpg') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>ศูนย์วิจัยทางการพยาบาลและพฤติกรรมศาสตร์ </h4>
@@ -257,7 +257,7 @@
 	    			</a>
     			</div>
     			<div class="heading-inner col-md-4">
-					<a href="http://researchcenter.nurse.tu.ac.th/">
+					<a href="{{ url('managementEducation') }}" target="_blank">
 	    				<img src="{{ asset('/images/pages/home/services/Child.jpg') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>โครงการบริการการศึกษา </h4>
@@ -265,7 +265,7 @@
 	    			</a>
     			</div>
     			<div class="heading-inner col-md-4">
-					<a href="http://researchcenter.nurse.tu.ac.th/">
+					<a href="{{ url('socialServices') }}" target="_blank">
 	    				<img src="{{ asset('/images/pages/home/services/Healthy.jpg') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>โครงการบริการสังคม/หลักสูตรอบรมระยะสั้น </h4>
@@ -273,10 +273,10 @@
 	    			</a>
     			</div>
     			<div class="heading-inner col-md-4">
-					<a href="http://researchcenter.nurse.tu.ac.th/">
+					<a href="{{ url('thammasatUniversity') }}" target="_blank">
 	    				<img src="{{ asset('/images/pages/home/services/research.jpg') }}" class="img-responsive">
 	    				<div class="caption">
-			            	<h4>ศูนย์ธรรมศาสตร์ </h4>
+			            	<h4>ศูนย์ธรรมศาสตร์ ธรรมรักษ์ </h4>
 	    				</div>
 	    			</a>
     			</div>
