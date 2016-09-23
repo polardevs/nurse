@@ -164,4 +164,26 @@
 			</h4>
 		</div>
 	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading" id="headingTwo">
+			<h4 class="panel-title">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" >
+					ลิ้งค์อื่นๆ
+				</a>
+			</h4>
+		</div>
+		<div id="collapseSix" class="panel-collapse collapse" >
+			<a href="http://203.131.209.180/znstu/login.php" target="_blank">
+				<div class="panel-body">การบริการวิชาการแก่สังคม</div>
+			</a>
+			<a href="http://childhood.nurse.tu.ac.th/" target="_blank">
+				<div class="panel-body">ศูนย์พัฒนาเด็กปฐมวัย</div>
+			</a>
+			<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html" target="_blank">
+				<div class="panel-body">ศูนย์ส่งเสริมสุขภาพ</div>
+			</a>
+		</div>
+	</div>
+
 </div>

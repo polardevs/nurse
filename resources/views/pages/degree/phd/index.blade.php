@@ -29,7 +29,7 @@
 					</div>
 					<div class="content">
 						<h4>ปริญญาเอก</h4>
-						@include('layouts.partials.underConstruction')
+						<!-- @include('layouts.partials.underConstruction') -->
 						<!-- <h6>หลักสูตรพยาบาลดุษฎีบัณฑิต  </h6> -->
             <form class="form-horizontal">
 							<div class="form-group">
