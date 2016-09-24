@@ -695,3 +695,20 @@ Route::get('/socialServices', function () {
 Route::get('/thammasatUniversity', function () {
     return view('pages.thammasatUniversity.index');
 });
+
+
+Route::get('/projectKm', function () {
+    return view('pages.projectKm.index');
+});
+Route::get('/projectKm/1', function () {
+    return view('pages.projectKm.1');
+});
+Route::get('/projectKm/2', function () {
+    return view('pages.projectKm.2');
+});
+Route::get('/projectKm/3', function () {
+    return view('pages.projectKm.3');
+});
+Route::get('/projectKm/4', function () {
+    return view('pages.projectKm.4');
+});

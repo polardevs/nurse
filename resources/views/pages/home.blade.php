@@ -39,7 +39,7 @@
                         <div class="row article-news">
             				<a href="{{ url('degree/bachelor') }}" target="_blank">
 	            				<div class="col-md-4">
-									<img src="{{ asset('/images/pages/home/news/11.jpg') }}" class="img-responsive">
+									<img src="{{ asset('/images/pages/home/services/bachelor.png') }}" class="img-responsive">
 									<div class="caption">
 						            	<h4>หลักสูตรปริญญาตรี</h4>
 									</div>
@@ -48,7 +48,7 @@
             				<!-- <a href="{{ url('degree/master') }}"> -->
             				<a href="http://www.nurse.tu.ac.th/master_degree_new/" target="_blank">
 	            				<div class="col-md-4">
-									<img src="{{ asset('/images/pages/home/news/masterPicture.jpg') }}" class="img-responsive">
+									<img src="{{ asset('/images/pages/home/services/masterDegree.png') }}" class="img-responsive">
 									<div class="caption">
 						            	<h4>หลักสูตรปริญญาโท</h4>
 				    				</div>
@@ -56,7 +56,7 @@
 	            			</a>
             				<a href="{{ url('degree/phd') }}" target="_blank">
 	            				<div class="col-md-4">
-									<img src="{{ asset('/images/pages/home/news/PhdPicture.jpg') }}" class="img-responsive">
+									<img src="{{ asset('/images/pages/home/services/phd.png') }}" class="img-responsive">
 									<div class="caption">
 						            	<h4>หลักสูตรปริญญาเอก</h4>
 				    				</div>
@@ -234,7 +234,7 @@
     				<h2 class="sec-title">การบริการวิชาการและสังคม</h2>
     			<div class="heading-inner col-md-4">
 					<a href="http://childhood.nurse.tu.ac.th/" target="_blank">
-	    				<img src="{{ asset('/images/pages/home/services/Child.jpg') }}" class="img-responsive">
+	    				<img src="{{ asset('/images/pages/home/services/childHoodImg.png') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>ศูนย์พัฒนาเด็กปฐมวัย </h4>
 	    				</div>
@@ -242,7 +242,7 @@
     			</div>
     			<div class="heading-inner col-md-4">
 					<a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html" target="_blank">
-	    				<img src="{{ asset('/images/pages/home/services/Healthy.jpg') }}" class="img-responsive">
+	    				<img src="{{ asset('/images/pages/home/services/healthImg.png') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>ศูนย์ส่งเสริมสุขภาพ </h4>
 	    				</div>
@@ -250,7 +250,7 @@
     			</div>
     			<div class="heading-inner col-md-4">
 					<a href="http://researchcenter.nurse.tu.ac.th/" target="_blank">
-	    				<img src="{{ asset('/images/pages/home/services/research.jpg') }}" class="img-responsive">
+	    				<img src="{{ asset('/images/pages/home/services/researchImg.png') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>ศูนย์วิจัยทางการพยาบาลและพฤติกรรมศาสตร์ </h4>
 	    				</div>
@@ -258,7 +258,7 @@
     			</div>
     			<div class="heading-inner col-md-4">
 					<a href="{{ url('managementEducation') }}" target="_blank">
-	    				<img src="{{ asset('/images/pages/home/services/Child.jpg') }}" class="img-responsive">
+	    				<img src="{{ asset('/images/pages/home/services/managementEducation.png') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>โครงการบริการการศึกษา </h4>
 	    				</div>
@@ -266,7 +266,7 @@
     			</div>
     			<div class="heading-inner col-md-4">
 					<a href="{{ url('socialServices') }}" target="_blank">
-	    				<img src="{{ asset('/images/pages/home/services/Healthy.jpg') }}" class="img-responsive">
+	    				<img src="{{ asset('/images/pages/home/services/socialServices.png') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>โครงการบริการสังคม/หลักสูตรอบรมระยะสั้น </h4>
 	    				</div>
@@ -274,7 +274,7 @@
     			</div>
     			<div class="heading-inner col-md-4">
 					<a href="{{ url('thammasatUniversity') }}" target="_blank">
-	    				<img src="{{ asset('/images/pages/home/services/research.jpg') }}" class="img-responsive">
+	    				<img src="{{ asset('/images/pages/home/services/thammasatUniversity.png') }}" class="img-responsive">
 	    				<div class="caption">
 			            	<h4>ศูนย์ธรรมศาสตร์ ธรรมรักษ์ </h4>
 	    				</div>
@@ -392,55 +392,6 @@
     		</div> <!-- heading row end -->
 		</div>	<!-- container end -->
 	</section>
-
-	<section class="Home-MahahongNews">
-		<div class="container">
-			<div class="row article-news">
-				<div class="col-md-6 col-md-offset-3">
-					<h2 class="text-center">ดั่งมหาหงส์นิวส์</h2>
-					<div id="MahahongNews" class="carousel slide" data-ride="carousel">
-					    <!-- Indicators -->
-					    <ol class="carousel-indicators">
-							<li data-target="#MahahongNews" data-slide-to="0" class="active"></li>
-							<li data-target="#MahahongNews" data-slide-to="1"></li>
-							<li data-target="#MahahongNews" data-slide-to="2"></li>
-							<li data-target="#MahahongNews" data-slide-to="3"></li>
-					    </ol>
-
-					    <!-- Wrapper for slides -->
-					    <div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<img src="{{ asset('/images/pages/home/activitys/a1.jpg') }}" alt="Chania" width="460" height="345" class="center-block">
-							</div>
-
-							<div class="item">
-								<img src="{{ asset('/images/pages/home/activitys/a2.jpg') }}" alt="Chania" width="460" height="345" class="center-block">
-							</div>
-
-							<div class="item">
-								<img src="{{ asset('/images/pages/home/activitys/a3.jpg') }}" alt="Flower" width="460" height="345" class="center-block">
-							</div>
-
-							<div class="item">
-								<img src="{{ asset('/images/pages/home/activitys/a4.jpg') }}" alt="Flower" width="460" height="345" class="center-block">
-							</div>
-					    </div>
-
-					    <!-- Left and right controls -->
-						<a class="left carousel-control" href="#MahahongNews" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="margin-top: 150px;"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="right carousel-control" href="#MahahongNews" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="margin-top: 150px;"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
 	<section class="Home-StdAct">
 		<div class="container">
 			<div class="row">
@@ -488,7 +439,8 @@
     			<div class="row">
     				<div class="col-md-6">
     					<h2>สุขภาพดีมีที่นี่</h2>
-    					<img src="{{ asset('/images/pages/home/healthy.jpg') }}" class="img-responsive center-block">
+    					<p>comming soon</p>
+    					<!-- <img src="{{ asset('/images/pages/home/healthy.jpg') }}" class="img-responsive center-block"> -->
     				</div>
     				<div class="col-md-6">
     					<h2>บทความวิชาการ / วิจัย</h3>

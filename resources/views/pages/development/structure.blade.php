@@ -33,7 +33,7 @@
 							<div class="col-md-4 col-md-offset-4">
 								<img src="{{ asset('/images/pages/development/structure/manyat.jpg') }}" class="img-responsive center-block">
 								<div class="text-center">
-									<b>คณบดี คณะพยาบาลศาสตร์ มหาวิทยาลัยธรรมศาสตร์</b>
+									<b>คณะบดี คณะพยาบาลศาสตร์ มหาวิทยาลัยธรรมศาสตร์</b>
 									<p>รศ.ดร.มรรยาท รุจิวิชชญ์</p>
 								</div>
 							</div>

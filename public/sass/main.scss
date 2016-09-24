@@ -106,3 +106,10 @@
 	margin-top: 0px !important;
 	margin-left: -40px;
 }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #fff;
+	background: #333;
+}
+.km-Img{
+	max-height: 200px;
+}

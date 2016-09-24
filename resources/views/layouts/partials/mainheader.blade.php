@@ -1,6 +1,8 @@
 <div class="main-header">
 	<div class="sub-header">
 		<div class="container">
+			<!-- <img src="{{ asset('/images/partials/header/banner.png') }}"> -->
+			<!-- Start Logo Image && Left Menubar -->
 			<div class="row" style="margin-bottom: 15px; margin-top: 10px;	">
 				<div class="col-sm-6 col-md-5" >
 					<a href="{{ url('') }}" class="link-logo">
@@ -12,7 +14,6 @@
 						</div>
 					</a>
 				</div>
-
 				<div class="col-sm-6 col-md-7 line-right hidden-xs">
 					<div class="row">
 						<nav class="navbar pull-right nav-link">
@@ -23,7 +24,10 @@
 									</a>
 									<ul class="dropdown-menu">
 										<li><a href="http://203.131.209.180/znstu/login.php" target="_blank">Manament Information System (MIS)</a></li>
-										<li><a href="http://www.nurse.tu.ac.th/KM_NURSETU.htm" target="_blank">Knowledge Management</a></li>
+										<li>
+											<a href="{{ url('projectKm') }}" target="_blank">Knowledge Management</a>
+											<!-- <a href="http://www.nurse.tu.ac.th/KM_NURSETU.htm" target="_blank">Knowledge Management</a> -->
+										</li>
 										<!-- <li role="separator" class="divider"></li> -->
 										<li ><a href="http://203.131.209.178/scripts/foxweb.exe/oa_login" target="_blank">E-Office</a></li>
 										<li ><a href="http://e-learning.tu.ac.th/index512.php" target="_blank">E-Learning</a></li>
@@ -67,23 +71,7 @@
 								</li>
 	        			<!-- <li><a href="#">ชมรมศิษย์เก่า</a></li> -->
 	        			
-	        			<!-- <li><a href="#">บริการวิชาการ</a></li> -->
-	        			<li class="dropdown">
-									<a href="" class="dropdown-toggle" data-toggle="dropdown">
-										งานพัฒนานักศึกษา <span class="caret"></span>
-									</a>
-									<ul class="dropdown-menu">
-										<li><a href="{{ url('development/structure') }}">โครงสร้าง</a></li>
-										<li><a href="{{ url('development/goal') }}">เป้าหมาย</a></li>
-										<li ><a href="{{ url('development/board') }}">คณะกรรมการฯ</a></li>
-										<li ><a href="{{ url('development/advisors') }}">อาจารย์ที่ปรึกษาและครูประจำชั้น</a></li>
-										<li ><a href="{{ url('development/activity') }}">กิจกรรมนักศึกษา</a></li>
-										<li ><a href="{{ url('development/bursary') }}">บริการนักศึกษา</a></li>
-										<li ><a href="{{ url('development/healthCare') }}">บริการสุขภาพ</a></li>
-										<li ><a href="{{ url('development/suggestion') }}">การให้คำปรึกษาและแนะนำ</a></li>
-										<li ><a href="{{ url('development/shouldKnow') }}">สิ่งที่นักศึกษาควรรู้</a></li>
-									</ul>
-								</li>
+	        			
 	        			<!-- <li><a href="#">ฝ่ายการนักศึกษา</a></li> -->
 	        			<li class="dropdown">
 									<a href="" class="dropdown-toggle" data-toggle="dropdown">
@@ -113,6 +101,7 @@
 					</div>
 				</div>
 			</div>
+			<!-- End Logo Image && Left Menubar -->
 		</div>
 	</div>
 </div>
@@ -130,7 +119,7 @@
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	      <ul class="nav navbar-nav">
-	      	<li class="dropdown">
+					<li class="dropdown">
 						<a href="" class="dropdown-toggle" data-toggle="dropdown">
 							คณะเรา<span class="caret"></span>
 						</a>
@@ -168,7 +157,26 @@
 							</a></li>
 						</ul>
 					</li>
+					<li><a href="http://research.nurse.tu.ac.th" target="_blank">ฝ่ายวิจัย</a></li>
+					<li><a href="http://www.nurse.tu.ac.th/nsresearch/index_light_blue.html" target="_blank">จริยธรรมการวิจัย</a></li>
 					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown">
+							งานพัฒนานักศึกษา <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="{{ url('development/structure') }}">โครงสร้าง</a></li>
+							<li><a href="{{ url('development/goal') }}">เป้าหมาย</a></li>
+							<li ><a href="{{ url('development/board') }}">คณะกรรมการฯ</a></li>
+							<li ><a href="{{ url('development/advisors') }}">อาจารย์ที่ปรึกษาและครูประจำชั้น</a></li>
+							<li ><a href="{{ url('development/activity') }}">กิจกรรมนักศึกษา</a></li>
+							<li ><a href="{{ url('development/bursary') }}">บริการนักศึกษา</a></li>
+							<li ><a href="{{ url('development/healthCare') }}">บริการสุขภาพ</a></li>
+							<li ><a href="{{ url('development/suggestion') }}">การให้คำปรึกษาและแนะนำ</a></li>
+							<li ><a href="{{ url('development/shouldKnow') }}">สิ่งที่นักศึกษาควรรู้</a></li>
+						</ul>
+					</li>
+		      <li><a href="#">บริการวิชาการ</a></li>
+		      <li class="dropdown">
 						<a href="" class="dropdown-toggle" data-toggle="dropdown">
 							ประกันคุณภาพการศึกษา <span class="caret"></span>
 						</a>
@@ -179,18 +187,19 @@
 							<li><a href="{{ url('quality/result') }}">รายงานผลการตรวจสอบ</a></li>
 						</ul>
 					</li>
-					<li><a href="http://www.nurse.tu.ac.th/nsresearch/index_light_blue.html" target="_blank">จริยธรรมการวิจัย</a></li>
+					<li><a href="http://nurse.tu.ac.th/english/" target="_blank">International Affairs </a></li>
 					<li><a href="#" target="_blank">สมาคมศิษย์เก่า</a></li>
 					<li><a href="{{ url('OfficeSecrerariat') }}" target="_blank">สำนักงานเลขนุการ</a></li>
-					<li><a href="http://nurse.tu.ac.th/english/" target="_blank">International Affairs </a></li>
-					<li><a href="http://research.nurse.tu.ac.th" target="_blank">ฝ่ายวิจัย</a></li>
-		  		<li class="dropdown">
+					<li class="dropdown">
     				<a href="" class="dropdown-toggle" data-toggle="dropdown">
 							ลิ้งค์ภายใน<span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
 							<li><a href="http://203.131.209.180/znstu/login.php" target="_blank">Manament Information System (MIS)</a></li>
-							<li><a href="http://www.nurse.tu.ac.th/KM_NURSETU.htm" target="_blank">Knowledge Management</a></li>
+							<li>
+								<a href="{{ url('projectKm') }}" target="_blank">Knowledge Management</a>
+								<!-- <a href="http://www.nurse.tu.ac.th/KM_NURSETU.htm" target="_blank">Knowledge Management</a> -->
+							</li>
 							<!-- <li role="separator" class="divider"></li> -->
 							<li ><a href="http://203.131.209.178/scripts/foxweb.exe/oa_login" target="_blank">E-Office</a></li>
 							<li ><a href="http://e-learning.tu.ac.th/index512.php" target="_blank">E-Learning</a></li>
@@ -232,23 +241,11 @@
 							<li ><a href="http://www.nurse.tu.ac.th/pdf/84-59.pdf" target="_blank">คู่มือนักศึกษา ปี 2559 </a></li>
 						</ul>
 					</li>
-					<li class="dropdown">
-						<a href="" class="dropdown-toggle" data-toggle="dropdown">
-							งานพัฒนานักศึกษา <span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="{{ url('development/structure') }}">โครงสร้าง</a></li>
-							<li><a href="{{ url('development/goal') }}">เป้าหมาย</a></li>
-							<li ><a href="{{ url('development/board') }}">คณะกรรมการฯ</a></li>
-							<li ><a href="{{ url('development/advisors') }}">อาจารย์ที่ปรึกษาและครูประจำชั้น</a></li>
-							<li ><a href="{{ url('development/activity') }}">กิจกรรมนักศึกษา</a></li>
-							<li ><a href="{{ url('development/bursary') }}">บริการนักศึกษา</a></li>
-							<li ><a href="{{ url('development/healthCare') }}">บริการสุขภาพ</a></li>
-							<li ><a href="{{ url('development/suggestion') }}">การให้คำปรึกษาและแนะนำ</a></li>
-							<li ><a href="{{ url('development/shouldKnow') }}">สิ่งที่นักศึกษาควรรู้</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
+    			<!-- <li><a href="#">ชมรมศิษย์เก่า</a></li> -->
+    			
+    			
+    			<!-- <li><a href="#">ฝ่ายการนักศึกษา</a></li> -->
+    			<li class="dropdown">
 						<a href="" class="dropdown-toggle" data-toggle="dropdown">
 							ศิลปวัฒนธรรม <span class="caret"></span>
 						</a>
@@ -271,7 +268,7 @@
 						</ul>
 					</li>
 					<li><a href="{{ url('contactus') }}" target="_blank">ติดต่อ</a></li>
-	      </ul>
+				</ul>
 	    </div>
 	  </div>
 	</nav>
@@ -316,7 +313,26 @@
 						</a></li>
 					</ul>
 				</li>
+				<li><a href="http://research.nurse.tu.ac.th" target="_blank">ฝ่ายวิจัย</a></li>
+				<li><a href="http://www.nurse.tu.ac.th/nsresearch/index_light_blue.html" target="_blank">จริยธรรมการวิจัย</a></li>
 				<li class="dropdown">
+					<a href="" class="dropdown-toggle" data-toggle="dropdown">
+						งานพัฒนานักศึกษา <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="{{ url('development/structure') }}">โครงสร้าง</a></li>
+						<li><a href="{{ url('development/goal') }}">เป้าหมาย</a></li>
+						<li ><a href="{{ url('development/board') }}">คณะกรรมการฯ</a></li>
+						<li ><a href="{{ url('development/advisors') }}">อาจารย์ที่ปรึกษาและครูประจำชั้น</a></li>
+						<li ><a href="{{ url('development/activity') }}">กิจกรรมนักศึกษา</a></li>
+						<li ><a href="{{ url('development/bursary') }}">บริการนักศึกษา</a></li>
+						<li ><a href="{{ url('development/healthCare') }}">บริการสุขภาพ</a></li>
+						<li ><a href="{{ url('development/suggestion') }}">การให้คำปรึกษาและแนะนำ</a></li>
+						<li ><a href="{{ url('development/shouldKnow') }}">สิ่งที่นักศึกษาควรรู้</a></li>
+					</ul>
+				</li>
+	      <li><a href="#">บริการวิชาการ</a></li>
+	      <li class="dropdown">
 					<a href="" class="dropdown-toggle" data-toggle="dropdown">
 						ประกันคุณภาพการศึกษา <span class="caret"></span>
 					</a>
@@ -327,27 +343,9 @@
 						<li><a href="{{ url('quality/result') }}">รายงานผลการตรวจสอบ</a></li>
 					</ul>
 				</li>
-				<li><a href="http://www.nurse.tu.ac.th/nsresearch/index_light_blue.html" target="_blank">จริยธรรมการวิจัย</a></li>
-				<li><a href="{{ url('OfficeSecrerariat') }}" target="_blank">สมาคมศิษย์เก่า</a></li>
-				<li><a href="{{ url('OfficeSecrerariat') }}" target="_blank">สำนักงานเลขนุการ</a></li>
-				
 				<li><a href="http://nurse.tu.ac.th/english/" target="_blank">International Affairs </a></li>
-				<li><a href="http://research.nurse.tu.ac.th" target="_blank">ฝ่ายวิจัย</a></li>
-				<li class="dropdown visible-xs">
-  				<a href="" class="dropdown-toggle" data-toggle="dropdown">
-						ลิ้งค์ภายใน<span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu">
-						<li><a href="http://203.131.209.180/znstu/login.php" target="_blank">Manament Information System (MIS)</a></li>
-						<li><a href="http://www.nurse.tu.ac.th/KM_NURSETU.htm" target="_blank">Knowledge Management</a></li>
-						<!-- <li role="separator" class="divider"></li> -->
-						<li ><a href="http://203.131.209.178/scripts/foxweb.exe/oa_login" target="_blank">E-Office</a></li>
-						<li ><a href="http://e-learning.tu.ac.th/index512.php" target="_blank">E-Learning</a></li>
-						<li ><a href="https://nursetu.blackboard.com/webapps/login/" target="_blank">Blackboard</a></li>
-						<li ><a href="http://moodle.tu.ac.th/" target="_blank">Moodle</a></li>
-						<li ><a href="http://nurse.tu.ac.th/information/index.html" target="_blank">ระบบบริการข้อมูลสารสนเทศ</a></li>
-					</ul>
-  			</li>
+				<li><a href="#" target="_blank">สมาคมศิษย์เก่า</a></li>
+				<li><a href="{{ url('OfficeSecrerariat') }}" target="_blank">สำนักงานเลขนุการ</a></li>
 			</ul>
 		</div>
 	</div>
