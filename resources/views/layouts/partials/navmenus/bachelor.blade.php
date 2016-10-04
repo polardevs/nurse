@@ -32,22 +32,6 @@
 	<div class="panel panel-default">
 		<div class="panel-heading" id="headingTwo">
 			<h4 class="panel-title">
-				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" >
-					Download แบบฟอร์มต่างๆ
-				</a>
-			</h4>
-		</div>
-		<div id="collapseThree" class="panel-collapse collapse" >
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B9%83%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%A2.doc"><div class="panel-body">ใบลาป่วย</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B9%83%E0%B8%9A%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B4%E0%B8%88.doc"><div class="panel-body"> ใบลากิจ</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B8%84%E0%B8%B3%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2.doc"><div class="panel-body">ใบคำร้อง</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99.doc"><div class="panel-body">สัญญาการเรียน</div></a>
-			<a href="http://www.nurse.tu.ac.th/bachelor-degree/%E0%B9%83%E0%B8%9A%E0%B8%84%E0%B8%B3%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99.doc"><div class="panel-body">ใบคำร้องขอทำสัญญาการเรียน</div></a>
-		</div>
-	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading" id="headingTwo">
-			<h4 class="panel-title">
 				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" >
 					Link
 				</a>
@@ -62,7 +46,36 @@
 			</a>
 		</div>
 	</div>
-	
+	<div class="panel panel-default">
+		<div class="panel-heading" id="headingTwo">
+			<h4 class="panel-title">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" >
+					มุมโหลดแบบฟอร์มต่างๆ
+				</a>
+			</h4>
+		</div>
+		<div id="collapseThree" class="panel-collapse collapse" >
+			<a href="{{ url('degree/bachelor/leaveFilePage') }}"><div class="panel-body">ใบลาป่วย</div></a>
+			<a href="{{ url('degree/bachelor/businessleave') }}"><div class="panel-body">ใบลากิจ</div></a>
+			<a href="{{ url('degree/bachelor/callStudent') }}"><div class="panel-body">ใบคำร้อง</div></a>
+			<a href="{{ url('degree/bachelor/annoumentStudent') }}"><div class="panel-body">สัญญาการเรียน</div></a>
+			<a href="{{ url('degree/bachelor/contractLearning') }}"><div class="panel-body">ใบคำร้องขอทำสัญญาการเรียน</div></a>
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading" id="headingTwo">
+			<h4 class="panel-title">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" >
+					คณะกรรมการการศึกษา
+				</a>
+			</h4>
+		</div>
+		<div id="collapseFive" class="panel-collapse collapse" >
+			<a href="{{ url('degree/bachelor/bachelorBoard') }}"><div class="panel-body">คณะกรรมการการศึกษา</div></a>
+		</div>
+	</div>
+
 </div>
 
 

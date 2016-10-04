@@ -10,6 +10,21 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+// Download Route
+Route::get('download/{paths}/{fileName}', function($paths, $fileName)
+{
+    $filePath = public_path() .'/pdf/' . str_replace('-', '/', $paths) . '/' . $fileName;
+    if (file_exists($filePath))
+    {
+        return Response::download($filePath, $fileName);
+    }
+    else
+    {
+        exit('Requested file does not exist on our server!');
+    }
+})
+->where('filename', '[A-Za-z0-9\-\_\.]+')
+->name('loadPDF');
 
 Route::get('/', function () {
     return view('pages.home');
@@ -80,8 +95,24 @@ Route::get('/degree/bachelor/selective', function () {
 Route::get('/degree/bachelor/rules', function () {
     return view('pages.degree.bachelor.rules');
 });
-
-
+Route::get('/degree/bachelor/leaveFilePage', function () {
+    return view('pages.degree.bachelor.leaveFilePage');
+});
+Route::get('/degree/bachelor/businessleave', function () {
+    return view('pages.degree.bachelor.businessleave');
+});
+Route::get('/degree/bachelor/callStudent', function () {
+    return view('pages.degree.bachelor.callStudent');
+});
+Route::get('/degree/bachelor/annoumentStudent', function () {
+    return view('pages.degree.bachelor.annoumentStudent');
+});
+Route::get('/degree/bachelor/contractLearning', function () {
+    return view('pages.degree.bachelor.contractLearning');
+});
+Route::get('/degree/bachelor/bachelorBoard', function () {
+    return view('pages.degree.bachelor.bachelorBoard');
+});
 
 
 
@@ -711,4 +742,31 @@ Route::get('/projectKm/3', function () {
 });
 Route::get('/projectKm/4', function () {
     return view('pages.projectKm.4');
+});
+Route::get('/projectKm/5', function () {
+    return view('pages.projectKm.5');
+});
+Route::get('/projectKm/6', function () {
+    return view('pages.projectKm.6');
+});
+Route::get('/projectKm/7', function () {
+    return view('pages.projectKm.7');
+});
+Route::get('/projectKm/8', function () {
+    return view('pages.projectKm.8');
+});
+Route::get('/projectKm/9', function () {
+    return view('pages.projectKm.9');
+});
+Route::get('/projectKm/10', function () {
+    return view('pages.projectKm.10');
+});
+Route::get('/projectKm/11', function () {
+    return view('pages.projectKm.11');
+});
+Route::get('/projectKm/12', function () {
+    return view('pages.projectKm.12');
+});
+Route::get('/projectKm/13', function () {
+    return view('pages.projectKm.13');
 });

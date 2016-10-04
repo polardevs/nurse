@@ -13,9 +13,9 @@
 						<h3>บทความวิชาการ / วิจัย</h3>
 					</div>
 				</div>
-				<!-- <div class="col-md-2 side-menu">
+				<div class="col-md-2 side-menu hidden">
 					@include('layouts.partials.navmenus.news')
-				</div> -->
+				</div>
 				<div class="col-md-12">
 					<div class="sub-menu">
 						<small>

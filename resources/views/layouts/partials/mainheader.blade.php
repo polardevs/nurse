@@ -70,8 +70,8 @@
 									</ul>
 								</li>
 	        			<!-- <li><a href="#">ชมรมศิษย์เก่า</a></li> -->
-	        			
-	        			
+
+
 	        			<!-- <li><a href="#">ฝ่ายการนักศึกษา</a></li> -->
 	        			<li class="dropdown">
 									<a href="" class="dropdown-toggle" data-toggle="dropdown">
@@ -121,7 +121,7 @@
 	      <ul class="nav navbar-nav">
 					<li class="dropdown">
 						<a href="" class="dropdown-toggle" data-toggle="dropdown">
-							คณะเรา<span class="caret"></span>
+							เกี่ยวกับเรา<span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
 							<li><a href="{{ url('history') }}" target="_blank">ความเป็นมา</a></li>
@@ -242,8 +242,8 @@
 						</ul>
 					</li>
     			<!-- <li><a href="#">ชมรมศิษย์เก่า</a></li> -->
-    			
-    			
+
+
     			<!-- <li><a href="#">ฝ่ายการนักศึกษา</a></li> -->
     			<li class="dropdown">
 						<a href="" class="dropdown-toggle" data-toggle="dropdown">
@@ -331,7 +331,16 @@
 						<li ><a href="{{ url('development/shouldKnow') }}">สิ่งที่นักศึกษาควรรู้</a></li>
 					</ul>
 				</li>
-	      <li><a href="#">บริการวิชาการ</a></li>
+				<li class="dropdown">
+					<a href="" class="dropdown-toggle" data-toggle="dropdown">
+						บริการวิชาการ <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="http://childhood.nurse.tu.ac.th/" target="_blank">ศูนย์พัฒนาเด็กปฐมวัย</a></li>
+						<li><a href="http://www.nurse.tu.ac.th/Home/Hindex%2017_11_53.html" target="_blank">ศูนย์ส่งเสริมสุขภาพ</a></li>
+						<li><a href="http://researchcenter.nurse.tu.ac.th/" target="_blank">ศูนย์วิจัยทางการพยาบาล</a></li>
+					</ul>
+				</li>
 	      <li class="dropdown">
 					<a href="" class="dropdown-toggle" data-toggle="dropdown">
 						ประกันคุณภาพการศึกษา <span class="caret"></span>

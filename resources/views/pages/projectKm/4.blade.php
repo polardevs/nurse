@@ -33,21 +33,13 @@
 							<img src="{{ asset('/images/pages/projectKm/4/1.jpg') }}" class="img-responsive center-block">
 							วันที่ 27 สิงหาคม 2559 รองศาสตราจารย์ ดร.มรรยาท รุจิวิชชญ์ คณบดีคณะพยาบาลศาสตร์ มหาวิทยาลัยธรรมศาสตร์ เป็นประธานเปิดโครงการอบรมเชิงปฏิบัติการ เรื่อง Manuscript Writing Camp พร้อมบรรยายเรื่อง “ความสำเร็จในการนำ manuscript ตีพิมพ์นานาชาติ” และได้รับเกียรติจาก ศาสตราจารย์ ดร.ผดุงศักดิ์ รัตนเดโช คณะวิศวกรรมศาสตร์ มหาวิทยาลัยธรรมศาสตร์ บรรยายเรื่อง “การเขียนบทความวิจัยเพื่อตีพิมพ์ในวารสารวิชาการนานาชาติ” โดยโครงการจัดขึ้นระหว่างวันที่ 27-28 สิงหาคม 2559 ณ ห้องประชุม 1023 คณะพยาบาลศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต
 							<div class="row">
-								<div class="col-sm-3">
-									<img src="{{ asset('/images/pages/projectKm/4/2.jpg') }}" class="img-responsive center-block">
-								</div>
-								<div class="col-sm-3">
-									<img src="{{ asset('/images/pages/projectKm/4/3.jpg') }}" class="img-responsive center-block">
-									
-								</div>
-								<div class="col-sm-3">
-									<img src="{{ asset('/images/pages/projectKm/4/4.jpg') }}" class="img-responsive center-block">
-									
-								</div>
-								<div class="col-sm-3">
-									<img src="{{ asset('/images/pages/projectKm/4/5.jpg') }}" class="img-responsive center-block">
-									
-								</div>
+								@for ($i = 1; $i <= 28; $i++)
+							    <div class="col-sm-3 padding-t-15">
+										<a href="{{ asset('/images/pages/projectKm/4/' . $i . '.jpg') }}" target="_blank">
+											<img src="{{ asset('/images/pages/projectKm/4/' . $i . '.jpg') }}" class="img-responsive center-block km-Img">
+										</a>
+									</div>
+								@endfor
 							</div>
 						</div>
 					</div>

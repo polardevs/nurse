@@ -35,7 +35,7 @@
 		</div>
 	</div>
 </div>
-<div class="Sidebar-Server">
+<!-- <div class="Sidebar-Server">
 	<div class="panel-head">
 		บริการวิชาการและสังคม
 	</div>
@@ -48,4 +48,4 @@
 	<div class="panel-body">
 		<a href="http://researchcenter.nurse.tu.ac.th/" target="_blank">ศูนย์วิจัยทางการพยาบาล</a>
 	</div>
-</div>
+</div> -->

@@ -31,7 +31,16 @@
 						<h3>โครงการอบรมเชิงปฎิบัติการ เรื่อง Thammasat Excellence Network 2559</h3>
 						<div class="text-center">
 							<img src="{{ asset('/images/pages/projectKm/2/1.jpg') }}" class="img-responsive center-block">
-							โครงการอบรมเชิงปฎิบัติการ เรื่อง Thammasat Excellence Network 2559 ก้าวสู่ความเป็นเลิศด้วยการจัดการความรู้และความเสี่ยง ในวันที่ 9 – 11 กันยายน 2559 ณ โรงแรมแคนทารี จังหวัดปราจีนบุรี
+							<p class="padding-t-15">โครงการอบรมเชิงปฎิบัติการ เรื่อง Thammasat Excellence Network 2559 ก้าวสู่ความเป็นเลิศด้วยการจัดการความรู้และความเสี่ยง ในวันที่ 9 – 11 กันยายน 2559 ณ โรงแรมแคนทารี จังหวัดปราจีนบุรี</p>
+							<div class="row">
+								@for ($i = 1; $i <= 11; $i++)
+							    <div class="col-sm-3 padding-t-15">
+										<a href="{{ asset('/images/pages/projectKm/2/' . $i . '.jpg') }}" target="_blank">
+											<img src="{{ asset('/images/pages/projectKm/2/' . $i . '.jpg') }}" class="img-responsive center-block km-Img">
+										</a>
+									</div>
+								@endfor
+							</div>
 						</div>
 					</div>
 				</div>

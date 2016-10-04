@@ -121,4 +121,12 @@
   max-height: 200px;
 }
 
+.col-sm-3 .km-Img {
+  height: 160px;
+}
+
+.padding-t-15 {
+  padding-top: 15px;
+}
+
 /*# sourceMappingURL=main.css.map */

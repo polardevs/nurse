@@ -31,21 +31,13 @@
 						<h3>โครงการอบรมภาษาอังกฤษหลักสูตรติวเข้ม เพื่อเตรียมสอบ TU-GET วันที่ 6-22 กันยายน 2559</h3>
 						<div class="text-center">
 							<div class="row">
-								<div class="col-sm-3">
-									<img src="{{ asset('/images/pages/projectKm/3/1.jpg') }}" class="img-responsive center-block">
-								</div>
-								<div class="col-sm-3">
-									<img src="{{ asset('/images/pages/projectKm/3/2.jpg') }}" class="img-responsive center-block">
-									
-								</div>
-								<div class="col-sm-3">
-									<img src="{{ asset('/images/pages/projectKm/3/3.jpg') }}" class="img-responsive center-block">
-									
-								</div>
-								<div class="col-sm-3">
-									<img src="{{ asset('/images/pages/projectKm/3/5.jpg') }}" class="img-responsive center-block">
-									
-								</div>
+								@for ($i = 1; $i <= 55; $i++)
+							    <div class="col-sm-3 padding-t-15">
+										<a href="{{ asset('/images/pages/projectKm/3/' . $i . '.jpg') }}" target="_blank">
+											<img src="{{ asset('/images/pages/projectKm/3/' . $i . '.jpg') }}" class="img-responsive center-block km-Img">
+										</a>
+									</div>
+								@endfor
 							</div>
 						</div>
 					</div>
